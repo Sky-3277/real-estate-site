@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chetan Chhabra | Real Estate Broker</title>
+  <meta name="description" content="Real estate solutions in Ontario by Chetan Chhabra.">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style/main.css" />
+  <!-- Swiper CSS -->
+  <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /> -->
+  <!-- Swiper JS -->
+  <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+  <!-- Swiper CSS -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<style>
+.swiper {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+</style>
+
+</head>
+<!-- index.html -->
+<main class="p-4">
+  <section>
+    <h2 class="text-2xl font-bold mb-2">Featured Listings</h2>
+    <div id="listing-cards" class="flex flex-wrap justify-center"></div>
+  </section>
+</main>
+<script src="script/main.js"></script>
+
+<body class="bg-black text-white font-sans">
+
+  <!-- Header -->
+  <!-- <header class="fixed top-0 left-0 w-full z-50 bg-black bg-opacity-80">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold">Chetan Chhabra</h1>
+      <nav class="space-x-6 hidden md:block">
+        <a href="#about" class="hover:underline">About</a>
+        <a href="#listings" class="hover:underline">Listings</a>
+        <a href="#contact" class="hover:underline">Contact</a>
+      </nav>
+    </div>
+  </header> -->
+<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  
+  <!-- Fixed Header -->
+<!-- <header class="fixed top-0 left-0 w-full z-50 bg-white shadow-sm">
+<div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+  <div class="flex flex-col">
+    <h1 class="text-xl font-bold text-black">Chetan Chhabra</h1>
+    <span class="text-sm text-gray-700">Maple & Woodbridge SOLD!</span>
+  </div>
+
+  <nav class="hidden md:flex space-x-6 text-sm font-medium text-gray-800 uppercase">
+    <a href="#about" class="hover:text-green-700">About</a>
+    <a href="#awards" class="hover:text-green-700">Awards</a>
+    <a href="#listings" class="hover:text-green-700">Listings</a>
+    <a href="#testimonials" class="hover:text-green-700">Testimonials</a>
+    <a href="#contact" class="text-green-700 font-semibold">Contact</a>
+  </nav>
+</div>
+</header> -->
+
+<!-- Responsive Fixed Header with Mobile Menu -->
+<header x-data="{ open: false }" class="fixed top-0 left-0 w-full z-50 bg-white shadow-sm">
+<div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+  <!-- Branding -->
+  <div class="flex flex-col">
+    <h1 class="text-xl font-bold text-black">Chetan Chhabra</h1>
+    <span class="text-sm text-gray-700">Maple & Woodbridge SOLD!</span>
+  </div>
+
+  <!-- Desktop Nav -->
+  <nav class="hidden md:flex space-x-6 text-sm font-medium text-gray-800 uppercase">
+    <a href="#about" class="hover:text-green-700">About</a>
+    <a href="#awards" class="hover:text-green-700">Awards</a>
+    <a href="#listings" class="hover:text-green-700">Listings</a>
+    <a href="#testimonials" class="hover:text-green-700">Testimonials</a>
+    <a href="#contact" class="text-green-700 font-semibold">Contact</a>
+  </nav>
+
+  <!-- Hamburger (Mobile) -->
+  <div class="md:hidden">
+    <button @click="open = !open" class="text-gray-800 focus:outline-none">
+      <svg x-show="!open" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24"
+        stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+      <svg x-show="open" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24"
+        stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          d="M6 18L18 6M6 6l12 12" />
+      </svg>
+    </button>
+  </div>
+</div>
+
+<!-- Mobile Dropdown Nav -->
+<div x-show="open" @click.outside="open = false"
+  class="md:hidden bg-white shadow-md text-center px-6 py-4 space-y-4 text-gray-800 font-medium uppercase">
+  <a href="#about" @click="open = false" class="block hover:text-green-700">About</a>
+  <a href="#awards" @click="open = false" class="block hover:text-green-700">Awards</a>
+  <a href="#listings" @click="open = false" class="block hover:text-green-700">Listings</a>
+  <a href="#testimonials" @click="open = false" class="block hover:text-green-700">Testimonials</a>
+  <a href="#contact" @click="open = false" class="block text-green-700 font-semibold">Contact</a>
+</div>
+</header>
+
+
+
+  <!-- Hero Section -->
+    <!-- 'assets/images/hero.jpg' -->
+  <!-- <section class="h-screen flex items-center justify-center bg-cover bg-center relative" style="background-image: url('https://picsum.photos/seed/picsum/200/300');">
+    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+    <div class="relative z-10 text-center">
+      <h2 class="text-4xl md:text-6xl font-bold">Your Real Estate Broker</h2>
+      <p class="mt-4 text-xl">Serving Toronto & GTA</p>
+    </div>
+  </section> -->
+
+  <section class="min-h-screen flex flex-col md:flex-row">
+<!-- Left Image -->
+<!-- <div class="md:w-1/2 w-full h-[500px] md:h-auto bg-cover bg-center" 
+      style="background-image: url('assets/images/hero.enc');">
+</div> -->
+<div class="md:w-1/2 w-full bg-center bg-no-repeat bg-contain min-h-screen"
+    style="background-image: url('assets/images/hero.enc'); background-color: #fff;">
+</div>
+
+
+
+<!-- steven.jpg -->
+<!-- Right Content -->
+<div class="md:w-1/2 w-full bg-gray-100 bg-cover bg-center flex items-center justify-center p-8"
+      style=>
+      <!-- "background-image: url('assets/images/marble-bg.jpg');" -->
+  <div class="text-center max-w-xl">
+    <h1 class="text-3xl md:text-4xl font-bold mb-2 text-black">Chetan Chhabra</h1>
+    <p class="text-lg font-medium mb-6 text-gray-800">Your Vaughan Condo Expert</p>
+    <p class="mb-6 text-gray-800">
+      Chetan Chhabra is a successful real estate agent in the city of Vaughan with 10 years real estate experience...
+    </p>
+    <div class="space-y-4">
+      <a href="#" class="inline-block bg-gray-800 text-white px-6 py-2 rounded">Your Vaughan Condo Experts</a><br>
+      <a href="#contact" class="inline-block bg-green-700 text-white px-6 py-2 rounded">Get in Touch</a>
+      <div class="flex justify-center gap-4 mt-4">
+        <a href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="Black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+<path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+<line x1="17.5" y1="6.5" x2="17.5" y2="6.5"/>
+</svg>
+          <!-- <img src="assets/images/ig.svg" class="w-6 h-6"> -->
+        </a>
+
+        <a href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="Black" viewBox="0 0 24 24">
+<path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+</svg>
+          <!-- <img src="assets/images/fb.svg" class="w-6 h-6"> -->
+        </a>
+        <a href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="Black" viewBox="0 0 24 24">
+<path d="M9 3v12a3 3 0 1 1-3-3c.34 0 .67.06 1 .17V9.83A6 6 0 1 0 15 15V7.43a6.38 6.38 0 0 0 3 1V6.1a3.92 3.92 0 0 1-3-1.1A3.92 3.92 0 0 1 12 2H9z"/>
+</svg>
+          <!-- <img src="assets/images/tiktok.svg" class="w-6 h-6"> -->
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+
+
+<section id="about" class="py-20 bg-white text-black fade-in">
+<div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row gap-8">
+  
+  <!-- Left Text Column -->
+  <div class="md:w-2/3 w-full">
+    <h2 class="text-4xl font-serif font-semibold mb-6">About Chetan Chhabra</h2>
+    <p class="mb-4 leading-relaxed">
+      Steven, determined and one of the youngest agents to obtain his real estate license in Ontario, completing all his courses at just 17 years old, has a passion for real estate. Already an investor in Vaughan buying his first house at 18, he has been managing his property & tenants with ease and comes with a wealth of information & guidance!
+    </p>
+    <p class="mb-4 leading-relaxed">
+      His initial investment on a 390k property is today worth over $1,300,000! Specifically focusing in Vaughan and specializing in Vaughan condos, townhomes & semi-detached properties, his passion for working with first-time buyers, condo enthusiasts, tenants & investors is unparalleled.
+    </p>
+    <p class="mb-4 leading-relaxed">
+      Offering 10 years of real estate experience in Vaughan, he has a professional and personable working style and you will feel confident in his ability to represent your best interests in any real estate transaction.
+    </p>
+    <p class="leading-relaxed">
+      Steven J Commisso & Marie Commisso make a dynamic team offering combined classic, modern & innovative real estate advice & guidance.
+      <br><br>
+      They look forward to working with you!
+    </p>
+  </div>
+
+  <!-- Right Philosophy Box -->
+  <div class="md:w-1/3 w-full bg-gray-200 p-6 rounded flex flex-col justify-center">
+    <h3 class="text-2xl font-serif font-semibold mb-4 text-center">My Philosophy</h3>
+    <ul class="space-y-4 text-sm text-center">
+      <li>
+        <strong>Trust</strong><br>
+        When it comes to real estate, trust is key.
+      </li>
+      <li>
+        <strong>Relationships</strong><br>
+        With trust, strong relationships are built.
+      </li>
+      <li>
+        <strong>Professional</strong><br>
+        Over 10 years experience
+      </li>
+      <li>
+        <strong>Full Service</strong><br>
+        Service from start to finish, you can always count on me!
+      </li>
+    </ul>
+  </div>
+  
+</div>
+</section>
+
+
+<!-- Awards Section -->
+<section id="awards" class="fade-in py-20 bg-gray-200 text-center">
+<div class="max-w-6xl mx-auto px-4">
+  <h2 class="text-3xl font-bold mb-2 text-black">Proven Results</h2>
+  <p class="text-lg text-gray-700 mb-10">An Award Winning Vaughan Agent</p>
+
+  <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 place-items-center text-black">
+    <!-- Award 1 -->
+    <img src="assets/images/award1.png" alt="Diamond Award" class="w-24 h-24 object-contain">
+    <!-- Award 2 -->
+    <img src="assets/images/award2.png" alt="Chairman's Club" class="w-24 h-24 object-contain">
+    <!-- Award 3 -->
+    <img src="assets/images/award3.png" alt="Platinum Director's Award" class="w-24 h-24 object-contain">
+    <!-- Award 4 -->
+    <img src="assets/images/award4.png" alt="President's Gala" class="w-24 h-24 object-contain">
+    <!-- Award 5 -->
+    <img src="assets/images/award5.png" alt="Top Producer" class="w-24 h-24 object-contain">
+  </div>
+</div>
+</section>
+
+<!-- Listings Section -->
+<section id="listings" class="fade-in py-20 bg-white text-black">
+<div class="max-w-7xl mx-auto px-4 text-center">
+  <h2 class="text-3xl font-bold mb-2">Featured Listings</h2>
+  <p class="text-lg text-gray-600 mb-8">We've got the right home for you!</p>
+
+  <!-- Swiper Container -->
+  <div class="relative">
+    <!-- Swiper main -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+
+        <!-- Card 1 -->
+        <div class="swiper-slide">
+          <a href="listing.html?id=45-vedette" class="w-72 border rounded overflow-hidden shadow hover:shadow-lg transition duration-300 block mx-auto">
+            <img src="assets/images/house1.jpg" alt="Listing 1" class="w-full h-48 object-cover">
+            <div class="bg-green-900 text-white px-4 py-4 text-left space-y-2">
+              <h4 class="text-lg font-semibold leading-snug">21 Kennisis Way<br>Vaughan</h4>
+              <p class="text-xl font-bold">$1,049,900</p>
+              <div class="flex space-x-4 text-sm opacity-80">
+                <span>🛏 3</span>
+                <span>🛁 3</span>
+                <span>📐 sqft</span>
+              </div>
+            </div>
+          </a>
+        </div>
+
+         <div class="swiper-slide">
+          <a href="listing.html?id=45-Aakash" class="w-72 border rounded overflow-hidden shadow hover:shadow-lg transition duration-300 block mx-auto">
+            <img src="assets/images/house2.jpg" alt="Listing 1" class="w-full h-48 object-cover">
+            <div class="bg-green-900 text-white px-4 py-4 text-left space-y-2">
+              <h4 class="text-lg font-semibold leading-snug">21 Kennisis Way<br>Vaughan</h4>
+              <p class="text-xl font-bold">$1,049,900</p>
+              <div class="flex space-x-4 text-sm opacity-80">
+                <span>🛏 3</span>
+                <span>🛁 3</span>
+                <span>📐 sqft</span>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        
+        <!-- Repeat for other cards... -->
+        <!-- Copy the above card and change data/image for each listing -->
+
+      </div>
+
+      <!-- Arrows -->
+      <div class="swiper-button-next text-gray-700"></div>
+      <div class="swiper-button-prev text-gray-700"></div>
+
+      <!-- Pagination -->
+      <div class="swiper-pagination mt-4"></div>
+    </div>
+  </div>
+
+  <!-- CTA Button -->
+  <div class="mt-8">
+    <a href="#" class="inline-block bg-green-900 text-white px-6 py-2 rounded shadow hover:bg-green-800 transition">
+      Search All Listings
+    </a>
+  </div>
+</div>
+</section>
+
+
+
+
+<!-- Testimonials Section -->
+<section id="testimonials" class="fade-in py-20 bg-white text-black">
+<div class="max-w-7xl mx-auto px-4">
+  <h2 class="text-3xl font-bold text-center mb-2">Client Testimonials</h2>
+  <p class="text-lg text-gray-600 text-center mb-10">Helping great families with their dream home</p>
+
+  <div class="flex flex-col md:flex-row gap-10 items-start">
+    <!-- Testimonial Text -->
+    <div class="md:w-1/2 text-gray-800 space-y-4">
+      <p>
+        I am thrilled to write this testimonial for Steven Commisso, our exceptional real estate agent who has consistently exceeded our expectations throughout our journey...
+      </p>
+      <p>
+        Steven’s remarkable qualities stayed with us, so when the time came to sell our condo and find a new home in Innisfil, there was no doubt in our minds about who to turn to...
+      </p>
+      <p>
+        His approachability and genuine nature make communication effortless. He truly listens and ensures every step aligns with our vision...
+      </p>
+    </div>
+
+    <!-- Image -->
+    <div class="md:w-1/2">
+      <img src="assets/images/house1.jpg" alt="Client Testimonial" class="rounded-lg shadow-md w-full h-auto">
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="fade-in py-20 bg-white text-black">
+<div class="max-w-5xl mx-auto px-4 text-center">
+  <h2 class="text-3xl font-bold mb-6">Let’s Connect</h2>
+
+  <form name="contact" method="POST" data-netlify="true" class="text-left space-y-6" netlify>
+    <!-- Hidden form name input for Netlify -->
+    <input type="hidden" name="form-name" value="contact" />
+
+    <div class="grid md:grid-cols-2 gap-6">
+      <div>
+        <label class="block font-semibold mb-1">First name: <span class="text-red-500">*</span></label>
+        <input type="text" name="first-name" required class="w-full border border-gray-300 rounded px-4 py-2">
+      </div>
+      <div>
+        <label class="block font-semibold mb-1">Last name: <span class="text-red-500">*</span></label>
+        <input type="text" name="last-name" required class="w-full border border-gray-300 rounded px-4 py-2">
+      </div>
+      <div>
+        <label class="block font-semibold mb-1">Email address: <span class="text-red-500">*</span></label>
+        <input type="email" name="email" required class="w-full border border-gray-300 rounded px-4 py-2">
+      </div>
+      <div>
+        <label class="block font-semibold mb-1">Phone number:</label>
+        <input type="tel" name="phone" class="w-full border border-gray-300 rounded px-4 py-2">
+      </div>
+    </div>
+
+    <div>
+      <label class="block font-semibold mb-1">Message: <span class="text-red-500">*</span></label>
+      <textarea name="message" rows="5" required class="w-full border border-gray-300 rounded px-4 py-2"></textarea>
+    </div>
+
+    <div>
+      <label class="block font-semibold mb-1">How did you hear about me?</label>
+      <select name="referral" class="w-full border border-gray-300 rounded px-4 py-2">
+        <option value="">-- Select an option --</option>
+        <option value="friend">Friend or Family</option>
+        <option value="instagram">Instagram</option>
+        <option value="google">Google</option>
+        <option value="event">Open House / Event</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+
+    <div class="flex items-start gap-2">
+      <input type="checkbox" name="consent" required class="mt-1">
+      <label class="text-sm text-gray-700">
+        Yes, I agree to be contacted and receive helpful emails and understand I can unsubscribe at any time.
+      </label>
+    </div>
+
+    <div class="pt-4">
+      <button type="submit" class="bg-green-900 hover:bg-green-800 text-white px-6 py-2 rounded font-semibold shadow">
+        Send Message
+      </button>
+    </div>
+  </form>
+</div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-100 text-center py-6 text-sm text-gray-600 border-t">
+&copy; <span id="year"></span> Chetan Chhabra. All rights reserved.
+</footer>
+
+<!-- Auto-inject current year -->
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+<!-- <script>
+const swiper = new Swiper('.mySwiper', {
+  loop: true,
+  slidesPerView: 1,
+  spaceBetween: 20,
+  autoplay: {
+    delay: 3000, // 3 seconds
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  breakpoints: {
+    640: { slidesPerView: 2 },
+    768: { slidesPerView: 3 },
+    1024: { slidesPerView: 4 }
+  }
+});
+</script> -->
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  new Swiper(".mySwiper", {
+    loop: true,
+    slidesPerView: 1,
+    spaceBetween: 20,
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+      640: { slidesPerView: 2 },
+      768: { slidesPerView: 3 },
+      1024: { slidesPerView: 4 }
+    },
+    on: {
+      imagesReady: function () {
+        this.update();
+      }
+    }
+  });
+});
+
+</script>

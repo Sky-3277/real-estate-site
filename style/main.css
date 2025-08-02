@@ -1,0 +1,17 @@
+/* style/main.css */
+
+/* Optional: Add a smooth scroll effect */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Optional: Custom font if needed */
+/*
+@import url('https://fonts.googleapis.com/css2?family=YourFont:wght@400;700&display=swap');
+
+body {
+  font-family: 'YourFont', sans-serif;
+}
+*/
+
+/* Override Tailwind or custom class tweaks if needed later */

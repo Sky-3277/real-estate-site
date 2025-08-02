@@ -1,0 +1,41 @@
+[
+  {
+    "id": "21-kennisis",
+    "address": "21 Kennisis Way, Vaughan",
+    "price": "$1,049,900",
+    "images": [
+      "assets/images/house1.jpg",
+      "assets/images/house2.jpg"
+    ],
+    "summary": "A beautiful modern townhome in a quiet neighbourhood.",
+    "rooms": [
+      { "floor": "Ground", "room": "Family Room", "size": "18'10\" × 11'1\"", "details": "Hardwood, Open Concept" },
+      { "floor": "Ground", "room": "Kitchen", "size": "11' × 8'", "details": "Granite Counters, Breakfast Bar" }
+    ],
+    "neighborhood": [
+      { "title": "Nearby Park", "image": "assets/images/park.JPG" },
+      { "title": "Good Schools", "image": "assets/images/school.JPG" },
+      { "title": "Transit Access", "image": "assets/images/transit.JPG" }
+    ]
+  },
+  {
+    "id": "45-vedette",
+    "address": "45 Vedette Way, Vaughan",
+    "price": "$899,000",
+    "images": [
+      "assets/images/house1.jpg",
+      "assets/images/house2.jpg"
+    ],
+    "summary": "Stunning freehold townhouse in high-demand Vellore Village.",
+    "rooms": [
+      { "floor": "Ground", "room": "Family Room", "size": "18'10\" × 11'1\"", "details": "Hardwood, Open Concept" },
+      { "floor": "Ground", "room": "Kitchen", "size": "11' × 8'", "details": "Granite Counters, Breakfast Bar" },
+      { "floor": "Second", "room": "Primary Bedroom", "size": "17' × 12'", "details": "Ensuite, Walk-In Closet" }
+    ],
+    "neighborhood": [
+      { "title": "Nearby Park", "image": "assets/images/park.JPG" },
+      { "title": "Good Schools", "image": "assets/images/school.JPG" },
+      { "title": "Transit Access", "image": "assets/images/transit.JPG" }
+    ]
+  }
+]
