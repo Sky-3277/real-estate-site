@@ -1,0 +1,40 @@
+/* style/main.css */
+
+/* Optional: Add a smooth scroll effect */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Optional: Custom font if needed */
+/*
+@import url('https://fonts.googleapis.com/css2?family=YourFont:wght@400;700&display=swap');
+
+body {
+  font-family: 'YourFont', sans-serif;
+}
+*/
+
+/* Override Tailwind or custom class tweaks if needed later */
+/* Confined, responsive gallery height (mobile-friendly) */
+.gallery-main {
+  height: clamp(260px, 55vh, 520px); /* min, responsive, max */
+}
+
+.gallery-main .swiper-slide,
+.gallery-main img {
+  height: 100%;
+}
+
+/* Thumbs row sizing */
+.gallery-thumbs {
+  height: 86px;
+}
+
+.gallery-thumbs .swiper-slide {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.gallery-thumbs .swiper-slide-thumb-active {
+  opacity: 1;
+}

@@ -1,0 +1,208 @@
+[
+  {
+  "id": "438-royal-west-dr",
+  "title": "438 Royal West Dr, Brampton",
+  "neighborhood": "Brampton, Credit Valley, Peel, Ontario L6X 5K1",
+  "price": "For Lease $1,799 | 1 Year",
+  "status": "Available",
+  "mlsNum": "W12595816",
+  "homeStyle": "Detached 2-Storey",
+  "propertyType": "Detached",
+  "bedrooms": 2,
+  "bathrooms": 1,
+  "area": "1500-2000 Sqft",
+  "description": "Legal 2-bedroom, 1-bath furnished basement apartment with separate entrance and privatelaundry. Clean, bright, and move-in ready, this unit features an open living area, fullkitchen, and two comfortable bedrooms with ample storage. Located in a quiet, family-friendlyneighborhood close to transit, shopping, schools, and parks. Ideal for professionals, couples,or small families looking for convenience and privacy.",
+  "image": "assets/images/438_Royal_West_DR/H1.jpg",
+  "images": [
+    "assets/images/438_Royal_West_DR/H1.jpg",
+    "assets/images/438_Royal_West_DR/H2.jpg",
+    "assets/images/438_Royal_West_DR/H3.jpg",
+    "assets/images/438_Royal_West_DR/H4.jpg",
+    "assets/images/438_Royal_West_DR/H5.jpg",
+    "assets/images/438_Royal_West_DR/H6.jpg",
+    "assets/images/438_Royal_West_DR/H7.jpg",
+    "assets/images/438_Royal_West_DR/H8.jpg",
+    "assets/images/438_Royal_West_DR/H9.jpg",
+    "assets/images/438_Royal_West_DR/H10.jpg",
+    "assets/images/438_Royal_West_DR/H11.jpg"
+  ],
+
+  "quickFacts": {
+    "style": "Detached 2-Storey",
+    "beds": 2,
+    "baths": 1,
+    "rooms": 4,
+    "parking": 1,
+    "sqft": "1500-2000 Sqft",
+    "dom": 36
+  },
+  "links": {
+    "directions": "https://maps.google.com/?q=438+Royal+West+Dr+Brampton",
+    "neighbourhoodGuide": "https://example.com/neighbourhood.pdf",
+    "addressGuide": "https://example.com/address.pdf"
+  },
+  "listingInformation": {
+    "PIN#": "140932218",
+    "Portion For Lease": "Basement",
+    "Status": "Available",
+    "Possession Date": "12/15/2025"
+  },
+  "propertyInformation": {
+  "Fronting On": "North",
+  "Lot Size": "52.97 x Feet",
+  "Square Feet": "1500-2000",
+  "Dir/Cross St": "Mississauga road/ Queen st",
+  "Directions": "Mississauga road/ Queen st",
+  "Parking Drive Spaces": "1",
+  "Total Parking Spaces": "1",
+  "Pool": "None",
+  "A/C": "Central Air",
+  "Laundry Features": "In Basement",
+  "Area": "Peel",
+  "Municipality": "Brampton",
+  "Community": "Credit Valley",
+  "Rooms": "4",
+  "Bedrooms": "2",
+  "Washrooms": "1",
+  "Kitchens": "1",
+  "Exterior": "Brick",
+  "Roof": "Other",
+  "Foundation": "Other",
+  "Garage Type": "Attached",
+  "Garage Parking Spaces": "1",
+  "Survey Type": "Unknown",
+  "Basement": "Sep Entrance",
+  "Heating Source": "Gas",
+  "Heating Type": "Forced Air",
+  "Water": "Municipal",
+  "Sewers": "Sewers",
+  "Area Influences": "",
+  "Property Type": "Detached",
+  "Link": "N",
+  "Style": "2-Storey",
+  "Family Room": "N",
+  "Fireplace/Stv": "N",
+  "Central Vac": "N"
+  },
+  "features": ["Furnished", "Private Entrance"],
+  "interiorFeatures": ["None"],
+  "specialDesignations": ["Unknown"],
+  "waterfront": ["Waterfront Y/N: N"],
+  "roomInfo": [
+  { "room": "Living", "level": "Bsmt", "dimensions": "12' x 10'", "notes": "Open concept" },
+  { "room": "Kitchen", "level": "Bsmt", "dimensions": "10' x 8'", "notes": "Full kitchen" }
+]
+,
+  "washrooms": [{ "count": 1, "pieces": 4, "level": "Bsmt" }],
+  "includedInLease": ["None"],
+  "map": { "query": "438 Royal West Dr, Brampton, ON" },
+  "contract": {
+    "brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC.",
+    "phone": "647-910-9999"
+  }
+}
+  ,
+  {
+    "id": "45-vedette",
+    "title": "Aakash 45 Vedette Way, Vaughan, ON L4H 4K2",
+    "neighborhood": "Vellore Village · York",
+    "price": "$899,000",
+    "status": "Active",
+    "mlsNum": "N12285228",
+    "homeStyle": "2-Storey",
+    "propertyType": "Residential Freehold",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "area": "1,750 sqft",
+    "description": "Stunning freehold townhouse in high-demand Vellore Village.",
+    "image": "assets/images/house1.jpg",   
+    "images": ["assets/images/house1.jpg", "assets/images/house2.jpg"],
+    "rooms": [
+      { "floor": "Ground", "type": "Family Room", "size": "18'10\" × 11'1\"", "details": "Hardwood, Open Concept" },
+      { "floor": "Ground", "type": "Kitchen", "size": "11' × 8'", "details": "Granite Counters, Breakfast Bar" },
+      { "floor": "Second", "type": "Primary Bedroom", "size": "17' × 12'", "details": "Ensuite, Walk-In Closet" }
+    ],
+    "amenities": [
+      { "title": "Schools", "description": "5 public & 5 Catholic schools serve this home. 10 have catchments. 2 private schools nearby." },
+      { "title": "Parks & Rec", "description": "5 tennis courts, 5 playgrounds and 10 other facilities within 20 min walk." },
+      { "title": "Transit", "description": "Street transit stop < 3 min walk. Rail transit < 5 km away." }
+    ]
+  },
+  {
+    "id": "new-123",
+    "title": "99 Example Street, Toronto, ON M4C 1A1",
+    "neighborhood": "Downtown · Toronto",
+    "price": "$799,000",
+    "status": "Active",
+    "mlsNum": "C99999111",
+    "homeStyle": "Detached",
+    "propertyType": "Residential Freehold",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "area": "2,100 sqft",
+    "description": "Beautiful detached 4-bedroom home in downtown Toronto. Close to schools and transit.",
+    "image": "assets/images/house1.jpg",   
+    "images": ["assets/images/house3.jpg"],
+    "rooms": [
+      { "floor": "Main", "type": "Living Room", "size": "19' × 13'", "details": "Large Window, Fireplace" },
+      { "floor": "Main", "type": "Kitchen", "size": "12' × 9'", "details": "Modern Cabinets, Stainless Steel" }
+    ],
+    "amenities": [
+      { "title": "Schools", "description": "Close to top public schools and universities." },
+      { "title": "Parks & Rec", "description": "Walking distance to waterfront trails and community centre." },
+      { "title": "Transit", "description": "Subway within 5 minutes walking distance." }
+    ]
+  },
+  {
+    "id": "new-124",
+    "title": "33 Bay Street, Toronto, ON M4C 1A1",
+    "neighborhood": "Downtown · Toronto",
+    "price": "$799,000",
+    "status": "Active",
+    "mlsNum": "C99999111",
+    "homeStyle": "Detached",
+    "propertyType": "Residential Freehold",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "area": "2,100 sqft",
+    "description": "Beautiful detached 4-bedroom home in downtown Toronto. Close to schools and transit.",
+    "image": "assets/images/house1.jpg",   
+    "images": ["assets/images/house4.jpg"],
+    "rooms": [
+      { "floor": "Main", "type": "Living Room", "size": "19' × 13'", "details": "Large Window, Fireplace" },
+      { "floor": "Main", "type": "Kitchen", "size": "12' × 9'", "details": "Modern Cabinets, Stainless Steel" }
+    ],
+    "amenities": [
+      { "title": "Schools", "description": "Close to top public schools and universities." },
+      { "title": "Parks & Rec", "description": "Walking distance to waterfront trails and community centre." },
+      { "title": "Transit", "description": "Subway within 5 minutes walking distance." }
+    ]
+  },
+  {
+    "id": "new-125",
+    "title": "528 Activa Ave, Kitchener, ON M4C 1A1",
+    "neighborhood": "Downtown · Toronto",
+    "price": "$799,000",
+    "offer_price": "$99,000",
+    "status": "Active",
+    "mlsNum": "C99999111",
+    "homeStyle": "Detached",
+    "propertyType": "Residential Freehold",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "area": "2,100 sqft",
+    "description": "Beautiful detached 4-bedroom home in downtown Toronto. Close to schools and transit.",
+    "image": "assets/images/house1.jpg",   
+    "images": ["assets/images/house4.jpg"],
+    "rooms": [
+      { "floor": "Main", "type": "Living Room", "size": "19' × 13'", "details": "Large Window, Fireplace" },
+      { "floor": "Main", "type": "Kitchen", "size": "12' × 9'", "details": "Modern Cabinets, Stainless Steel" }
+    ],
+    "amenities": [
+      { "title": "Schools", "description": "Close to top public schools and universities." },
+      { "title": "Parks & Rec", "description": "Walking distance to waterfront trails and community centre." },
+      { "title": "Transit", "description": "Subway within 5 minutes walking distance." }
+    ]
+  }
+
+]

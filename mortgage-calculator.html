@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mortgage Calculator | Chetan Chhabra</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style/main.css" />
+  <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jspdf"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+</head>
+<body class="bg-white text-black font-sans">
+
+  <!-- Header -->
+  <header x-data="{ open: false }" class="fixed top-0 left-0 w-full z-50 bg-white shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+      <div class="flex flex-col">
+        <h1 class="text-xl font-bold text-black">Chetan Chhabra</h1>
+        <span class="text-sm text-gray-700">Maple & Woodbridge SOLD!</span>
+      </div>
+      <nav class="hidden md:flex space-x-6 text-sm font-medium text-gray-800 uppercase">
+        <a href="index.html#about" class="hover:text-green-700">About</a>
+        <a href="index.html#awards" class="hover:text-green-700">Awards</a>
+        <a href="index.html#listings" class="hover:text-green-700">Listings</a>
+        <a href="index.html#testimonials" class="hover:text-green-700">Testimonials</a>
+        <a href="index.html#contact" class="hover:text-green-700">Contact</a>
+        <a href="mortgage-calculator.html" class="text-green-700 font-semibold">Mortgage Calculator</a>
+      </nav>
+      <div class="md:hidden">
+        <button @click="open = !open" class="text-gray-800 focus:outline-none">
+          <svg x-show="!open" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+          <svg x-show="open" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div x-show="open" @click.outside="open = false"
+      class="md:hidden bg-white shadow-md text-center px-6 py-4 space-y-4 text-gray-800 font-medium uppercase">
+      <a href="index.html#about" @click="open = false" class="block hover:text-green-700">About</a>
+      <a href="index.html#awards" @click="open = false" class="block hover:text-green-700">Awards</a>
+      <a href="index.html#listings" @click="open = false" class="block hover:text-green-700">Listings</a>
+      <a href="index.html#testimonials" @click="open = false" class="block hover:text-green-700">Testimonials</a>
+      <a href="index.html#contact" @click="open = false" class="block hover:text-green-700">Contact</a>
+      <a href="mortgage-calculator.html" @click="open = false" class="block text-green-700 font-semibold">Mortgage Calculator</a>
+    </div>
+  </header>
+
+  <!-- Main Calculator Section -->
+  <main class="pt-32 pb-20 max-w-6xl mx-auto px-6">
+    <h1 class="text-3xl font-bold mb-8">Mortgage Calculator</h1>
+
+    <div class="grid md:grid-cols-2 gap-8">
+      <!-- Form -->
+      <form id="mortgageForm" class="space-y-4 bg-gray-50 p-6 rounded shadow">
+        <div>
+          <label class="block font-semibold">Home Price ($)</label>
+          <input type="number" id="price" class="w-full border px-3 py-2 rounded" required placeholder="e.g. 600000">
+        </div>
+        <div>
+          <label class="block font-semibold">Down Payment ($)</label>
+          <input type="number" id="downPayment" class="w-full border px-3 py-2 rounded" required placeholder="e.g. 120000">
+        </div>
+        <div>
+          <label class="block font-semibold">Loan Term (Years)</label>
+          <input type="number" id="years" value="25" class="w-full border px-3 py-2 rounded" required>
+        </div>
+        <div>
+          <label class="block font-semibold">Interest Rate (%)</label>
+          <input type="number" id="rate" step="0.01" value="5" class="w-full border px-3 py-2 rounded" required>
+        </div>
+        <div>
+          <label class="block font-semibold">Payment Frequency</label>
+          <select id="frequency" class="w-full border px-3 py-2 rounded">
+            <option value="12">Monthly</option>
+            <option value="26">Bi-Weekly</option>
+            <option value="52">Weekly</option>
+          </select>
+        </div>
+        <button type="submit" class="bg-green-700 text-white px-4 py-2 rounded w-full">Calculate</button>
+      </form>
+
+      <!-- Results Panel -->
+      <div id="result" class="hidden bg-white border p-6 rounded shadow">
+        <h2 class="text-xl font-semibold mb-4">Your Mortgage Scenario</h2>
+        <p id="monthly" class="text-lg"></p>
+        <p id="total"></p>
+        <p id="loan"></p>
+
+        <div class="mt-6 space-y-3">
+          <button id="downloadPDF" class="bg-green-700 text-white px-4 py-2 rounded w-full">Download PDF</button>
+          <form id="emailForm" class="space-y-2">
+            <input type="email" id="clientEmail" placeholder="Enter your email" required
+              class="w-full border border-gray-300 rounded px-3 py-2">
+            <button type="submit" class="bg-gray-800 text-white px-4 py-2 rounded w-full">
+              Send Results by Email
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-100 text-center py-6 text-sm text-gray-600 border-t">
+    &copy; <span id="year"></span> Chetan Chhabra. All rights reserved.
+  </footer>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+
+  <!-- Scripts -->
+  <script src="script/mortgage.js"></script>
+</body>
+</html>
