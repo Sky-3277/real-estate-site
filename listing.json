@@ -102,57 +102,239 @@
   }
 }
   ,
-  {
-    "id": "45-vedette",
-    "title": "Aakash 45 Vedette Way, Vaughan, ON L4H 4K2",
-    "neighborhood": "Vellore Village · York",
-    "price": "$899,000",
-    "status": "Active",
-    "mlsNum": "N12285228",
-    "homeStyle": "2-Storey",
-    "propertyType": "Residential Freehold",
-    "bedrooms": 3,
-    "bathrooms": 3,
-    "area": "1,750 sqft",
-    "description": "Stunning freehold townhouse in high-demand Vellore Village.",
-    "image": "assets/images/house1.jpg",   
-    "images": ["assets/images/house1.jpg", "assets/images/house2.jpg"],
-    "rooms": [
-      { "floor": "Ground", "type": "Family Room", "size": "18'10\" × 11'1\"", "details": "Hardwood, Open Concept" },
-      { "floor": "Ground", "type": "Kitchen", "size": "11' × 8'", "details": "Granite Counters, Breakfast Bar" },
-      { "floor": "Second", "type": "Primary Bedroom", "size": "17' × 12'", "details": "Ensuite, Walk-In Closet" }
-    ],
-    "amenities": [
-      { "title": "Schools", "description": "5 public & 5 Catholic schools serve this home. 10 have catchments. 2 private schools nearby." },
-      { "title": "Parks & Rec", "description": "5 tennis courts, 5 playgrounds and 10 other facilities within 20 min walk." },
-      { "title": "Transit", "description": "Street transit stop < 3 min walk. Rail transit < 5 km away." }
-    ]
+{
+  "id": "474-english-mill-crt",
+  "title": "474 English Mill Crt, Milton",
+  "neighborhood": "Milton, 1032 - FO Ford, Halton, Ontario L9E 0A5",
+  "price": "Leased $1,800 | 1 Year",
+  "status": "Leased",
+  "mlsNum": "W12607168",
+  "homeStyle": "Detached 2-Storey",
+  "propertyType": "Detached",
+  "bedrooms": 2,
+  "bathrooms": 1,
+  "area": "2500-3000 Sqft",
+  "description": "Beautiful two bedroom basement apartment in a detached home. This energy star rated home is complete with stainless steel appliances, pot lights & more. Enjoy the open concept living area, spacious bedroom, beautiful modern white kitchen, and personal in-suite laundry. Tenant gets 2 parking spaces. Tenant pays 30% utilities.",
+  "image": "assets/images/474_English_Mill_CRT/H1.jpg",
+  "images": [
+    "assets/images/474_English_Mill_CRT/H1.jpg",
+    "assets/images/474_English_Mill_CRT/H2.jpg",
+    "assets/images/474_English_Mill_CRT/H3.jpg",
+    "assets/images/474_English_Mill_CRT/H4.jpg",
+    "assets/images/474_English_Mill_CRT/H5.jpg",
+    "assets/images/474_English_Mill_CRT/H6.jpg",
+    "assets/images/474_English_Mill_CRT/H7.jpg",
+    "assets/images/474_English_Mill_CRT/H8.jpg",
+    "assets/images/474_English_Mill_CRT/H9.jpg",
+    "assets/images/474_English_Mill_CRT/H10.jpg",
+    "assets/images/474_English_Mill_CRT/H11.jpg"
+  ],
+  "quickFacts": {
+    "style": "Detached 2-Storey",
+    "beds": 2,
+    "baths": 1,
+    "rooms": 2,
+    "parking": 2,
+    "sqft": "2500-3000 Sqft",
+    "dom": 18
   },
-  {
-    "id": "new-123",
-    "title": "99 Example Street, Toronto, ON M4C 1A1",
-    "neighborhood": "Downtown · Toronto",
-    "price": "$799,000",
-    "status": "Active",
-    "mlsNum": "C99999111",
-    "homeStyle": "Detached",
-    "propertyType": "Residential Freehold",
-    "bedrooms": 4,
-    "bathrooms": 3,
-    "area": "2,100 sqft",
-    "description": "Beautiful detached 4-bedroom home in downtown Toronto. Close to schools and transit.",
-    "image": "assets/images/house1.jpg",   
-    "images": ["assets/images/house3.jpg"],
-    "rooms": [
-      { "floor": "Main", "type": "Living Room", "size": "19' × 13'", "details": "Large Window, Fireplace" },
-      { "floor": "Main", "type": "Kitchen", "size": "12' × 9'", "details": "Modern Cabinets, Stainless Steel" }
-    ],
-    "amenities": [
-      { "title": "Schools", "description": "Close to top public schools and universities." },
-      { "title": "Parks & Rec", "description": "Walking distance to waterfront trails and community centre." },
-      { "title": "Transit", "description": "Subway within 5 minutes walking distance." }
-    ]
+  "links": {
+    "directions": "https://maps.google.com/?q=474+English+Mill+Crt+Milton",
+    "neighbourhoodGuide": "https://example.com/neighbourhood.pdf",
+    "addressGuide": "https://example.com/address.pdf"
   },
+  "listingInformation": {
+    "Leased": "$1,800",
+    "PIN#": "250812954",
+    "Portion For Lease": "Basement",
+    "Status": "Leased",
+    "Leased Date": "12/23/2025",
+    "Possession Date": "01/01/2026",
+    "Seller Property Info": "N",
+    "Statement": ""
+  },
+  "propertyInformation": {
+    "Approx Age": "6-15",
+    "Fronting On": "North",
+    "Lot Size": "36.09 x 88.58 Feet",
+    "Square Feet": "2500-3000",
+    "Dir/Cross St": "Britannia & Hwy 25",
+    "Directions": "Britannia & Hwy 25",
+    "Drive": "Private Double",
+    "Parking Drive Spaces": "2",
+    "Total Parking Spaces": "2",
+    "Pool": "None",
+    "A/C": "Central Air",
+    "Laundry Features": "Ensuite",
+    "Area": "Halton",
+    "Municipality": "Milton",
+    "Community": "1032 - FO Ford",
+    "Rooms": "2",
+    "Bedrooms": "2",
+    "Washrooms": "1",
+    "Kitchens": "1",
+    "Exterior": "Brick",
+    "Roof": "Other",
+    "Foundation": "Other",
+    "Garage Type": "Attached",
+    "Garage Parking Spaces": "0",
+    "Survey Type": "None",
+    "Basement": "Finished",
+    "Elevator": "N",
+    "Heating Source": "Gas",
+    "Heating Type": "Forced Air",
+    "Water": "Municipal",
+    "Sewers": "Sewers",
+    "Area Influences": "",
+    "Property Type": "Detached",
+    "Link": "N",
+    "Style": "2-Storey",
+    "Family Room": "N",
+    "Fireplace/Stv": "N",
+    "Central Vac": "N"
+  },
+  "features": ["Ensuite Laundry", "Private Entrance"],
+  "interiorFeatures": ["Other"],
+  "specialDesignations": ["Unknown"],
+  "waterfront": ["Waterfront Y/N: N", "Waterfront: None"],
+  "roomInfo": [
+    { "room": "Br", "level": "Bsmt", "dimensions": "3.5 m x 2.5 m (11.48 ft x 8.2 ft)", "notes": "" },
+    { "room": "2nd Br", "level": "Bsmt", "dimensions": "3.5 m x 2.5 m (11.48 ft x 8.2 ft)", "notes": "" },
+    { "room": "Kitchen", "level": "Bsmt", "dimensions": "4.5 m x 3.5 m (14.76 ft x 11.48 ft)", "notes": "" },
+    { "room": "Laundry", "level": "Bsmt", "dimensions": "2.2 m x 1.5 m (7.22 ft x 4.92 ft)", "notes": "" }
+  ],
+  "washrooms": [{ "count": 1, "pieces": 4, "level": "Bsmt" }],
+  "includedInLease": [
+    "Heat",
+    "Water",
+    "Parking",
+    "Central Air Conditioning",
+    "Common Elements"
+  ],
+  "inclusions": ["Fridge", "Stove", "Washer", "Dryer"],
+  "map": { "query": "474 English Mill Crt, Milton, ON" },
+  "contract": {
+    "name": "Chetan Chhabra",
+    "role": "Salesperson",
+    "instagram": "https://www.instagram.com/realtor_chetan/",
+    "brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC.",
+    "phone": "647-910-9999"
+  }
+}
+,
+  {
+  "id": "19-terryellen-cres",
+  "title": "19 Terryellen Cres, Toronto",
+  "neighborhood": "Toronto W08, Markland Wood, Toronto, Ontario M9C 1H6",
+  "price": "For Lease $1,800 | 1 Year",
+  "status": "Available",
+  "mlsNum": "W12535280",
+  "homeStyle": "Semi-Detached 1 1/2 Storey",
+  "propertyType": "Semi-Detached",
+  "bedrooms": 1,
+  "bathrooms": 1,
+  "area": "< 700 Sqft",
+  "description": "Newly Renovated Basement Apartment available immediately. Brand new appliances in the Kitchen with a Walk out to Patio for summer gatherings. Inclusive of all utilities such as heat, hydro, water and internet. Nestled on a quiet cul-de-sac in Markland Wood, this spacious apartment has been freshly painted. The prime location is just 9 minutes from 2 Walmarts, Costco, Starsky supermarket, and European specialty stores, 3 minutes to Hwy 427, 7 minutes to Cloverdale and Sherway Gardens, 11 minutes to Pearson Airport, and a 3-minute walk to TTC and Peel Transit, surrounded by excellent schools and Bloordale Parks.",
+
+  "image": "assets/images/19_Terryellen_Cres/H1.jpg",
+  "images": [
+    "assets/images/19_Terryellen_Cres/H1.jpg",
+    "assets/images/19_Terryellen_Cres/H2.jpg",
+    "assets/images/19_Terryellen_Cres/H3.jpg",
+    "assets/images/19_Terryellen_Cres/H4.jpg",
+    "assets/images/19_Terryellen_Cres/H5.jpg",
+    "assets/images/19_Terryellen_Cres/H6.jpg",
+    "assets/images/19_Terryellen_Cres/H7.jpg",
+    "assets/images/19_Terryellen_Cres/H8.jpg",
+    "assets/images/19_Terryellen_Cres/H9.jpg"
+  ],
+
+  "quickFacts": {
+    "style": "Semi-Detached 1 1/2 Storey",
+    "beds": 1,
+    "baths": 1,
+    "rooms": 4,
+    "parking": 1,
+    "sqft": "< 700 Sqft",
+    "dom": 58
+  },
+
+  "links": {
+    "directions": "https://maps.google.com/?q=19+Terryellen+Cres+Toronto+ON",
+    "neighbourhoodGuide": "https://example.com/neighbourhood.pdf",
+    "addressGuide": "https://example.com/address.pdf"
+  },
+
+  "listingInformation": {
+    "Portion For Lease": "Basement",
+    "Status": "Available",
+    "Possession Date": "11/10/2025",
+    "Seller Property Info Statement": "N"
+  },
+
+  "propertyInformation": {
+    "Fronting On": "West",
+    "Square Feet": "< 700",
+    "Dir/Cross St": "Dundas and Neilson",
+    "Directions": "Dundas and Neilson",
+    "Drive": "Available",
+    "Parking Drive Spaces": "1",
+    "Total Parking Spaces": "1",
+    "Pool": "None",
+    "A/C": "Central Air",
+    "Laundry Features": "Common Area, In Basement",
+    "Area": "Toronto",
+    "Municipality": "Toronto W08",
+    "Community": "Markland Wood",
+    "Rooms": "4",
+    "Bedrooms": "1",
+    "Washrooms": "1",
+    "Kitchens": "1",
+    "Exterior": "Brick",
+    "Roof": "Other",
+    "Foundation": "Other",
+    "Garage Type": "None",
+    "Garage Parking Spaces": "0",
+    "Survey Type": "Unknown",
+    "Basement": "Apartment / Fin W/O / Sep Entrance",
+    "Heating Source": "Gas",
+    "Heating Type": "Forced Air",
+    "Water": "Municipal",
+    "Sewers": "Septic",
+    "Area Influences": "",
+    "Property Type": "Semi-Detached",
+    "Link": "",
+    "Style": "1 1/2 Storey",
+    "Family Room": "N",
+    "Fireplace/Stv": "N",
+    "Central Vac": "N"
+  },
+
+  "features": ["Private Entrance"],
+  "interiorFeatures": ["None"],
+  "specialDesignations": ["Unknown"],
+  "waterfront": ["WaterfrontYN: N"],
+
+  "roomInfo": [],
+
+  "washrooms": [{ "count": 1, "pieces": 3, "level": "Bsmt" }],
+
+  "includedInLease": [
+    "Central Air Conditioning",
+    "Heat",
+    "Hydro",
+    "Parking",
+    "High Speed Internet"
+  ],
+
+  "map": { "query": "19 Terryellen Cres, Toronto, ON" },
+
+  "contract": {
+    "brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC.",
+    "phone": "647-910-9999"
+  }
+}
+,
   {
     "id": "new-124",
     "title": "33 Bay Street, Toronto, ON M4C 1A1",
