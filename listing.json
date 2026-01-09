@@ -336,55 +336,387 @@
 }
 ,
   {
-    "id": "new-124",
-    "title": "33 Bay Street, Toronto, ON M4C 1A1",
-    "neighborhood": "Downtown · Toronto",
-    "price": "$799,000",
-    "status": "Active",
-    "mlsNum": "C99999111",
-    "homeStyle": "Detached",
-    "propertyType": "Residential Freehold",
-    "bedrooms": 4,
-    "bathrooms": 3,
-    "area": "2,100 sqft",
-    "description": "Beautiful detached 4-bedroom home in downtown Toronto. Close to schools and transit.",
-    "image": "assets/images/house1.jpg",   
-    "images": ["assets/images/house4.jpg"],
-    "rooms": [
-      { "floor": "Main", "type": "Living Room", "size": "19' × 13'", "details": "Large Window, Fireplace" },
-      { "floor": "Main", "type": "Kitchen", "size": "12' × 9'", "details": "Modern Cabinets, Stainless Steel" }
-    ],
-    "amenities": [
-      { "title": "Schools", "description": "Close to top public schools and universities." },
-      { "title": "Parks & Rec", "description": "Walking distance to waterfront trails and community centre." },
-      { "title": "Transit", "description": "Subway within 5 minutes walking distance." }
-    ]
+  "id": "660-armstrong-blvd",
+  "title": "660 Armstrong Blvd, Milton",
+  "neighborhood": "Milton, 1023 - BE Beaty, Halton, Ontario L9T 6G8",
+  "price": "For Lease $1,800 | 1 Year",
+  "status": "Available",
+  "mlsNum": "W12500692",
+  "homeStyle": "Semi-Detached 2-Storey",
+  "propertyType": "Semi-Detached",
+  "bedrooms": 2,
+  "bathrooms": 2,
+  "area": "1500-2000 Sqft",
+  "description": "This bright and spacious unit features 2 large bedrooms, 2 washrooms, a modern private kitchen, and separate laundry (not shared) for your convenience. Enjoy a private entrance through the garage and dedicated car parking. Located in a quiet, family-oriented community, this home is perfect for small families, couples, or working professionals seeking comfort and privacy.",
+
+  "image": "assets/images/660_Armstrong_Blvd/H1.jpg",
+  "images": [
+    "assets/images/660_Armstrong_Blvd/H1.jpg",
+    "assets/images/660_Armstrong_Blvd/H2.jpg",
+    "assets/images/660_Armstrong_Blvd/H3.jpg",
+    "assets/images/660_Armstrong_Blvd/H4.jpg",
+    "assets/images/660_Armstrong_Blvd/H5.jpg",
+    "assets/images/660_Armstrong_Blvd/H6.jpg",
+    "assets/images/660_Armstrong_Blvd/H7.jpg",
+    "assets/images/660_Armstrong_Blvd/H8.jpg",
+    "assets/images/660_Armstrong_Blvd/H9.jpg",
+    "assets/images/660_Armstrong_Blvd/H10.jpg",
+    "assets/images/660_Armstrong_Blvd/H11.jpg",
+    "assets/images/660_Armstrong_Blvd/H12.jpg"
+  ],
+
+  "quickFacts": {
+    "style": "Semi-Detached 2-Storey",
+    "beds": 2,
+    "baths": 2,
+    "rooms": 4,
+    "parking": 1,
+    "sqft": "1500-2000 Sqft",
+    "dom": 68
   },
+
+  "links": {
+    "directions": "https://maps.google.com/?q=660+Armstrong+Blvd+Milton+ON",
+    "neighbourhoodGuide": "",
+    "addressGuide": ""
+  },
+
+  "listingInformation": {
+    "Portion For Lease": "Basement",
+    "Status": "Available",
+    "Possession Remarks": "Immediate",
+    "Payment Frequency": "Monthly",
+    "Seller Property Info Statement": "N"
+  },
+
+  "propertyInformation": {
+    "Fronting On": "West",
+    "Square Feet": "1500-2000",
+    "Dir/Cross St": "Derry Rd & Armstrong Blvd",
+    "Directions": "Derry Rd & Armstrong Blvd",
+    "Drive": "Available",
+    "Parking Drive Spaces": "1",
+    "Total Parking Spaces": "1",
+    "Pool": "None",
+    "A/C": "Central Air",
+    "Phys Hdcap-Equip": "N",
+    "Laundry Features": "Ensuite",
+    "Area": "Halton",
+    "Municipality": "Milton",
+    "Community": "1023 - BE Beaty",
+    "Rooms": "4",
+    "Bedrooms": "2",
+    "Washrooms": "2",
+    "Kitchens": "1",
+    "Exterior": "Brick",
+    "Roof": "Asphalt Shingle",
+    "Foundation": "Other",
+    "Garage Type": "None",
+    "Garage Parking Spaces": "0",
+    "Survey Type": "None",
+    "Basement": "Finished",
+    "Utilities-Hydro": "A",
+    "Elevator": "N",
+    "Utilities-Cable": "A",
+    "Utilities-Telephone": "A",
+    "Utilities-Gas": "A",
+    "Heating Source": "Gas",
+    "Heating Type": "Forced Air",
+    "Water": "Municipal",
+    "Sewers": "Sewers",
+    "Area Influences": "",
+    "Property Type": "Semi-Detached",
+    "Link": "",
+    "Style": "2-Storey",
+    "Family Room": "N",
+    "Fireplace/Stv": "N",
+    "Central Vac": "N"
+  },
+
+  "features": ["Ensuite Laundry", "Private Entrance"],
+  "interiorFeatures": ["Other"],
+  "specialDesignations": ["Unknown"],
+  "waterfront": ["WaterfrontYN: N"],
+
+  "roomInfo": [],
+
+  "washrooms": [{ "count": 2, "pieces": 3, "level": "Bsmt" }],
+
+  "includedInLease": ["Parking"],
+
+  "map": { "query": "660 Armstrong Blvd, Milton, ON" },
+
+  "contract": {
+    "brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC.",
+    "phone": "647-910-9999"
+  }
+}
+
+,
   {
-    "id": "new-125",
-    "title": "528 Activa Ave, Kitchener, ON M4C 1A1",
-    "neighborhood": "Downtown · Toronto",
-    "price": "$799,000",
-    "offer_price": "$99,000",
-    "status": "Active",
-    "mlsNum": "C99999111",
-    "homeStyle": "Detached",
-    "propertyType": "Residential Freehold",
-    "bedrooms": 4,
-    "bathrooms": 3,
-    "area": "2,100 sqft",
-    "description": "Beautiful detached 4-bedroom home in downtown Toronto. Close to schools and transit.",
-    "image": "assets/images/house1.jpg",   
-    "images": ["assets/images/house4.jpg"],
-    "rooms": [
-      { "floor": "Main", "type": "Living Room", "size": "19' × 13'", "details": "Large Window, Fireplace" },
-      { "floor": "Main", "type": "Kitchen", "size": "12' × 9'", "details": "Modern Cabinets, Stainless Steel" }
+  "id": "9-hager-creek-terr-basement",
+  "title": "9 Hager Creek Terr Basement, Hamilton",
+  "neighborhood": "Hamilton, Waterdown, Hamilton, Ontario L8B 1Z3",
+  "price": "For Lease $1,800 | 1 Year",
+  "status": "Available",
+  "mlsNum": "X12542220",
+  "homeStyle": "Semi-Detached 2-Storey",
+  "propertyType": "Semi-Detached",
+  "bedrooms": 1,
+  "bathrooms": 1,
+  "area": "1500-2000 Sqft",
+  "description": "Modern and fully furnished one-bedroom basement apartment in the heart of Waterdown's HagerCreek community. Features a private separate entrance, bright living area, full kitchen with stainless steel appliances, and a stylish bathroom with a standing shower. Includes in-unit laundry, free parking, and all essentials for comfortable living. Steps to parks, schools, shops, and gyms, and only minutes to Burlington and major highways. Available immediately.",
+
+  "image": "assets/images/9_Hager_Creek_Terr_Basement/H1.jpg",
+  "images": [
+    "assets/images/9_Hager_Creek_Terr_Basement/H1.jpg",
+    "assets/images/9_Hager_Creek_Terr_Basement/H2.jpg",
+    "assets/images/9_Hager_Creek_Terr_Basement/H3.jpg",
+    "assets/images/9_Hager_Creek_Terr_Basement/H4.jpg",
+    "assets/images/9_Hager_Creek_Terr_Basement/H5.jpg",
+    "assets/images/9_Hager_Creek_Terr_Basement/H6.jpg",
+    "assets/images/9_Hager_Creek_Terr_Basement/H7.jpg",
+    "assets/images/9_Hager_Creek_Terr_Basement/H8.jpg",
+    "assets/images/9_Hager_Creek_Terr_Basement/H9.jpg",
+    "assets/images/9_Hager_Creek_Terr_Basement/H10.jpg",
+    "assets/images/9_Hager_Creek_Terr_Basement/H11.jpg",
+    "assets/images/9_Hager_Creek_Terr_Basement/H12.jpg",
+    "assets/images/9_Hager_Creek_Terr_Basement/H13.jpg",
+    "assets/images/9_Hager_Creek_Terr_Basement/H14.jpg",
+    "assets/images/9_Hager_Creek_Terr_Basement/H15.jpg",
+    "assets/images/9_Hager_Creek_Terr_Basement/H16.jpg",
+    "assets/images/9_Hager_Creek_Terr_Basement/H17.jpg",
+    "assets/images/9_Hager_Creek_Terr_Basement/H18.jpg",
+    "assets/images/9_Hager_Creek_Terr_Basement/H19.jpg"
+  ],
+
+  "quickFacts": {
+    "style": "Semi-Detached 2-Storey",
+    "beds": 1,
+    "baths": 1,
+    "rooms": 4,
+    "parking": 2,
+    "sqft": "1500-2000 Sqft",
+    "dom": 58
+  },
+
+  "links": {
+    "directions": "https://maps.google.com/?q=9+Hager+Creek+Terr+Hamilton+ON",
+    "neighbourhoodGuide": "",
+    "addressGuide": ""
+  },
+
+  "listingInformation": {
+    "PIN#": "175012112",
+    "Portion For Lease": "Basement",
+    "Vacant Land Condo": "N",
+    "Status": "Available",
+    "Possession Date": "11/15/2025",
+    "Seller Property Info Statement": "N"
+  },
+
+  "propertyInformation": {
+    "Approx Age": "0-5",
+    "Year Built": "2023",
+    "Fronting On": "East",
+    "Lot Size": "21.59 x 90.39 Feet",
+    "Square Feet": "1500-2000",
+    "Dir/Cross St": "Dundas St E & Burke",
+    "Directions": "Dundas St E & Burke",
+    "Drive": "Private",
+    "Parking/Drive": "Private",
+    "Parking Drive Spaces": "1",
+    "Total Parking Spaces": "2",
+    "UFFI": "No",
+    "Pool": "None",
+    "A/C": "Central Air",
+    "Laundry Features": "In-Suite Laundry, Electric Dryer Hookup, Laundry Room",
+    "Area": "Hamilton",
+    "Municipality": "Hamilton",
+    "Community": "Waterdown",
+    "Rooms": "4",
+    "Bedrooms": "1",
+    "Washrooms": "1",
+    "Kitchens": "1",
+    "Exterior": "Brick, Vinyl Siding",
+    "Roof": "Other",
+    "Foundation": "Concrete",
+    "Garage Type": "Built-In",
+    "Garage Parking": "1",
+    "Survey Type": "Unknown",
+    "Apt/Unit": "Basement",
+    "Basement": "None",
+    "Utilities-Hydro": "A",
+    "Utilities-Cable": "A",
+    "Utilities-Telephone": "A",
+    "Utilities-Gas": "A",
+    "Heating Source": "Gas",
+    "Heating Type": "Forced Air",
+    "Water": "Municipal",
+    "Sewers": "Sewers",
+    "Area Influences": "",
+    "Property Type": "Semi-Detached",
+    "Link": "",
+    "Style": "2-Storey",
+    "Family Room": "Y",
+    "Fireplace/Stv": "N",
+    "Central Vac": "N"
+  },
+
+  "features": [
+    "Arts Centre",
+    "Family Room",
+    "Fenced Yard",
+    "Grnbelt/Conserv",
+    "Hospital",
+    "Library",
+    "Park",
+    "Private Entrance"
+  ],
+  "interiorFeatures": [
+    "Carpet Free",
+    "Primary Bedroom - Main Floor",
+    "Storage",
+    "Ventilation System",
+    "Water Meter",
+    "Water Heater"
+  ],
+  "securityFeatures": ["Alarm System", "Carbon Monoxide Detectors", "Smoke Detector"],
+  "specialDesignations": ["Unknown"],
+  "waterfront": ["WaterfrontYN: N"],
+
+  "roomInfo": [],
+
+  "washrooms": [{ "count": 1, "pieces": 3, "level": "Bsmt" }],
+
+  "includedInLease": ["Parking", "Water Heater"],
+
+  "map": { "query": "9 Hager Creek Terr, Hamilton, ON" },
+
+  "contract": {
+    "brokerage": "",
+    "phone": "",
+    "salesperson": "CHETAN CHHABRA",
+    "instagram": "https://www.instagram.com/realtor_chetan/"
+  }
+},
+{
+    "id": "17-zorra-st-2005",
+    "title": "17 Zorra St 2005, Toronto",
+    "neighborhood": "Toronto W08, Islington-City Centre West, Toronto, Ontario M8Z 4Z6",
+    "price": "For Lease $1,899 | 1 Year",
+    "status": "Available",
+    "mlsNum": "W12593922",
+    "homeStyle": "Condo Apt Apartment",
+    "propertyType": "Condo Apt",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "area": "500-599 Sqft",
+    "description": "Beautiful 1 Bedroom Condo Located In The Heart Of Etobicoke! Conveniently Located Near Hwy 427, Airport, Sherway Garden Mall, Shopping, Restaurants & Ttc. Beautiful Unobstructed View Of The Lake! Suite Features 9' Ceilings, Wood Floors, Quartz Counter, Stainless Steel Appliances. Modern & Sleek! Building Amenities: Concierge, Gym, Sauna, Party Room, Games Room And So Much More! New immigrants welcome!",
+
+    "image": "assets/images/17_Zorra_St_2005/H1.jpg",
+    "images": [
+      "assets/images/17_Zorra_St_2005/H1.jpg",
+      "assets/images/17_Zorra_St_2005/H2.jpg",
+      "assets/images/17_Zorra_St_2005/H3.jpg",
+      "assets/images/17_Zorra_St_2005/H4.jpg",
+      "assets/images/17_Zorra_St_2005/H5.jpg",
+      "assets/images/17_Zorra_St_2005/H6.jpg",
+      "assets/images/17_Zorra_St_2005/H7.jpg",
+      "assets/images/17_Zorra_St_2005/H8.jpg",
+      "assets/images/17_Zorra_St_2005/H9.jpg"
     ],
-    "amenities": [
-      { "title": "Schools", "description": "Close to top public schools and universities." },
-      { "title": "Parks & Rec", "description": "Walking distance to waterfront trails and community centre." },
-      { "title": "Transit", "description": "Subway within 5 minutes walking distance." }
-    ]
+
+    "quickFacts": {
+      "style": "Condo Apt Apartment",
+      "beds": 1,
+      "baths": 1,
+      "rooms": 4,
+      "parking": 0,
+      "sqft": "500-599 Sqft",
+      "dom": 38
+    },
+
+    "links": {
+      "directions": "https://maps.google.com/?q=17+Zorra+St+Toronto+ON",
+      "neighbourhoodGuide": "",
+      "addressGuide": ""
+    },
+
+    "listingInformation": {
+      "Portion For Lease": "Entire Property",
+      "Status": "Available",
+      "Condo Registry Office": "TSCP",
+      "Condo Corp#": "2699",
+      "Possession Remarks": "Jan 1/04, 25",
+      "Possession Date": "01/04/2026",
+      "Property Mgmt Co": "Remington Facilities Management",
+      "Seller Property Info Statement": "N"
+    },
+
+    "propertyInformation": {
+      "Approx Age": "0-5",
+      "Level": "20",
+      "Square Feet": "500-599",
+      "Sqft Source": "Builder",
+      "Exposure": "Se",
+      "Unit #": "05",
+      "Dir/Cross St": "Islington/Queensway",
+      "Directions": "Islington/Queensway",
+      "Drive": "Underground",
+      "Parking/Drive": "Undergrnd",
+      "Parking Drive Spaces": "0",
+      "Total Parking Spaces": "0",
+      "Parking Type": "Common",
+      "A/C": "Central Air",
+      "Balcony": "Open",
+      "Laundry Features": "Ensuite",
+      "Locker": "None",
+      "Area": "Toronto",
+      "Municipality": "Toronto W08",
+      "Community": "Islington-City Centre West",
+      "Rooms": "4",
+      "Bedrooms": "1",
+      "Washrooms": "1",
+      "Kitchens": "1",
+      "Exterior": "Concrete",
+      "Garage Type": "Attached",
+      "Garage Parking Spaces": "0",
+      "Survey Type": "Unknown",
+      "Apt/Unit": "2005",
+      "Basement": "None",
+      "Heating Source": "Gas",
+      "Heating Type": "Forced Air",
+      "Area Influences": "",
+      "Property Type": "Condo Apt",
+      "Style": "Apartment",
+      "Family Room": "N",
+      "Fireplace/Stv": "N",
+      "Central Vac": "N"
+    },
+
+    "features": ["Clear View", "Ensuite Laundry", "Lake/Pond", "Pets Allowed with Restrictions", "Public Transit"],
+    "interiorFeatures": ["Other"],
+    "specialDesignations": ["Unknown"],
+    "waterfront": ["WaterfrontYN: N"],
+
+    "roomInfo": [
+      { "room": "Living", "level": "Flat", "dimensions": "3.05 m x 3.05 m (10.01 ft x 10.01 ft)", "notes": "Combined W/Dining, W/O To Balcony" },
+      { "room": "Kitchen", "level": "Flat", "dimensions": "3.7 m x 1.02 m (12.14 ft x 3.35 ft)", "notes": "Combined W/Living, Open Concept" },
+      { "room": "Br", "level": "Flat", "dimensions": "3.72 m x 3.08 m (12.2 ft x 10.1 ft)", "notes": "Granite Counter, Stainless Steel Appl" },
+      { "room": "Bathroom", "level": "Flat", "dimensions": "", "notes": "4 Pc Bath" }
+    ],
+
+    "washrooms": [{ "count": 1, "pieces": 4, "level": "Flat" }],
+
+    "includedInLease": ["Building Insurance", "Common Elements", "Heat", "Water"],
+
+    "map": { "query": "17 Zorra St, Toronto, ON" },
+
+    "contract": {
+      "brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC.",
+      "phone": "647-910-9999"
+    }
   }
 
 ]
