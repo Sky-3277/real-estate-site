@@ -717,6 +717,1269 @@
       "brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC.",
       "phone": "647-910-9999"
     }
+  },
+  {
+  "id": "45-cookview-dr-lower-unit",
+  "title": "45 Cookview Dr Lower Unit, Brampton",
+  "neighborhood": "Brampton, Sandringham-Wellington, Peel, Ontario L6R 3T7",
+  "price": "For Lease $1,899 | 1 Year",
+  "status": "Available",
+  "mlsNum": "W12645388",
+  "homeStyle": "Detached 2-Storey",
+  "propertyType": "Detached",
+  "bedrooms": 2,
+  "bathrooms": 1,
+  "area": "< 700 Sqft",
+  "description": "Location Location !! Welcome To This Beautiful 2 bedroom & 1 washroom newly built legal basement is up for rent with 2 parking spaces completed by a gourmet kitchen. Enjoy the brightness provided by extra-large windows, a separate side entrance, and private in-suite laundry. Completed with a City Permit, the unit is situated in a quiet, family-friendly community with unbeatable walk ability to a vibrant lifestyle.",
+
+  "image": "assets/images/45_Cookview_Dr/H1.jpg",
+  "images": [
+    "assets/images/45_Cookview_Dr/H1.jpg",
+    "assets/images/45_Cookview_Dr/H2.jpg",
+    "assets/images/45_Cookview_Dr/H3.jpg",
+    "assets/images/45_Cookview_Dr/H4.jpg",
+    "assets/images/45_Cookview_Dr/H5.jpg",
+    "assets/images/45_Cookview_Dr/H6.jpg",
+    "assets/images/45_Cookview_Dr/H7.jpg",
+    "assets/images/45_Cookview_Dr/H8.jpg",
+    "assets/images/45_Cookview_Dr/H9.jpg",
+    "assets/images/45_Cookview_Dr/H10.jpg",
+    "assets/images/45_Cookview_Dr/H11.jpg",
+    "assets/images/45_Cookview_Dr/H12.jpg"
+  ],
+
+  "quickFacts": {
+    "style": "Detached 2-Storey",
+    "beds": 2,
+    "baths": 1,
+    "rooms": 2,
+    "parking": 2,
+    "sqft": "< 700 Sqft",
+    "dom": 20
+  },
+
+  "links": {
+    "directions": "https://maps.google.com/?q=45+Cookview+Dr+Brampton+ON",
+    "neighbourhoodGuide": "",
+    "addressGuide": ""
+  },
+
+  "listingInformation": {
+    "Portion For Lease": "Basement",
+    "Status": "Available",
+    "Possession Date": "01/01/2026",
+    "Payment Frequency": "Monthly",
+    "Seller Property Info Statement": "N"
+  },
+
+  "propertyInformation": {
+    "Fronting On": "North",
+    "Lot Size": "76.74 x 89.4 Feet",
+    "Square Feet": "< 700",
+    "Dir/Cross St": "Sandalwood Pkwy E/Hwy410",
+    "Directions": "Sandalwood Pkwy E/Hwy410",
+    "Drive": "Private",
+    "Parking/Drive": "Private",
+    "Parking Drive Spaces": "2",
+    "Total Parking Spaces": "2",
+    "Pool": "None",
+    "A/C": "Central Air",
+    "Lot Irregularities": "Conner Lot Irregular",
+    "Laundry Features": "In Basement",
+    "Area": "Peel",
+    "Municipality": "Brampton",
+    "Community": "Sandringham-Wellington",
+    "Rooms": "2",
+    "Bedrooms": "2",
+    "Washrooms": "1",
+    "Kitchens": "1",
+    "Exterior": "Brick",
+    "Roof": "Other",
+    "Foundation": "Other",
+    "Garage Type": "Attached",
+    "Garage Parking Spaces": "0",
+    "Survey Type": "Unknown",
+    "Apt/Unit": "Lower Unit",
+    "Basement": "Sep Entrance",
+    "Heating Source": "Gas",
+    "Heating Type": "Forced Air",
+    "Water": "Municipal",
+    "Sewers": "Sewers",
+    "Area Influences": "",
+    "Property Type": "Detached",
+    "Link": "N",
+    "Style": "2-Storey",
+    "Family Room": "N",
+    "Fireplace/Stv": "N",
+    "Central Vac": "N"
+  },
+
+  "features": ["Private Entrance"],
+  "interiorFeatures": ["Other"],
+  "specialDesignations": ["Unknown"],
+  "waterfront": ["WaterfrontYN: N"],
+
+  "roomInfo": [
+    { "room": "2nd Br", "level": "Bsmt", "dimensions": "—", "notes": "Broadloom, Laminate" },
+    { "room": "3rd Br", "level": "Bsmt", "dimensions": "—", "notes": "Broadloom, Laminate" },
+    { "room": "Bathroom", "level": "Bsmt", "dimensions": "—", "notes": "3 Pc Bath" },
+    { "room": "Kitchen", "level": "Bsmt", "dimensions": "—", "notes": "" }
+  ],
+
+  "washrooms": [{ "count": 1, "pieces": 3, "level": "Bsmt" }],
+
+  "includedInLease": [
+    "Central Air Conditioning",
+    "Heat",
+    "Hydro",
+    "Parking",
+    "Water"
+  ],
+
+  "map": { "query": "45 Cookview Dr, Brampton, ON" },
+
+  "contract": {
+    "brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC.",
+    "phone": "647-910-9999"
   }
+},
+{
+  "id": "9195-creditview-rd-bsmt",
+  "title": "9195 Creditview Rd bsmt, Brampton",
+  "neighborhood": "Brampton, Credit Valley, Peel, Ontario L6X 0W8",
+  "price": "For Lease $1,899 | 1 Year",
+  "status": "Available",
+  "mlsNum": "W12597312",
+  "homeStyle": "Detached 2-Storey",
+  "propertyType": "Detached",
+  "bedrooms": 2,
+  "bathrooms": 1,
+  "area": "2500-3000 Sqft",
+  "description": "Welcome to your new home at 9195 Creditview Road, Brampton! This spacious 2 bed, 1 bath LEGAL BASEMENT unit is available from January 01, 2026 and offers convenience and comfort. The rent amount includes all internet, and one parking spot, making budgeting a breeze. With ample natural light, a modern kitchen, and a cozy living area, this unit is perfect for relaxed living. Plus, enjoy the convenience of a separate entrance and separate laundry facilities. Located in a prime area, close to amenities and transit, this is an opportunity not to be missed. Schedule your viewing today! Tenant to pay 30% of all utilities.",
+  "image": "assets/images/9195_Creditview_Rd/H1.jpg",
+  "images": [
+    "assets/images/9195_Creditview_Rd/H1.jpg",
+    "assets/images/9195_Creditview_Rd/H2.jpg",
+    "assets/images/9195_Creditview_Rd/H3.jpg",
+    "assets/images/9195_Creditview_Rd/H4.jpg",
+    "assets/images/9195_Creditview_Rd/H5.jpg",
+    "assets/images/9195_Creditview_Rd/H6.jpg",
+    "assets/images/9195_Creditview_Rd/H7.jpg",
+    "assets/images/9195_Creditview_Rd/H8.jpg",
+    "assets/images/9195_Creditview_Rd/H9.jpg"
+  ],
+  "quickFacts": {
+    "style": "Detached 2-Storey",
+    "beds": 2,
+    "baths": 1,
+    "rooms": 5,
+    "parking": 1,
+    "sqft": "2500-3000 Sqft",
+    "dom": 37
+  },
+  "links": {
+    "directions": "https://maps.google.com/?q=9195+Creditview+Rd+Brampton+ON",
+    "neighbourhoodGuide": "",
+    "addressGuide": ""
+  },
+  "listingInformation": {
+    "Portion For Lease": "Basement",
+    "Status": "Available",
+    "Possession Remarks": "Tenanted",
+    "Possession Date": "01/01/2026",
+    "Payment Frequency": "Monthly",
+    "Seller Property Info Statement": "N"
+  },
+  "propertyInformation": {
+    "Fronting On": "East",
+    "Lot Size": "51.02 x 102 Feet",
+    "Square Feet": "2500-3000",
+    "Dir/Cross St": "Creditview Rd / Queen St",
+    "Directions": "Creditview Rd / Queen St",
+    "Drive": "Private",
+    "Parking/Drive": "Private",
+    "Parking Drive Spaces": "1",
+    "Total Parking Spaces": "1",
+    "Pool": "None",
+    "A/C": "Central Air",
+    "Laundry Features": "Ensuite",
+    "Laundry Level": "Lower",
+    "Area": "Peel",
+    "Municipality": "Brampton",
+    "Community": "Credit Valley",
+    "Rooms": "5",
+    "Bedrooms": "2",
+    "Washrooms": "1",
+    "Kitchens": "1",
+    "Exterior": "Brick",
+    "Roof": "Unknown",
+    "Foundation": "Not Applicable",
+    "Garage Type": "Built-In",
+    "Garage Parking Spaces": "0",
+    "Survey Type": "Unknown",
+    "Apt/Unit": "bsmt",
+    "Basement": "Sep Entrance / Walk-Up",
+    "Heating Source": "Gas",
+    "Heating Type": "Forced Air",
+    "Water": "Municipal",
+    "Sewers": "Sewers",
+    "Area Influences": "",
+    "Property Type": "Detached",
+    "Link": "N",
+    "Style": "2-Storey",
+    "Family Room": "Y",
+    "Fireplace/Stv": "N",
+    "Central Vac": "N"
+  },
+  "features": ["Ensuite Laundry", "Family Room", "Private Entrance"],
+  "interiorFeatures": ["Other"],
+  "specialDesignations": ["Unknown"],
+  "waterfront": ["WaterfrontYN: N"],
+  "roomInfo": [
+    { "room": "Living", "level": "Lower", "dimensions": "—", "notes": "" },
+    { "room": "Kitchen", "level": "Lower", "dimensions": "—", "notes": "" },
+    { "room": "Prim Bdrm", "level": "Lower", "dimensions": "—", "notes": "" },
+    { "room": "2nd Br", "level": "Lower", "dimensions": "—", "notes": "" },
+    { "room": "Laundry", "level": "Lower", "dimensions": "—", "notes": "" }
+  ],
+  "washrooms": [{ "count": 1, "pieces": 4, "level": "Lower" }],
+  "includedInLease": ["Parking"],
+  "map": { "query": "9195 Creditview Rd, Brampton, ON" },
+  "contract": {
+    "brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC.",
+    "phone": "647-910-9999"
+  }
+},
+{
+  "id": "20-lagerfeld-dr-06",
+  "title": "20 Lagerfeld Dr 06, Brampton",
+  "neighborhood": "Brampton, Northwest Brampton, Peel, Ontario L7A 5L5",
+  "price": "For Lease $1,999 | 1 Year",
+  "status": "Available",
+  "mlsNum": "W12649712",
+  "homeStyle": "Condo Townhouse Stacked Townhse",
+  "propertyType": "Condo Townhouse",
+  "bedrooms": 1,
+  "bathrooms": 1,
+  "area": "500-599 Sqft",
+  "description": "Modern Luxury at Daniels MPV! Welcome to this stunning, BRAND NEW corner-unit townhouse featuring a bright, open-concept design and the rare convenience of MAIN-FLOOR LIVING WITH NO STAIRS. This sun-drenched 1-bedroom home boasts a PRIVATE WALK-OUT PATIO and premium upgrades, including CUSTOM BLINDS throughout and a sleek KITCHEN with stainless steel appliances. Situated in an UNBEATABLE LOCATION, you are just steps from the Mount Pleasant GO Station, transit, shopping, and dining. Ready for IMMEDIATE POSSESSION-experience effortless urban living in the heart of Brampton.",
+  "image": "assets/images/20_Lagerfeld_Dr_06/H1.jpg",
+  "images": [
+    "assets/images/20_Lagerfeld_Dr_06/H1.jpg",
+    "assets/images/20_Lagerfeld_Dr_06/H2.jpg",
+    "assets/images/20_Lagerfeld_Dr_06/H3.jpg",
+    "assets/images/20_Lagerfeld_Dr_06/H4.jpg",
+    "assets/images/20_Lagerfeld_Dr_06/H5.jpg",
+    "assets/images/20_Lagerfeld_Dr_06/H6.jpg",
+    "assets/images/20_Lagerfeld_Dr_06/H7.jpg",
+    "assets/images/20_Lagerfeld_Dr_06/H8.jpg",
+    "assets/images/20_Lagerfeld_Dr_06/H9.jpg",
+    "assets/images/20_Lagerfeld_Dr_06/H10.jpg",
+    "assets/images/20_Lagerfeld_Dr_06/H11.jpg",
+    "assets/images/20_Lagerfeld_Dr_06/H12.jpg",
+    "assets/images/20_Lagerfeld_Dr_06/H13.jpg",
+    "assets/images/20_Lagerfeld_Dr_06/H14.jpg",
+    "assets/images/20_Lagerfeld_Dr_06/H15.jpg",
+    "assets/images/20_Lagerfeld_Dr_06/H16.jpg",
+    "assets/images/20_Lagerfeld_Dr_06/H17.jpg",
+    "assets/images/20_Lagerfeld_Dr_06/H18.jpg",
+    "assets/images/20_Lagerfeld_Dr_06/H19.jpg",
+    "assets/images/20_Lagerfeld_Dr_06/H20.jpg",
+    "assets/images/20_Lagerfeld_Dr_06/H21.jpg",
+    "assets/images/20_Lagerfeld_Dr_06/H22.jpg",
+    "assets/images/20_Lagerfeld_Dr_06/H23.jpg",
+    "assets/images/20_Lagerfeld_Dr_06/H24.jpg"
+  ],
+  "quickFacts": {
+    "style": "Condo Townhouse Stacked Townhse",
+    "beds": 1,
+    "baths": 1,
+    "rooms": 4,
+    "parking": 0,
+    "sqft": "500-599 Sqft",
+    "dom": 17
+  },
+  "links": {
+    "directions": "https://maps.google.com/?q=20+Lagerfeld+Dr+Brampton+ON",
+    "neighbourhoodGuide": "",
+    "addressGuide": ""
+  },
+  "listingInformation": {
+    "Portion For Lease": "Main",
+    "Status": "Available",
+    "Condo Registry Office": "PCC",
+    "Condo Corp#": "1167",
+    "Possession Date": "12/31/2025",
+    "Payment Frequency": "Monthly",
+    "Property Mgmt Co": "GPM Property Management",
+    "Seller Property Info Statement": "N"
+  },
+  "propertyInformation": {
+    "Approx Age": "0-5",
+    "Year Built": "2025",
+    "Level": "1",
+    "Square Feet": "500-599",
+    "Sqft Source": "Builder Plan",
+    "Exposure": "Se",
+    "Unit #": "22",
+    "Dir/Cross St": "Lagerfeld Dr W & Bovaird Dr",
+    "Directions": "Lagerfeld Dr W & Bovaird Dr",
+    "Drive": "None",
+    "Parking/Drive": "None",
+    "Parking Drive Spaces": "0",
+    "Total Parking Spaces": "0",
+    "Parking Type": "Owned",
+    "A/C": "Central Air",
+    "Balcony": "Terr",
+    "Laundry Features": "Ensuite",
+    "Locker": "Owned",
+    "Area": "Peel",
+    "Municipality": "Brampton",
+    "Community": "Northwest Brampton",
+    "Rooms": "4",
+    "Bedrooms": "1",
+    "Washrooms": "1",
+    "Kitchens": "1",
+    "Exterior": "Brick",
+    "Garage Type": "None",
+    "Garage Parking Spaces": "0",
+    "Survey Type": "Unknown",
+    "Apt/Unit": "06",
+    "Basement": "None",
+    "Heating Source": "Gas",
+    "Heating Type": "Forced Air",
+    "Area Influences": "",
+    "Property Type": "Condo Townhouse",
+    "Style": "Stacked Townhse",
+    "Family Room": "N",
+    "Fireplace/Stv": "N",
+    "Central Vac": "N"
+  },
+  "features": ["Ensuite Laundry", "Pets Allowed with Restrictions", "Private Entrance", "Public Transit"],
+  "interiorFeatures": ["Carpet Free", "ERV/HRV"],
+  "specialDesignations": ["Unknown"],
+  "waterfront": ["WaterfrontYN: N"],
+  "roomInfo": [
+    {
+      "room": "Dining",
+      "level": "Main",
+      "dimensions": "3.35 m x 3.23 m (10.99 ft x 10.6 ft)",
+      "notes": "Combined W/Living, Window, Laminate"
+    },
+    {
+      "room": "Living",
+      "level": "Main",
+      "dimensions": "3.35 m x 3.23 m (10.99 ft x 10.6 ft)",
+      "notes": "Combined W/Dining, W/O To Patio, Laminate"
+    },
+    {
+      "room": "Kitchen",
+      "level": "Main",
+      "dimensions": "2.13 m x 5 m (6.99 ft x 16.4 ft)",
+      "notes": "Stainless Steel Appl, Quartz Counter, Backsplash"
+    },
+    {
+      "room": "Prim Bdrm",
+      "level": "Main",
+      "dimensions": "3.51 m x 2.87 m (11.52 ft x 9.42 ft)",
+      "notes": "Closet, Window, Laminate"
+    }
+  ],
+  "washrooms": [{ "count": 1, "pieces": 4, "level": "Main" }],
+  "includedInLease": ["Building Insurance", "Common Elements"],
+  "map": { "query": "20 Lagerfeld Dr, Brampton, ON" },
+  "contract": {
+    "brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC.",
+    "phone": "647-910-9999"
+  }
+},
+{
+  "id": "4090-living-arts-dr-714",
+  "title": "4090 Living Arts Dr 714, Mississauga",
+  "neighborhood": "Mississauga, City Centre, Peel, Ontario L5B 4M8",
+  "price": "For Lease $2,050 | 1 Year",
+  "status": "Available",
+  "mlsNum": "W12475234",
+  "homeStyle": "Condo Apt Apartment",
+  "propertyType": "Condo Apt",
+  "bedrooms": 1,
+  "bathrooms": 1,
+  "area": "500-599 Sqft",
+  "description": "Beautiful One Bedroom, One Bathroom Condo With Parking And Locker, In The Heart Of Mississauga! Amazing Quartz Countertops And Backsplash In Kitchen, Ideal Layout For Maximized Open Concept Living, Master Bed W Large Windows And W/I Closet, And A Fully Bricked Private Balcony Overlooking Celebration Square And Se Views! A Short Walk To Square One, Restaurants, Public Transit, Library. Luxury Amenities Include 24 Hour Concierge Service, Gym, Indoor Swimming Pool, Guest Suites, Outdoor BBQ And Party Room.",
+
+  "image": "assets/images/4090_Living_Arts_Dr/H1.jpg",
+  "images": [
+    "assets/images/4090_Living_Arts_Dr/H1.jpg",
+    "assets/images/4090_Living_Arts_Dr/H2.jpg",
+    "assets/images/4090_Living_Arts_Dr/H3.jpg",
+    "assets/images/4090_Living_Arts_Dr/H4.jpg",
+    "assets/images/4090_Living_Arts_Dr/H5.jpg",
+    "assets/images/4090_Living_Arts_Dr/H6.jpg",
+    "assets/images/4090_Living_Arts_Dr/H7.jpg",
+    "assets/images/4090_Living_Arts_Dr/H8.jpg",
+    "assets/images/4090_Living_Arts_Dr/H9.jpg"
+  ],
+
+  "quickFacts": {
+    "style": "Condo Apt Apartment",
+    "beds": 1,
+    "baths": 1,
+    "rooms": 4,
+    "parking": 1,
+    "sqft": "500-599 Sqft",
+    "dom": 79
+  },
+
+  "links": {
+    "directions": "https://maps.google.com/?q=4090+Living+Arts+Dr+Mississauga+ON",
+    "neighbourhoodGuide": "",
+    "addressGuide": ""
+  },
+
+  "listingInformation": {
+    "Portion For Lease": "Entire Property",
+    "Status": "Available",
+    "Condo Registry Office": "PSCC",
+    "Condo Corp#": "771",
+    "Possession Date": "01/13/2026",
+    "Payment Frequency": "",
+    "Property Mgmt Co": "Maple Ridge Community Management",
+    "Seller Property Info Statement": "N",
+    "Parking Level Unit1": "Level B"
+  },
+
+  "propertyInformation": {
+    "Level": "7",
+    "Square Feet": "500-599",
+    "Sqft Source": "Previous Listings",
+    "Exposure": "Se",
+    "Unit #": "14",
+    "Dir/Cross St": "Burnhamthorpe/Living Arts",
+    "Directions": "Burnhamthorpe/Living Arts",
+    "Parking Drive Spaces": "0",
+    "Total Parking Spaces": "1",
+    "Parking Type": "Owned",
+    "A/C": "Central Air",
+    "Balcony": "Open",
+    "Laundry Features": "In-Suite Laundry",
+    "Locker": "Owned",
+    "Locker #": "79",
+    "Locker Level": "Level 2",
+    "Area": "Peel",
+    "Municipality": "Mississauga",
+    "Community": "City Centre",
+    "Rooms": "4",
+    "Bedrooms": "1",
+    "Washrooms": "1",
+    "Kitchens": "1",
+    "Exterior": "Brick, Concrete",
+    "Garage Type": "Underground",
+    "Garage Parking": "1",
+    "Survey Type": "Unknown",
+    "Apt/Unit": "714",
+    "Basement": "None",
+    "Heating Source": "Gas",
+    "Heating Type": "Forced Air",
+    "Area Influences": "",
+    "Property Type": "Condo Apt",
+    "Style": "Apartment",
+    "Family Room": "N",
+    "Fireplace/Stv": "N",
+    "Central Vac": "N"
+  },
+
+  "features": ["Ensuite Laundry"],
+  "interiorFeatures": ["Carpet Free"],
+  "specialDesignations": ["Unknown"],
+  "waterfront": ["WaterfrontYN: N"],
+
+  "roomInfo": [
+    { "room": "Living", "level": "Flat", "dimensions": "7.86 m x 3.05 m (25.79 ft x 10.01 ft)", "notes": "Laminate, Combined W/Dining, W/O To Balcony" },
+    { "room": "Dining", "level": "Flat", "dimensions": "7.86 m x 3.05 m (25.79 ft x 10.01 ft)", "notes": "Laminate, Combined W/Living" },
+    { "room": "Kitchen", "level": "Flat", "dimensions": "3.05 m x 2.44 m (10.01 ft x 8.01 ft)", "notes": "Quartz Counter, Backsplash, Breakfast Bar" },
+    { "room": "Prim Bdrm", "level": "Flat", "dimensions": "3.66 m x 3.05 m (12.01 ft x 10.01 ft)", "notes": "Laminate, W/I Closet, Large Window" },
+    { "room": "Foyer", "level": "Flat", "dimensions": "1.22 m x 1.22 m (4 ft x 4 ft)", "notes": "Double Closet, Ceramic Floor" }
+  ],
+
+  "washrooms": [{ "count": 1, "pieces": 4, "level": "Flat" }],
+
+  "includedInLease": ["Building Insurance", "Common Elements", "Heat", "Parking", "Water"],
+
+  "map": { "query": "4090 Living Arts Dr, Mississauga, ON" },
+
+  "contract": {
+    "brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC.",
+    "phone": "647-910-9999"
+  }
+},
+{
+  "id": "1000-portage-pkwy-3015",
+  "title": "1000 Portage Pkwy 3015, Vaughan",
+  "neighborhood": "Vaughan, Vaughan Corporate Centre, York, Ontario L4K 0L1",
+  "price": "For Lease $2,100 | 1 Year",
+  "status": "Available",
+  "mlsNum": "N12448779",
+  "homeStyle": "Condo Apt Apartment",
+  "propertyType": "Condo Apt",
+  "bedrooms": 1,
+  "bathrooms": 1,
+  "area": "0-499 Sqft",
+  "description": "Welcome to Transit City 4 at 1000 Portage Parkway! Stunning 1-bedroom unit on the 30th floor with breathtaking views and floor-to-ceiling windows. Modern open-concept layout with built-in appliances and ensuite laundry. Just steps to Vaughan Metropolitan Centre subway station, TTC, YRT, and major highways. Surrounded by shopping, dining, YMCA, and more.",
+
+  "image": "assets/images/1000_Portage_Pkwy_3015/H1.jpg",
+  "images": [
+    "assets/images/1000_Portage_Pkwy_3015/H1.jpg",
+    "assets/images/1000_Portage_Pkwy_3015/H2.jpg",
+    "assets/images/1000_Portage_Pkwy_3015/H3.jpg",
+    "assets/images/1000_Portage_Pkwy_3015/H4.jpg",
+    "assets/images/1000_Portage_Pkwy_3015/H5.jpg",
+    "assets/images/1000_Portage_Pkwy_3015/H6.jpg",
+    "assets/images/1000_Portage_Pkwy_3015/H7.jpg",
+    "assets/images/1000_Portage_Pkwy_3015/H8.jpg",
+    "assets/images/1000_Portage_Pkwy_3015/H9.jpg",
+    "assets/images/1000_Portage_Pkwy_3015/H10.jpg",
+    "assets/images/1000_Portage_Pkwy_3015/H11.jpg"
+  ],
+
+  "quickFacts": {
+    "style": "Condo Apt Apartment",
+    "beds": 1,
+    "baths": 1,
+    "rooms": 2,
+    "parking": 0,
+    "sqft": "0-499 Sqft",
+    "dom": 94
+  },
+
+  "links": {
+    "directions": "https://maps.google.com/?q=1000+Portage+Pkwy+Vaughan+ON",
+    "neighbourhoodGuide": "",
+    "addressGuide": ""
+  },
+
+  "listingInformation": {
+    "Portion For Lease": "Entire Property",
+    "Status": "Available",
+    "Condo Registry Office": "YRSCC",
+    "Condo Corp#": "1504",
+    "Possession Remarks": "TBA",
+    "Payment Frequency": "Monthly",
+    "Property Mgmt Co": "Baytree Management",
+    "Seller Property Info Statement": "N"
+  },
+
+  "propertyInformation": {
+    "Level": "30",
+    "Square Feet": "0-499",
+    "Sqft Source": "as per seller",
+    "Exposure": "North",
+    "Unit #": "3015",
+    "Dir/Cross St": "Jane and Hwy 7",
+    "Directions": "Jane and Hwy 7",
+    "Parking Drive Spaces": "0",
+    "Total Parking Spaces": "0",
+    "Parking Type": "Rental",
+    "A/C": "Central Air",
+    "Balcony": "Open",
+    "Laundry Features": "Ensuite",
+    "Locker": "None",
+    "Area": "York",
+    "Municipality": "Vaughan",
+    "Community": "Vaughan Corporate Centre",
+    "Rooms": "2",
+    "Bedrooms": "1",
+    "Washrooms": "1",
+    "Kitchens": "1",
+    "Exterior": "Brick",
+    "Garage Type": "None",
+    "Garage Parking Spaces": "0",
+    "Survey Type": "None",
+    "Apt/Unit": "3015",
+    "Basement": "None",
+    "Heating Source": "Gas",
+    "Heating Type": "Forced Air",
+    "Area Influences": "",
+    "Property Type": "Condo Apt",
+    "Style": "Apartment",
+    "Family Room": "N",
+    "Fireplace/Stv": "Y",
+    "Central Vac": "N"
+  },
+
+  "features": [
+    "Ensuite Laundry",
+    "Fireplace/Stove",
+    "Partially Furnished",
+    "Pets Allowed with Restrictions",
+    "Private Entrance"
+  ],
+  "interiorFeatures": ["Other"],
+  "specialDesignations": ["Unknown"],
+  "waterfront": ["WaterfrontYN: N"],
+
+  "roomInfo": [],
+
+  "washrooms": [{ "count": 1, "pieces": 4, "level": "Main" }],
+
+  "includedInLease": ["Other"],
+
+  "map": { "query": "1000 Portage Pkwy, Vaughan, ON" },
+
+  "contract": {
+    "brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC.",
+    "phone": "647-910-9999"
+  }
+}
+,
+{
+  "id": "460-gordon-krantz-ave-204-milton",
+  "title": "460 Gordon Krantz Ave 204, Milton",
+  "neighborhood": "Milton, 1051 - Walker, Halton, Ontario L9E 1Z2",
+  "price": "For Lease $2,100 | 1 Year",
+  "status": "Available",
+  "mlsNum": "W12606534",
+  "homeStyle": "Condo Apt Apartment",
+  "propertyType": "Condo Apt",
+  "bedrooms": 1,
+  "bathrooms": 1,
+  "area": "500-599 Sqft",
+  "description": "Beautiful open-concept suite featuring a spacious living/dining area with walk-out to a private balcony. Upgraded kitchen with stainless steel appliances, quartz counters, and an extended island with breakfast bar. The primary bedroom offers a large mirrored closet, plus a versatile den ideal for an office. Includes a 4-pc bath, in-suite laundry, 1 parking, and 1 locker. Enjoy exceptional building amenities: 24-hour concierge, gym, party room, visitor parking, and a rooftop terrace. Smart Home Technology provides added convenience and security. Prime location across the future Laurier & Conestoga campuses, steps to the Milton Velodrome, and close to the upcoming Milton transit hub, GO Bus, and major transit routes.",
+  "image": "assets/images/460_Gordon_Krantz_Ave_204/H1.jpg",
+  "images": [
+    "assets/images/460_Gordon_Krantz_Ave_204/H1.jpg",
+    "assets/images/460_Gordon_Krantz_Ave_204/H2.jpg",
+    "assets/images/460_Gordon_Krantz_Ave_204/H3.jpg",
+    "assets/images/460_Gordon_Krantz_Ave_204/H4.jpg",
+    "assets/images/460_Gordon_Krantz_Ave_204/H5.jpg",
+    "assets/images/460_Gordon_Krantz_Ave_204/H6.jpg",
+    "assets/images/460_Gordon_Krantz_Ave_204/H7.jpg",
+    "assets/images/460_Gordon_Krantz_Ave_204/H8.jpg",
+    "assets/images/460_Gordon_Krantz_Ave_204/H9.jpg",
+    "assets/images/460_Gordon_Krantz_Ave_204/H10.jpg",
+    "assets/images/460_Gordon_Krantz_Ave_204/H11.jpg",
+    "assets/images/460_Gordon_Krantz_Ave_204/H12.jpg",
+    "assets/images/460_Gordon_Krantz_Ave_204/H13.jpg",
+    "assets/images/460_Gordon_Krantz_Ave_204/H14.jpg",
+    "assets/images/460_Gordon_Krantz_Ave_204/H15.jpg",
+    "assets/images/460_Gordon_Krantz_Ave_204/H16.jpg",
+    "assets/images/460_Gordon_Krantz_Ave_204/H17.jpg",
+    "assets/images/460_Gordon_Krantz_Ave_204/H18.jpg",
+    "assets/images/460_Gordon_Krantz_Ave_204/H19.jpg"
+  ],
+  "quickFacts": {
+    "style": "Apartment",
+    "beds": "1+1",
+    "baths": 1,
+    "rooms": 4,
+    "parking": 1,
+    "sqft": "500-599 Sqft",
+    "dom": 36
+  },
+  "links": {
+    "directions": "https://maps.google.com/?q=460+Gordon+Krantz+Ave+Milton+ON",
+    "neighbourhoodGuide": "",
+    "addressGuide": ""
+  },
+  "listingInformation": {
+    "PIN#": "260720276",
+    "Portion For Lease": "Main",
+    "Status": "Available",
+    "Condo Registry Office": "HSCC",
+    "Condo Corp#": "770",
+    "Possession Remarks": "TBD",
+    "Property Mgmt Co": "Maple Ridge Community Management",
+    "Seller Property Info Statement": "N",
+    "Parking Level Unit1": "B1",
+    "Payment Frequency": "Monthly"
+  },
+  "propertyInformation": {
+    "Approx Age": "0-5",
+    "Level": "5",
+    "Square Feet": "500-599",
+    "Sqft Source": "As per seller",
+    "Exposure": "South",
+    "Unit #": "12",
+    "Dir/Cross St": "Britannia Rd/Tremaine Rd/Louis St.",
+    "Directions": "Britannia Rd/Tremaine Rd/Louis St.",
+    "Drive": "Underground",
+    "Parking/Drive": "Undergrnd",
+    "Parking Drive Spaces": "0",
+    "Total Parking Spaces": "1",
+    "Parking Type": "Owned",
+    "A/C": "Central Air",
+    "Balcony": "Encl",
+    "Laundry Features": "In-Suite Laundry",
+    "Locker": "Owned",
+    "Locker #": "A",
+    "Locker Unit#": "329",
+    "Area": "Halton",
+    "Municipality": "Milton",
+    "Community": "1051 - Walker",
+    "Rooms": "4",
+    "Bedrooms": "1+1",
+    "Washrooms": "1",
+    "Kitchens": "1",
+    "Exterior": "Brick",
+    "Garage Type": "Underground",
+    "Garage Parking Spaces": "1",
+    "Survey Type": "None",
+    "Apt/Unit": "204",
+    "Basement": "None",
+    "Heating Source": "Gas",
+    "Heating Type": "Forced Air",
+    "Area Influences": "",
+    "Property Type": "Condo Apt",
+    "Style": "Apartment",
+    "Family Room": "N",
+    "Fireplace/Stv": "N",
+    "Central Vac": "N"
+  },
+  "features": [
+    "Ensuite Laundry",
+    "Pets Allowed with Restrictions",
+    "Private Entrance",
+    "Concierge",
+    "Exercise Room",
+    "Party/Meeting Room",
+    "Rooftop Deck/Garden",
+    "Visitor Parking"
+  ],
+  "interiorFeatures": ["Other"],
+  "specialDesignations": ["Unknown"],
+  "waterfront": ["WaterfrontYN: N"],
+  "roomInfo": [
+    { "room": "Prim Bdrm", "level": "Main", "dimensions": "2.54 m x 2.13 m (8.33 ft x 6.99 ft)", "notes": "" },
+    { "room": "Den", "level": "Main", "dimensions": "3.96 m x 3.23 m (12.99 ft x 10.6 ft)", "notes": "" },
+    { "room": "Kitchen", "level": "Main", "dimensions": "3.1 m x 2.95 m (10.17 ft x 9.68 ft)", "notes": "" },
+    { "room": "Living", "level": "Main", "dimensions": "4.24 m x 3.21 m (13.91 ft x 10.53 ft)", "notes": "" }
+  ],
+  "washrooms": [{ "count": 1, "pieces": 4, "level": "Main" }],
+  "includedInLease": ["Building Insurance"],
+  "map": { "query": "460 Gordon Krantz Ave, Milton, ON" },
+  "contract": {
+    "brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC.",
+    "phone": "647-910-9999"
+  }
+},
+{
+"id": "1007-the-queensway-712-toronto",
+"title": "1007 The Queensway 712, Toronto",
+"neighborhood": "Toronto W08, Islington-City Centre West, Toronto, Ontario M8Z 6C7",
+"price": "For Lease $2,150 | 1 Year",
+"status": "Available",
+"mlsNum": "W12617320",
+"homeStyle": "Condo Apt Apartment",
+"propertyType": "Condo Apt",
+"bedrooms": 1,
+"bathrooms": 1,
+"area": "500-599 Sqft",
+"description": "Brand New 1+Den Condo for Rent Verge Condos, Etobicoke (Lake & Skyline Views)! Be the first to live here! Enjoy breathtaking Lake Ontario views and Toronto skyline views from this stunning 1 Bedroom Den, 1 Bath condo with parking included! Unit Highlights: East-facing with floor-to-ceiling windows & private terrace, modern kitchen with quartz counters & built-in appliances, den ideal for home office, stylish bathroom with upgraded finishes, smart thermostat & keyless entry, 1 parking spot included. Building Amenities: 24/7 Concierge & luxury double-height lobby, state-of-the-art gym & yoga studio, co-working lounge & content creation rooms, rooftop terraces with BBQs & lounge seating, party room, kids' play zone & more. Location: Steps to TTC, minutes to Sherway Gardens, Costco, Humber College. Quick access to Gardiner & Hwy 427. Close to waterfront parks and trails.",
+
+"image": "assets/images/1007_The_Queensway_712/H1.jpg",
+"images": [
+"assets/images/1007_The_Queensway_712/H1.jpg",
+"assets/images/1007_The_Queensway_712/H2.jpg",
+"assets/images/1007_The_Queensway_712/H3.jpg",
+"assets/images/1007_The_Queensway_712/H4.jpg",
+"assets/images/1007_The_Queensway_712/H5.jpg",
+"assets/images/1007_The_Queensway_712/H6.jpg",
+"assets/images/1007_The_Queensway_712/H7.jpg",
+"assets/images/1007_The_Queensway_712/H8.jpg",
+"assets/images/1007_The_Queensway_712/H9.jpg",
+"assets/images/1007_The_Queensway_712/H10.jpg",
+"assets/images/1007_The_Queensway_712/H11.jpg",
+"assets/images/1007_The_Queensway_712/H12.jpg",
+"assets/images/1007_The_Queensway_712/H13.jpg",
+"assets/images/1007_The_Queensway_712/H14.jpg"
+],
+
+"quickFacts": {
+"style": "Apartment",
+"beds": 1,
+"baths": 1,
+"rooms": 5,
+"parking": 1,
+"sqft": "500-599 Sqft",
+"dom": 30
+},
+
+"links": {
+"directions": "https://maps.google.com/?q=1007+The+Queensway+Toronto+ON",
+"neighbourhoodGuide": "",
+"addressGuide": ""
+},
+
+"listingInformation": {
+"Portion For Lease": "Entire Property",
+"Status": "Available",
+"Possession Date": "",
+"Payment Frequency": "Monthly",
+"Seller Property Info Statement": "N"
+},
+
+"propertyInformation": {
+"Fronting On": "",
+"Lot Size": "",
+"Square Feet": "500-599",
+"Dir/Cross St": "The Queensway/Islington Ave",
+"Directions": "The Queensway/Islington Ave",
+"Drive": "Private",
+"Parking/Drive": "Private",
+"Parking Drive Spaces": "0",
+"Total Parking Spaces": "1",
+"Pool": "",
+"A/C": "Central Air",
+"Lot Irregularities": "",
+"Laundry Features": "In-Suite Laundry",
+"Area": "Toronto",
+"Municipality": "Toronto W08",
+"Community": "Islington-City Centre West",
+"Rooms": "5",
+"Bedrooms": "1+1",
+"Washrooms": "1",
+"Kitchens": "1",
+"Exterior": "Concrete",
+"Roof": "",
+"Foundation": "",
+"Garage Type": "Underground",
+"Garage Parking Spaces": "1",
+"Survey Type": "None",
+"Apt/Unit": "712",
+"Basement": "None",
+"Heating Source": "Gas",
+"Heating Type": "Forced Air",
+"Water": "",
+"Sewers": "",
+"Area Influences": "",
+"Property Type": "Condo Apt",
+"Link": "",
+"Style": "Apartment",
+"Family Room": "N",
+"Fireplace/Stv": "N",
+"Central Vac": "N"
+},
+
+"features": ["Arts Centre", "Ensuite Laundry", "Golf", "Private Entrance", "Public Transit", "School"],
+"interiorFeatures": ["Built-In Oven", "Carpet Free", "Storage Area Lockers"],
+"specialDesignations": ["Unknown"],
+"waterfront": ["WaterfrontYN: N"],
+
+"roomInfo": [],
+
+"washrooms": [{ "count": 1, "pieces": 3, "level": "Flat" }],
+
+"includedInLease": ["None"],
+
+"map": { "query": "1007 The Queensway, Toronto, ON" },
+
+"contract": {
+"brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC.",
+"phone": "647-910-9999"
+}
+},
+{
+  "id": "6300-corwin-cres-niagara-falls",
+  "title": "6300 CORWIN Cres., Niagara Falls",
+  "neighborhood": "Niagara Falls, 216 - Dorchester, Niagara, Ontario L2G 2M1",
+  "price": "For Lease $2,195 | 1 Year",
+  "status": "Available",
+  "mlsNum": "X12644950",
+  "homeStyle": "Detached Bungalow",
+  "propertyType": "Detached",
+  "bedrooms": 3,
+  "bathrooms": 1,
+  "area": "700-1100 Sqft",
+  "description": "Freshly painted 3-bedroom bungalow with modern potlights and a bright, welcoming layout. Enjoy plenty of storage space and a huge backyard perfect for entertaining or relaxing. Located close to the tourist district, walking distance to Lundy's Lane, shops, and public transportation. Tenant is responsible for all utilities, grass cutting, and snow cleaning. Come take a look—you won't be disappointed!",
+
+  "image": "assets/images/6300_CORWIN_Cres/H1.jpg",
+  "images": [
+    "assets/images/6300_CORWIN_Cres/H1.jpg",
+    "assets/images/6300_CORWIN_Cres/H2.jpg",
+    "assets/images/6300_CORWIN_Cres/H3.jpg",
+    "assets/images/6300_CORWIN_Cres/H4.jpg",
+    "assets/images/6300_CORWIN_Cres/H5.jpg",
+    "assets/images/6300_CORWIN_Cres/H6.jpg",
+    "assets/images/6300_CORWIN_Cres/H7.jpg",
+    "assets/images/6300_CORWIN_Cres/H8.jpg",
+    "assets/images/6300_CORWIN_Cres/H9.jpg",
+    "assets/images/6300_CORWIN_Cres/H10.jpg",
+    "assets/images/6300_CORWIN_Cres/H11.jpg"
+  ],
+
+  "quickFacts": {
+    "style": "Bungalow",
+    "beds": 3,
+    "baths": 1,
+    "rooms": "6+2",
+    "parking": 2,
+    "sqft": "700-1100 Sqft",
+    "dom": 21
+  },
+
+  "links": {
+    "directions": "https://maps.google.com/?q=6300+Corwin+Cres+Niagara+Falls+ON",
+    "neighbourhoodGuide": "",
+    "addressGuide": ""
+  },
+
+  "listingInformation": {
+    "Portion For Lease": "Entire Property",
+    "Status": "Available",
+    "Possession Date": "12/22/2025",
+    "Payment Frequency": "",
+    "Seller Property Info Statement": "N"
+  },
+
+  "propertyInformation": {
+    "PIN#": "643570229",
+    "Fronting On": "North",
+    "Lot Size": "50 x 132.93 Feet",
+    "Acreage": "< .50",
+    "Square Feet": "700-1100",
+    "Dir/Cross St": "DRUMMOND/CORWIN",
+    "Directions": "DRUMMOND/CORWIN",
+    "Drive": "Private, Other",
+    "Parking/Drive": "Private",
+    "Parking Drive Spaces": "1",
+    "Total Parking Spaces": "2",
+    "Pool": "None",
+    "A/C": "Central Air",
+    "Laundry Features": "In Basement",
+    "Area": "Niagara",
+    "Municipality": "Niagara Falls",
+    "Community": "216 - Dorchester",
+    "Rooms": "6+2",
+    "Bedrooms": "3",
+    "Washrooms": "1",
+    "Kitchens": "1",
+    "Exterior": "Vinyl Siding",
+    "Roof": "Asphalt Shingle",
+    "Foundation": "Concrete Block",
+    "Garage Type": "Detached",
+    "Garage Parking Spaces": "1",
+    "Survey Type": "None",
+    "Apt/Unit": "",
+    "Basement": "Finished / Full",
+    "Heating Source": "Gas",
+    "Heating Type": "Forced Air",
+    "Water": "Municipal",
+    "Sewers": "Sewers",
+    "Area Influences": "",
+    "Property Type": "Detached",
+    "Link": "N",
+    "Style": "Bungalow",
+    "Family Room": "N",
+    "Fireplace/Stv": "Y",
+    "Central Vac": "N",
+    "Approx Age": "51-99"
+  },
+
+  "features": ["Fenced Yard", "Fireplace/Stove", "Private Entrance"],
+  "interiorFeatures": ["Other"],
+  "specialDesignations": ["Unknown"],
+  "waterfront": ["WaterfrontYN: N", "Waterfront: None"],
+
+  "roomInfo": [
+    { "room": "Living", "level": "Main", "dimensions": "5.79 m x 3.55 m (19 ft x 11.65 ft)", "notes": "" },
+    { "room": "Kitchen", "level": "Main", "dimensions": "4.44 m x 2.43 m (14.57 ft x 7.97 ft)", "notes": "" },
+    { "room": "Prim Bdrm", "level": "Main", "dimensions": "3.5 m x 3.35 m (11.48 ft x 10.99 ft)", "notes": "" },
+    { "room": "Br", "level": "Main", "dimensions": "3.42 m x 3.35 m (11.22 ft x 10.99 ft)", "notes": "" },
+    { "room": "Br", "level": "Main", "dimensions": "3.4 m x 2.87 m (11.15 ft x 9.42 ft)", "notes": "" },
+    { "room": "Bathroom", "level": "Main", "dimensions": "—", "notes": "" },
+    { "room": "Family", "level": "Bsmt", "dimensions": "7.92 m x 5.79 m (25.98 ft x 19 ft)", "notes": "" },
+    { "room": "Laundry", "level": "Bsmt", "dimensions": "4.72 m x 2.31 m (15.49 ft x 7.58 ft)", "notes": "" }
+  ],
+
+  "washrooms": [{ "count": 1, "pieces": 3, "level": "Main" }],
+
+  "includedInLease": ["Other"],
+
+  "map": { "query": "6300 Corwin Cres, Niagara Falls, ON" },
+
+  "contract": {
+    "brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC.",
+    "phone": "647-910-9999"
+  }
+},
+{
+  "id": "6300-corwin-cres-niagara-falls",
+  "title": "6300 CORWIN Cres., Niagara Falls",
+  "neighborhood": "Niagara Falls, 216 - Dorchester, Niagara, Ontario L2G 2M1",
+  "price": "For Lease $2,195 | 1 Year",
+  "status": "Available",
+  "mlsNum": "X12644950",
+  "homeStyle": "Detached Bungalow",
+  "propertyType": "Detached",
+  "bedrooms": 3,
+  "bathrooms": 1,
+  "area": "700-1100 Sqft",
+  "description": "Freshly painted 3-bedroom bungalow with modern potlights and a bright, welcoming layout. Enjoy plenty of storage space and a huge backyard perfect for entertaining or relaxing. Located close to the tourist district, walking distance to Lundy's Lane, shops, and public transportation. Tenant is responsible for all utilities, grass cutting, and snow cleaning. Come take a look—you won't be disappointed!",
+
+  "image": "assets/images/6300_CORWIN_Cres/H1.jpg",
+  "images": [
+    "assets/images/6300_CORWIN_Cres/H1.jpg",
+    "assets/images/6300_CORWIN_Cres/H2.jpg",
+    "assets/images/6300_CORWIN_Cres/H3.jpg",
+    "assets/images/6300_CORWIN_Cres/H4.jpg",
+    "assets/images/6300_CORWIN_Cres/H5.jpg",
+    "assets/images/6300_CORWIN_Cres/H6.jpg",
+    "assets/images/6300_CORWIN_Cres/H7.jpg",
+    "assets/images/6300_CORWIN_Cres/H8.jpg",
+    "assets/images/6300_CORWIN_Cres/H9.jpg",
+    "assets/images/6300_CORWIN_Cres/H10.jpg",
+    "assets/images/6300_CORWIN_Cres/H11.jpg"
+  ],
+
+  "quickFacts": {
+    "style": "Bungalow",
+    "beds": 3,
+    "baths": 1,
+    "rooms": "6+2",
+    "parking": 2,
+    "sqft": "700-1100 Sqft",
+    "dom": 21
+  },
+
+  "links": {
+    "directions": "https://maps.google.com/?q=6300+Corwin+Cres+Niagara+Falls+ON",
+    "neighbourhoodGuide": "",
+    "addressGuide": ""
+  },
+
+  "listingInformation": {
+    "Portion For Lease": "Entire Property",
+    "Status": "Available",
+    "Possession Date": "12/22/2025",
+    "Payment Frequency": "",
+    "Seller Property Info Statement": "N"
+  },
+
+  "propertyInformation": {
+    "PIN#": "643570229",
+    "Fronting On": "North",
+    "Lot Size": "50 x 132.93 Feet",
+    "Acreage": "< .50",
+    "Square Feet": "700-1100",
+    "Dir/Cross St": "DRUMMOND/CORWIN",
+    "Directions": "DRUMMOND/CORWIN",
+    "Drive": "Private, Other",
+    "Parking/Drive": "Private",
+    "Parking Drive Spaces": "1",
+    "Total Parking Spaces": "2",
+    "Pool": "None",
+    "A/C": "Central Air",
+    "Laundry Features": "In Basement",
+    "Area": "Niagara",
+    "Municipality": "Niagara Falls",
+    "Community": "216 - Dorchester",
+    "Rooms": "6+2",
+    "Bedrooms": "3",
+    "Washrooms": "1",
+    "Kitchens": "1",
+    "Exterior": "Vinyl Siding",
+    "Roof": "Asphalt Shingle",
+    "Foundation": "Concrete Block",
+    "Garage Type": "Detached",
+    "Garage Parking Spaces": "1",
+    "Survey Type": "None",
+    "Apt/Unit": "",
+    "Basement": "Finished / Full",
+    "Heating Source": "Gas",
+    "Heating Type": "Forced Air",
+    "Water": "Municipal",
+    "Sewers": "Sewers",
+    "Area Influences": "",
+    "Property Type": "Detached",
+    "Link": "N",
+    "Style": "Bungalow",
+    "Family Room": "N",
+    "Fireplace/Stv": "Y",
+    "Central Vac": "N",
+    "Approx Age": "51-99"
+  },
+
+  "features": ["Fenced Yard", "Fireplace/Stove", "Private Entrance"],
+  "interiorFeatures": ["Other"],
+  "specialDesignations": ["Unknown"],
+  "waterfront": ["WaterfrontYN: N", "Waterfront: None"],
+
+  "roomInfo": [
+    { "room": "Living", "level": "Main", "dimensions": "5.79 m x 3.55 m (19 ft x 11.65 ft)", "notes": "" },
+    { "room": "Kitchen", "level": "Main", "dimensions": "4.44 m x 2.43 m (14.57 ft x 7.97 ft)", "notes": "" },
+    { "room": "Prim Bdrm", "level": "Main", "dimensions": "3.5 m x 3.35 m (11.48 ft x 10.99 ft)", "notes": "" },
+    { "room": "Br", "level": "Main", "dimensions": "3.42 m x 3.35 m (11.22 ft x 10.99 ft)", "notes": "" },
+    { "room": "Br", "level": "Main", "dimensions": "3.4 m x 2.87 m (11.15 ft x 9.42 ft)", "notes": "" },
+    { "room": "Bathroom", "level": "Main", "dimensions": "—", "notes": "" },
+    { "room": "Family", "level": "Bsmt", "dimensions": "7.92 m x 5.79 m (25.98 ft x 19 ft)", "notes": "" },
+    { "room": "Laundry", "level": "Bsmt", "dimensions": "4.72 m x 2.31 m (15.49 ft x 7.58 ft)", "notes": "" }
+  ],
+
+  "washrooms": [{ "count": 1, "pieces": 3, "level": "Main" }],
+
+  "includedInLease": ["Other"],
+
+  "map": { "query": "6300 Corwin Cres, Niagara Falls, ON" },
+
+  "contract": {
+    "brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC.",
+    "phone": "647-910-9999"
+  }
+},
+{
+  "id": "4090-living-arts-dr-714-mississauga",
+  "title": "4090 Living Arts Dr 714, Mississauga",
+  "neighborhood": "Mississauga, City Centre, Peel, Ontario L5B 4M8",
+  "price": "For Lease $2,050 | 1 Year",
+  "status": "Available",
+  "mlsNum": "W12475234",
+  "homeStyle": "Condo Apt Apartment",
+  "propertyType": "Condo Apt",
+  "bedrooms": 1,
+  "bathrooms": 1,
+  "area": "500-599 Sqft",
+  "description": "Beautiful One Bedroom, One Bathroom Condo With Parking And Locker, In The Heart Of Mississauga! Amazing Quartz Countertops And Backsplash In Kitchen, Ideal Layout For Maximized Open Concept Living, Master Bed W Large Windows And W/I Closet, And A Fully Bricked Private Balcony Overlooking Celebration Square And Se Views! A Short Walk To Square One, Restaurants, Public Transit, Library. Luxury Amenities Include 24 Hour Concierge Service, Gym, Indoor Swimming Pool, Guest Suites, Outdoor BBQ And Party Room.",
+
+  "image": "assets/images/4090_Living_Arts_Dr_714/H1.jpg",
+  "images": [
+    "assets/images/4090_Living_Arts_Dr_714/H1.jpg",
+    "assets/images/4090_Living_Arts_Dr_714/H2.jpg",
+    "assets/images/4090_Living_Arts_Dr_714/H3.jpg",
+    "assets/images/4090_Living_Arts_Dr_714/H4.jpg",
+    "assets/images/4090_Living_Arts_Dr_714/H5.jpg",
+    "assets/images/4090_Living_Arts_Dr_714/H6.jpg",
+    "assets/images/4090_Living_Arts_Dr_714/H7.jpg",
+    "assets/images/4090_Living_Arts_Dr_714/H8.jpg",
+    "assets/images/4090_Living_Arts_Dr_714/H9.jpg"
+  ],
+
+  "quickFacts": {
+    "style": "Apartment",
+    "beds": 1,
+    "baths": 1,
+    "rooms": "4",
+    "parking": 1,
+    "sqft": "500-599 Sqft",
+    "dom": 79
+  },
+
+  "links": {
+    "directions": "https://maps.google.com/?q=4090+Living+Arts+Dr+714+Mississauga+ON+L5B+4M8",
+    "neighbourhoodGuide": "",
+    "addressGuide": ""
+  },
+
+  "listingInformation": {
+    "Portion For Lease": "Entire Property",
+    "Status": "Available",
+    "Possession Date": "01/13/2026",
+    "Payment Frequency": "",
+    "Seller Property Info Statement": "N"
+  },
+
+  "propertyInformation": {
+    "PIN#": "",
+    "Fronting On": "",
+    "Lot Size": "",
+    "Acreage": "",
+    "Square Feet": "500-599",
+    "Dir/Cross St": "Burnhamthorpe/Living Arts",
+    "Directions": "Burnhamthorpe/Living Arts",
+    "Drive": "",
+    "Parking/Drive": "",
+    "Parking Drive Spaces": "0",
+    "Total Parking Spaces": "1",
+    "Pool": "",
+    "A/C": "Central Air",
+    "Laundry Features": "In-Suite Laundry",
+    "Area": "Peel",
+    "Municipality": "Mississauga",
+    "Community": "City Centre",
+    "Rooms": "4",
+    "Bedrooms": "1",
+    "Washrooms": "1",
+    "Kitchens": "1",
+    "Exterior": "Brick, Concrete",
+    "Roof": "",
+    "Foundation": "",
+    "Garage Type": "Underground",
+    "Garage Parking Spaces": "1",
+    "Survey Type": "Unknown",
+    "Apt/Unit": "714",
+    "Basement": "None",
+    "Heating Source": "Gas",
+    "Heating Type": "Forced Air",
+    "Water": "",
+    "Sewers": "",
+    "Area Influences": "",
+    "Property Type": "Condo Apt",
+    "Link": "",
+    "Style": "Apartment",
+    "Family Room": "N",
+    "Fireplace/Stv": "N",
+    "Central Vac": "N",
+    "Approx Age": "",
+    "Level": "7",
+    "Exposure": "SE",
+    "Balcony": "Open",
+    "Parking Type": "Owned",
+    "Locker": "Owned",
+    "Locker #": "79",
+    "Locker Level": "Level 2",
+    "Condo Registry Office": "PSCC",
+    "Condo Corp#": "771",
+    "Property Mgmt Co": "Maple Ridge Community Management",
+    "Parking Level Unit1": "Level B"
+  },
+
+  "features": ["Ensuite Laundry"],
+  "interiorFeatures": ["Carpet Free"],
+  "specialDesignations": ["Unknown"],
+  "waterfront": ["WaterfrontYN: N"],
+
+  "roomInfo": [
+    {
+      "room": "Living",
+      "level": "Flat",
+      "dimensions": "7.86 m x 3.05 m (25.79 ft x 10.01 ft)",
+      "notes": "Laminate, Combined W/Dining, W/O To Balcony"
+    },
+    {
+      "room": "Dining",
+      "level": "Flat",
+      "dimensions": "7.86 m x 3.05 m (25.79 ft x 10.01 ft)",
+      "notes": "Laminate, Combined W/Living"
+    },
+    {
+      "room": "Kitchen",
+      "level": "Flat",
+      "dimensions": "3.05 m x 2.44 m (10.01 ft x 8.01 ft)",
+      "notes": "Quartz Counter, Backsplash, Breakfast Bar"
+    },
+    {
+      "room": "Prim Bdrm",
+      "level": "Flat",
+      "dimensions": "3.66 m x 3.05 m (12.01 ft x 10.01 ft)",
+      "notes": "Laminate, W/I Closet, Large Window"
+    },
+    {
+      "room": "Foyer",
+      "level": "Flat",
+      "dimensions": "1.22 m x 1.22 m (4 ft x 4 ft)",
+      "notes": "Double Closet, Ceramic Floor"
+    }
+  ],
+
+  "washrooms": [{ "count": 1, "pieces": 4, "level": "Flat" }],
+
+  "includedInLease": ["Building Insurance", "Common Elements", "Heat", "Parking", "Water"],
+
+  "map": { "query": "4090 Living Arts Dr, Mississauga, ON L5B 4M8" },
+
+  "contract": {
+    "brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC.",
+    "phone": "647-910-9999"
+  }
+}
+
 
 ]
