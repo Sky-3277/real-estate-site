@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Properties</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-black">
+  <header class="border-b">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+      <a href="index.html" class="font-bold text-xl">Chetan Chhabra</a>
+      <nav class="text-sm space-x-4">
+        <a href="index.html#about" class="hover:underline">About</a>
+        <a href="index.html#listings" class="hover:underline">Listings</a>
+        <a href="index.html#contact" class="hover:underline">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-4 py-10">
+    <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-4">
+      <div>
+        <h1 id="pageTitle" class="text-3xl font-bold">Properties</h1>
+        <p id="pageSubtitle" class="text-gray-600 mt-1">Loading…</p>
+      </div>
+
+      <div class="flex gap-2">
+        <a id="filterAll" href="properties.html?type=all" class="px-4 py-2 rounded border hover:bg-gray-50">All</a>
+        <a id="filterSale" href="properties.html?type=sale" class="px-4 py-2 rounded border hover:bg-gray-50">For Sale</a>
+        <a id="filterRent" href="properties.html?type=rent" class="px-4 py-2 rounded border hover:bg-gray-50">For Rent</a>
+      </div>
+    </div>
+
+    <div id="errorBox" class="hidden mt-6 p-4 rounded border border-red-200 bg-red-50 text-red-800"></div>
+
+    <div id="grid" class="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+  </main>
+
+  <script src="properties.js"></script>
+</body>
+</html>

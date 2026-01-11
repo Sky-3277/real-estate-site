@@ -1,5 +1,6 @@
 [
   {
+  "saleOrLease": "Lease",
   "id": "438-royal-west-dr",
   "title": "438 Royal West Dr, Brampton",
   "neighborhood": "Brampton, Credit Valley, Peel, Ontario L6X 5K1",
@@ -223,6 +224,7 @@
 }
 ,
   {
+  "saleOrLease": "lease",  
   "id": "19-terryellen-cres",
   "title": "19 Terryellen Cres, Toronto",
   "neighborhood": "Toronto W08, Markland Wood, Toronto, Ontario M9C 1H6",
@@ -454,6 +456,7 @@
 
 ,
   {
+  "saleOrLease": "lease",  
   "id": "9-hager-creek-terr-basement",
   "title": "9 Hager Creek Terr Basement, Hamilton",
   "neighborhood": "Hamilton, Waterdown, Hamilton, Ontario L8B 1Z3",
@@ -601,6 +604,7 @@
   }
 },
 {
+    "saleOrLease": "lease",
     "id": "17-zorra-st-2005",
     "title": "17 Zorra St 2005, Toronto",
     "neighborhood": "Toronto W08, Islington-City Centre West, Toronto, Ontario M8Z 4Z6",
@@ -719,6 +723,7 @@
     }
   },
   {
+  "saleOrLease": "lease",  
   "id": "45-cookview-dr-lower-unit",
   "title": "45 Cookview Dr Lower Unit, Brampton",
   "neighborhood": "Brampton, Sandringham-Wellington, Peel, Ontario L6R 3T7",
@@ -844,6 +849,7 @@
   }
 },
 {
+  "saleOrLease": "lease",
   "id": "9195-creditview-rd-bsmt",
   "title": "9195 Creditview Rd bsmt, Brampton",
   "neighborhood": "Brampton, Credit Valley, Peel, Ontario L6X 0W8",
@@ -951,6 +957,7 @@
   }
 },
 {
+  "saleOrLease": "lease",
   "id": "20-lagerfeld-dr-06",
   "title": "20 Lagerfeld Dr 06, Brampton",
   "neighborhood": "Brampton, Northwest Brampton, Peel, Ontario L7A 5L5",
@@ -1094,6 +1101,7 @@
   }
 },
 {
+  "saleOrLease": "lease",
   "id": "4090-living-arts-dr-714",
   "title": "4090 Living Arts Dr 714, Mississauga",
   "neighborhood": "Mississauga, City Centre, Peel, Ontario L5B 4M8",
@@ -1213,6 +1221,7 @@
   }
 },
 {
+  "saleOrLease": "lease",
   "id": "1000-portage-pkwy-3015",
   "title": "1000 Portage Pkwy 3015, Vaughan",
   "neighborhood": "Vaughan, Vaughan Corporate Centre, York, Ontario L4K 0L1",
@@ -1332,6 +1341,7 @@
 }
 ,
 {
+  "saleOrLease": "lease",
   "id": "460-gordon-krantz-ave-204-milton",
   "title": "460 Gordon Krantz Ave 204, Milton",
   "neighborhood": "Milton, 1051 - Walker, Halton, Ontario L9E 1Z2",
@@ -1462,6 +1472,7 @@
   }
 },
 {
+"saleOrLease": "lease",
 "id": "1007-the-queensway-712-toronto",
 "title": "1007 The Queensway 712, Toronto",
 "neighborhood": "Toronto W08, Islington-City Centre West, Toronto, Ontario M8Z 6C7",
@@ -1578,6 +1589,7 @@
 }
 },
 {
+  "saleOrLease": "lease",
   "id": "6300-corwin-cres-niagara-falls",
   "title": "6300 CORWIN Cres., Niagara Falls",
   "neighborhood": "Niagara Falls, 216 - Dorchester, Niagara, Ontario L2G 2M1",
@@ -1702,6 +1714,7 @@
   }
 },
 {
+  "saleOrLease": "lease",
   "id": "6300-corwin-cres-niagara-falls",
   "title": "6300 CORWIN Cres., Niagara Falls",
   "neighborhood": "Niagara Falls, 216 - Dorchester, Niagara, Ontario L2G 2M1",
@@ -1826,6 +1839,7 @@
   }
 },
 {
+  "saleOrLease": "lease",
   "id": "19-hall-cres-bsmt-brampton",
   "title": "19 Hall Cres BSMT, Brampton",
   "neighborhood": "Brampton, Northwood Park, Peel, Ontario L6X 3J8",
@@ -1981,6 +1995,7 @@
   }
 },
 {
+  "saleOrLease": "lease",
   "id": "370-fisher-mills-rd-c60-cambridge",
   "title": "370 Fisher Mills Rd C60, Cambridge",
   "neighborhood": "Cambridge, Waterloo, Ontario N3C 0G8",
@@ -2165,6 +2180,7 @@
   }
 },
 {
+  "saleOrLease": "lease",
   "id": "108-peter-st-2509-toronto",
   "title": "108 Peter St 2509, Toronto",
   "neighborhood": "Toronto C01, Waterfront Communities C1, Toronto, Ontario M5V 0W2",
@@ -2321,6 +2337,7 @@
   }
 },
 {
+  "saleOrLease": "lease",
   "id": "330-burnhamthorpe-rd-w-2401-mississauga",
   "title": "330 Burnhamthorpe Rd W 2401, Mississauga",
   "neighborhood": "Mississauga, City Centre, Peel, Ontario L5B 0E1",
@@ -2475,6 +2492,7 @@
   }
 },
 {
+"saleOrLease": "lease",  
 "id": "3200-osbourne-rd-basement-mississauga",
 "title": "3200 Osbourne Rd Basement, Mississauga",
 "neighborhood": "Mississauga, Erin Mills, Peel, Ontario L5L 4A2",
@@ -2625,6 +2643,7 @@
 }
 },
 {
+"saleOrLease": "lease",  
 "id": "708-woolwich-st-124-guelph",
 "title": "708 Woolwich St 124, Guelph",
 "neighborhood": "Guelph, Riverside Park, Wellington, Ontario N1H 7G6",
@@ -2837,6 +2856,7 @@
 }
 },
 {
+"saleOrLease": "lease", 
 "id": "708-woolwich-st-w-101-guelph",
 "title": "708 Woolwich St W 101, Guelph",
 "neighborhood": "Guelph, Riverside Park, Wellington, Ontario N1H 0C8",
@@ -2992,6 +3012,7 @@
 }
 },
 {
+"saleOrLease": "lease",  
 "id": "3-butcher-cres-brantford",
 "title": "3 Butcher Cres, Brantford",
 "neighborhood": "Brantford, Brantford, Ontario N3T 0P3",
@@ -3167,6 +3188,7 @@
 "contract": "CENTURY 21 PROPERTY ZONE REALTY INC. | 647-910-9999"
 },
 {
+"saleOrLease": "lease",  
 "id": "708-woolwich-st-220-guelph",
 "title": "708 Woolwich St 220, Guelph",
 "neighborhood": "Guelph, Riverside Park, Wellington, Ontario N1H 7G6",
@@ -3358,6 +3380,7 @@
 }
 },
 {
+"saleOrLease": "lease",  
 "id": "5-evergreen-terr-barrie",
 "title": "5 Evergreen Terr, Barrie",
 "neighborhood": "Barrie, Painswick South, Simcoe, Ontario L9J 0M6",
@@ -3480,6 +3503,7 @@
 }
 },
 {
+"saleOrLease": "lease",  
 "id": "96-centre-st-n-brampton",
 "title": "96 Centre St N, Brampton",
 "neighborhood": "Brampton, Brampton North, Peel, Ontario L6V 2Z3",
@@ -3658,6 +3682,7 @@
 "contract": "CENTURY 21 PROPERTY ZONE REALTY INC. | 647-910-9999"
 },
 {
+"saleOrLease": "lease",  
 "id": "16-harrison-garden-blvd-uph01-toronto",
 "title": "16 Harrison Garden Blvd UPH01, Toronto",
 "neighborhood": "Toronto C14, Willowdale East, Toronto, Ontario M2N 7J6",
@@ -3806,6 +3831,7 @@
 "contract": "CENTURY 21 PROPERTY ZONE REALTY INC. 647-910-9999"
 },
 {
+"saleOrLease": "lease", 
 "id": "2686-ambercroft-tr-basement-level-mississauga",
 "title": "2686 Ambercroft Tr Basement Level, Mississauga",
 "neighborhood": "Mississauga, Central Erin Mills, Peel, Ontario L5M 4J9",
@@ -3946,6 +3972,7 @@
 "contract": "CENTURY 21 PROPERTY ZONE REALTY INC. 647-910-9999"
 },
 {
+"saleOrLease": "lease",  
 "id": "36-bruton-st-thorold",
 "title": "36 Bruton St, Thorold",
 "neighborhood": "Thorold, 557 - Thorold Downtown, Niagara, Ontario L2V 0J6",

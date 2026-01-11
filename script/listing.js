@@ -592,7 +592,7 @@
             : ""
         }
 
-        <!-- Contact Form -->
+        <!-- Contact Form 
         <section class="bg-white p-6 rounded-lg shadow space-y-4">
           <h3 class="text-lg font-semibold mb-4">Want more info?</h3>
           <form class="space-y-3">
@@ -603,7 +603,25 @@
             <textarea rows="4" placeholder="Message" class="w-full border border-gray-300 rounded px-3 py-2"></textarea>
             <button type="submit" class="bg-green-900 hover:bg-green-800 text-white px-6 py-2 rounded font-semibold w-full md:w-auto">Send</button>
           </form>
-        </section>
+        </section> -->
+
+        <section id="contact" class="fade-in py-20 bg-white text-black">
+          <div class="max-w-5xl mx-auto px-4 text-center">
+          <h2 class="text-3xl font-bold mb-6">Let’s Connect</h2>
+
+          <div class="w-full">
+          <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLSesNFZoDavvj09RIWqzg-AKALLveTAUsaa0RSIZcz29VrLLsg/viewform?embedded=true"
+          class="w-full"
+          height="900"
+          frameborder="0"
+          marginheight="0"
+            marginwidth="0"
+            >Loading…</iframe>  
+          </div>
+          </div>
+          </section>
+
       `;
 
       // Init Swiper after DOM injected
