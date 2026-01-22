@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chetan Chhabra | Real Estate Broker</title>
+  <meta name="description" content="Real estate solutions in Ontario by Chetan Chhabra.">
+
+  <!-- Tailwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style/main.css" />
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <style>
+    .swiper {
+      width: 100%;
+      padding-top: 20px;
+      padding-bottom: 40px;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+</head>
+
+<body class="bg-black text-white font-sans">
+
+  <!-- Header -->
+  <header x-data="{ open: false }" class="fixed top-0 left-0 w-full z-50 bg-white shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+      <div class="flex flex-col">
+        <h1 class="text-xl font-bold text-black">Chetan Chhabra</h1>
+        <span class="text-sm text-gray-700">Ontario SOLD!</span>
+      </div>
+
+      <nav class="hidden md:flex space-x-6 text-sm font-medium text-gray-800 uppercase">
+        <a href="#about" class="hover:text-green-700">About</a>
+        <!-- <a href="#awards" class="hover:text-green-700">Awards</a> -->
+        <a href="#listings" class="hover:text-green-700">Listings</a>
+        <a href="#testimonials" class="hover:text-green-700">Testimonials</a>
+        <a href="#contact" class="text-green-700 font-semibold">Contact</a>
+        <a href="mortgage-calculator.html" class="hover:text-green-700">Mortgage Calculator</a>
+      </nav>
+
+      <!-- Hamburger -->
+      <div class="md:hidden">
+        <button @click="open = !open" class="text-gray-800 focus:outline-none">
+          <svg x-show="!open" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none"
+            viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+          <svg x-show="open" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none"
+            viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div x-show="open" @click.outside="open = false"
+      class="md:hidden bg-white shadow-md text-center px-6 py-4 space-y-4 text-gray-800 font-medium uppercase">
+      <a href="#about" @click="open = false" class="block hover:text-green-700">About</a>
+      <!-- <a href="#awards" @click="open = false" class="block hover:text-green-700">Awards</a> -->
+      <a href="#listings" @click="open = false" class="block hover:text-green-700">Listings</a>
+      <a href="#testimonials" @click="open = false" class="block hover:text-green-700">Testimonials</a>
+      <a href="#contact" @click="open = false" class="block text-green-700 font-semibold">Contact</a>
+      <a href="mortgage-calculator.html" @click="open = false" class="block hover:text-green-700">Mortgage Calculator</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="min-h-screen flex flex-col md:flex-row">
+    <div class="md:w-1/2 w-full bg-center bg-no-repeat bg-contain min-h-screen"
+         style="background-image: url('assets/images/hero.enc'); background-color: #fff;">
+    </div>
+    <div class="md:w-1/2 w-full bg-gray-100 flex items-center justify-center p-8">
+      <div class="text-center max-w-xl">
+        <h1 class="text-3xl md:text-4xl font-bold mb-2 text-black">Chetan Chhabra</h1>
+        <p class="text-lg font-medium mb-6 text-gray-800">Your Vaughan Condo Expert</p>
+        <p class="mb-6 text-gray-800">
+          Chetan Chhabra is a successful real estate agent in the city of Vaughan with 10 years real estate experience...
+        </p>
+        <a href="#contact" class="inline-block bg-green-700 text-white px-6 py-2 rounded">Get in Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+
+  <section id="about" class="py-20 bg-white text-black fade-in">
+<div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row gap-8">
+  
+  <!-- Left Text Column -->
+  <div class="md:w-2/3 w-full">
+    <h2 class="text-4xl font-serif font-semibold mb-6">About Chetan Chhabra</h2>
+    <p class="mb-4 leading-relaxed">
+      Chetan, determined and one of the youngest agents to obtain his real estate license in Ontario, completing all his courses at just 17 years old, has a passion for real estate. Already an investor in Vaughan buying his first house at 18, he has been managing his property & tenants with ease and comes with a wealth of information & guidance!
+    </p>
+    <p class="mb-4 leading-relaxed">
+      His initial investment on a 390k property is today worth over $1,300,000! Specifically focusing in Vaughan and specializing in Vaughan condos, townhomes & semi-detached properties, his passion for working with first-time buyers, condo enthusiasts, tenants & investors is unparalleled.
+    </p>
+    <p class="mb-4 leading-relaxed">
+      Offering 10 years of real estate experience in Vaughan, he has a professional and personable working style and you will feel confident in his ability to represent your best interests in any real estate transaction.
+    </p>
+    <p class="leading-relaxed">
+      Chetan make a dynamic team offering combined classic, modern & innovative real estate advice & guidance.
+      <br><br>
+      They look forward to working with you!
+    </p>
+  </div>
+
+  <!-- Right Philosophy Box -->
+  <div class="md:w-1/3 w-full bg-gray-200 p-6 rounded flex flex-col justify-center">
+    <h3 class="text-2xl font-serif font-semibold mb-4 text-center">My Philosophy</h3>
+    <ul class="space-y-4 text-sm text-center">
+      <li>
+        <strong>Trust</strong><br>
+        When it comes to real estate, trust is key.
+      </li>
+      <li>
+        <strong>Relationships</strong><br>
+        With trust, strong relationships are built.
+      </li>
+      <li>
+        <strong>Professional</strong><br>
+        Over 10 years experience
+      </li>
+      <li>
+        <strong>Full Service</strong><br>
+        Service from start to finish, you can always count on me!
+      </li>
+    </ul>
+  </div>
+  
+</div>
+</section>
+
+<!-- Awards Section -->
+<!-- <section id="awards" class="fade-in py-20 bg-gray-200 text-center"> -->
+<!-- <div class="max-w-6xl mx-auto px-4">
+  <h2 class="text-3xl font-bold mb-2 text-black">Proven Results</h2>
+  <p class="text-lg text-gray-700 mb-10">An Award Winning Vaughan Agent</p>
+
+  <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 place-items-center text-black"> -->
+    <!-- Award 1 -->
+    <!-- <img src="assets/images/award1.png" alt="Diamond Award" class="w-24 h-24 object-contain"> -->
+    <!-- Award 2 -->
+    <!-- <img src="assets/images/award2.png" alt="Chairman's Club" class="w-24 h-24 object-contain"> -->
+    <!-- Award 3 -->
+    <!-- <img src="assets/images/award3.png" alt="Platinum Director's Award" class="w-24 h-24 object-contain"> -->
+    <!-- Award 4 -->
+    <!-- <img src="assets/images/award4.png" alt="President's Gala" class="w-24 h-24 object-contain"> -->
+    <!-- Award 5 -->
+    <!-- <img src="assets/images/award5.png" alt="Top Producer" class="w-24 h-24 object-contain">
+  </div>
+</div>
+</section> -->
+
+  <!-- Listings Section -->
+  <section id="listings" class="fade-in py-20 bg-white text-black">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-2">Featured Listings</h2>
+      <p class="text-lg text-gray-600 mb-8">We've got the right home for you!</p>
+
+      <div class="relative">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper" id="listing-cards">
+            <!-- Dynamic listing cards will be injected here by main.js -->
+          </div>
+          <div class="swiper-button-next text-gray-700"></div>
+          <div class="swiper-button-prev text-gray-700"></div>
+          <div class="swiper-pagination mt-4"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="featured-categories" class="py-16 bg-white text-black">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="text-center mb-10">
+      <h2 class="text-3xl font-bold">Browse Listings</h2>
+      <p class="text-gray-600 mt-2">
+        <span id="sale-count">0</span> For Sale • <span id="rent-count">0</span> For Rent
+      </p>
+    </div>
+
+    <!-- FOR SALE -->
+    <div class="mb-12">
+      <div class="flex items-end justify-between gap-4 mb-4">
+        <div>
+          <h3 class="text-2xl font-semibold">Properties For Sale</h3>
+          <p class="text-gray-600"><span id="sale-count-2">0</span> listings</p>
+        </div>
+        <a href="properties.html?type=sale" class="text-blue-600 font-semibold hover:underline">View all</a>
+      </div>
+
+      <div id="sale-grid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3">
+        <!-- Sale preview images injected by JS -->
+      </div>
+    </div>
+
+    <!-- FOR RENT -->
+    <div>
+      <div class="flex items-end justify-between gap-4 mb-4">
+        <div>
+          <h3 class="text-2xl font-semibold">Properties For Rent</h3>
+          <p class="text-gray-600"><span id="rent-count-2">0</span> listings</p>
+        </div>
+        <a href="properties.html?type=rent" class="text-blue-600 font-semibold hover:underline">View all</a>
+      </div>
+
+      <div id="rent-grid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3">
+        <!-- Rent preview images injected by JS -->
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- <section id="property-categories" class="py-16 bg-gray-50">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="text-center mb-10">
+      <h2 class="text-3xl font-bold text-black">Properties</h2>
+      <p class="text-gray-600 mt-2">
+        <span id="sale-count-2">0</span> For Sale • <span id="rent-count-2">0</span> For Rent
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-8"> -->
+      <!-- For Sale -->
+      <!-- <div class="bg-white border border-gray-200 rounded-2xl p-6 shadow-sm">
+        <div class="flex items-baseline justify-between">
+          <h3 class="text-xl font-semibold text-black">For Sale</h3>
+          <div class="text-sm text-gray-600">
+            <span id="sale-count">0</span> listings
+          </div>
+        </div>
+
+        <div id="sale-preview" class="grid grid-cols-4 gap-3 mt-4"></div>
+
+        <div id="sale-grid" class="grid sm:grid-cols-2 gap-4 mt-6"></div>
+      </div> -->
+
+      <!-- For Rent -->
+      <!-- <div class="bg-white border border-gray-200 rounded-2xl p-6 shadow-sm">
+        <div class="flex items-baseline justify-between">
+          <h3 class="text-xl font-semibold text-black">For Rent</h3>
+          <div class="text-sm text-gray-600">
+            <span id="rent-count">0</span> listings
+          </div>
+        </div>
+
+        <div id="rent-preview" class="grid grid-cols-4 gap-3 mt-4"></div>
+
+        <div id="rent-grid" class="grid sm:grid-cols-2 gap-4 mt-6"></div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<!-- Testimonials Section -->
+<section id="testimonials" class="fade-in py-20 bg-white text-black">
+<div class="max-w-7xl mx-auto px-4">
+  <h2 class="text-3xl font-bold text-center mb-2">Client Testimonials</h2>
+  <p class="text-lg text-gray-600 text-center mb-10">Helping great families with their dream home</p>
+
+  <div class="flex flex-col md:flex-row gap-10 items-start">
+    <!-- Testimonial Text -->
+    <div class="md:w-1/2 text-gray-800 space-y-4">
+      <p>
+        I am thrilled to write this testimonial for Chetan Chhabra , our exceptional real estate agent who has consistently exceeded our expectations throughout our journey...
+      </p>
+      <p>
+        Chetan’s remarkable qualities stayed with us, so when the time came to sell our condo and find a new home in Innisfil, there was no doubt in our minds about who to turn to...
+      </p>
+      <p>
+        His approachability and genuine nature make communication effortless. He truly listens and ensures every step aligns with our vision...
+      </p>
+    </div>
+
+    <!-- Image -->
+    <div class="md:w-1/2">
+      <img src="assets/images/house1.jpg" alt="Client Testimonial" class="rounded-lg shadow-md w-full h-auto">
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- Contact Section -->
+<!-- <section id="contact" class="fade-in py-20 bg-white text-black">
+<div class="max-w-5xl mx-auto px-4 text-center">
+  <h2 class="text-3xl font-bold mb-6">Let’s Connect</h2>
+
+<form id="contactForm" class="text-left space-y-6">
+
+  <p class="hidden">
+    <label>
+      Don’t fill this out if you're human:
+      <input name="bot-field" />
+    </label>
+  </p>
+
+  <div class="grid md:grid-cols-2 gap-6">
+    <div>
+      <label class="block font-semibold mb-1">First name: <span class="text-red-500">*</span></label>
+      <input type="text" name="first-name" required autocomplete="given-name" class="w-full border border-gray-300 rounded px-4 py-2">
+    </div>
+    <div>
+      <label class="block font-semibold mb-1">Last name: <span class="text-red-500">*</span></label>
+      <input type="text" name="last-name" required autocomplete="family-name" class="w-full border border-gray-300 rounded px-4 py-2">
+    </div>
+    <div>
+      <label class="block font-semibold mb-1">Email address: <span class="text-red-500">*</span></label>
+      <input type="email" name="email" required autocomplete="email" class="w-full border border-gray-300 rounded px-4 py-2">
+    </div>
+    <div>
+      <label class="block font-semibold mb-1">Phone number:</label>
+      <input type="tel" name="phone" autocomplete="tel" class="w-full border border-gray-300 rounded px-4 py-2">
+    </div>
+  </div>
+
+  <div>
+    <label class="block font-semibold mb-1">Message: <span class="text-red-500">*</span></label>
+    <textarea name="message" rows="5" required class="w-full border border-gray-300 rounded px-4 py-2"></textarea>
+  </div>
+
+  <div>
+    <label class="block font-semibold mb-1">How did you hear about me?</label>
+    <select name="referral" class="w-full border border-gray-300 rounded px-4 py-2">
+      <option value="">-- Select an option --</option>
+      <option value="friend">Friend or Family</option>
+      <option value="instagram">Instagram</option>
+      <option value="google">Google</option>
+      <option value="event">Open House / Event</option>
+      <option value="other">Other</option>
+    </select>
+  </div>
+    <button type="submit" class="bg-green-900 hover:bg-green-800 text-white px-6 py-2 rounded font-semibold shadow">
+        Send Message
+    </button>
+</form>
+</div>
+</section> -->
+
+<section id="contact" class="fade-in py-20 bg-white text-black">
+<div class="max-w-5xl mx-auto px-4 text-center">
+  <h2 class="text-3xl font-bold mb-6">Let’s Connect</h2>
+
+<div class="w-full">
+  <iframe
+    src="https://docs.google.com/forms/d/e/1FAIpQLSesNFZoDavvj09RIWqzg-AKALLveTAUsaa0RSIZcz29VrLLsg/viewform?embedded=true"
+    class="w-full"
+    height="900"
+    frameborder="0"
+    marginheight="0"
+    marginwidth="0"
+  >Loading…</iframe>
+</div>
+
+</div>
+</section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-100 text-center py-6 text-sm text-gray-600 border-t">
+    &copy; <span id="year"></span> Chetan Chhabra. All rights reserved.
+  </footer>
+
+  <!-- Scripts -->
+  <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="script/main.js"></script>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+  <script>
+  // Replace this with your latest deployed Web App /exec URL
+  const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbz2acoJ4QXrNxYuHyny4PgIekrSOFvQoT0sm3aDne0/dev";
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const form = document.getElementById("contactForm");
+    if (!form) {
+      console.error("contactForm not found. Check the form id.");
+      return;
+    }
+
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+
+      const payload = {
+        "first-name": form.querySelector('[name="first-name"]').value.trim(),
+        "last-name": form.querySelector('[name="last-name"]').value.trim(),
+        "email": form.querySelector('[name="email"]').value.trim(),
+        "phone": form.querySelector('[name="phone"]').value.trim(),
+        "message": form.querySelector('[name="message"]').value.trim(),
+        "referral": form.querySelector('[name="referral"]').value,
+        "pageUrl": window.location.href,
+        "userAgent": navigator.userAgent
+      };
+
+      try {
+        // Apps Script Web Apps usually require no-cors from static sites (GitHub Pages).
+        // Request will still be sent, but you cannot reliably read JSON response.
+        await fetch(SCRIPT_URL, {
+          method: "POST",
+          mode: "no-cors",
+          headers: { "Content-Type": "text/plain;charset=utf-8" },
+          body: JSON.stringify(payload)
+        });
+
+        alert("Thanks! Your message has been sent.");
+        form.reset();
+      } catch (err) {
+        console.error(err);
+        alert("Network error. Please try again.");
+      }
+    });
+  });
+</script>
+<!-- <script src="home-categories.js"></script> -->
+<script src="home-categories.js" defer></script>
+
+</body>
+</html>

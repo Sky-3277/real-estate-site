@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Homes by Chetan</title>
+  <meta name="description" content="Buy, sell, and lease with confidence across the GTA. Browse featured listings, explore properties for sale or lease, and connect directly with Chetan." />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Fonts (HomesBySteven-like pairing: elegant serif headlines + clean sans body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <script>
+    // Tailwind theme overrides (warm neutral + gold accent)
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ink: '#111111',
+            sand: '#f7f4ef',
+            paper: '#ffffff',
+            accent: '#b08d57',
+            accentDark: '#9b7a4a',
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    html { scroll-behavior: smooth; }
+    :root {
+      --ink: #111111;
+      --sand: #f7f4ef;
+      --paper: #ffffff;
+      --accent: #b08d57;
+      --accentDark: #9b7a4a;
+    }
+
+    body { font-family: Montserrat, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+    h1, h2, h3, h4, .font-display { font-family: "Cormorant Garamond", Georgia, "Times New Roman", serif; }
+
+    /* Subtle fade-in on scroll (matches your existing intent) */
+    .fade-in { opacity: 0; transform: translateY(16px); transition: opacity .6s ease, transform .6s ease; }
+    .fade-in.visible { opacity: 1; transform: translateY(0); }
+
+    /* Hero background fallback */
+    .hero-bg {
+      background-image:
+        linear-gradient(180deg, rgba(17,17,17,.70), rgba(17,17,17,.35)),
+        url('assets/images/hero.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: white;
+    }
+    .btn-primary:hover { background: var(--accentDark); }
+
+    .btn-outline {
+      border: 1px solid rgba(255,255,255,.65);
+      color: white;
+    }
+    .btn-outline:hover {
+      background: rgba(255,255,255,.08);
+      border-color: rgba(255,255,255,.85);
+    }
+  </style>
+</head>
+
+<body class="text-ink bg-sand">
+
+  <!-- Top Bar -->
+  <div class="bg-ink text-white">
+    <div class="max-w-7xl mx-auto px-4 py-2 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 text-sm">
+      <div class="flex flex-wrap items-center gap-x-5 gap-y-1">
+        <a href="tel:+16479109999" class="hover:underline">+1 (647) 910-9999</a>
+        <a href="#contact" class="hover:underline">Book a consultation</a>
+      </div>
+      <div class="flex items-center gap-4">
+        <a href="#" class="hover:underline">Instagram</a>
+        <a href="#" class="hover:underline">Facebook</a>
+        <a href="#" class="hover:underline">LinkedIn</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header / Nav -->
+  <header class="sticky top-0 z-50 bg-paper/95 backdrop-blur border-b border-black/5">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+      <a href="#home" class="flex items-center gap-3">
+        <img src="assets/images/logo.png" alt="Homes by Chetan" class="h-10 w-auto" />
+        <div class="leading-tight">
+          <div class="font-bold text-base sm:text-lg">Homes by Chetan</div>
+          <div class="text-xs text-gray-500">GTA Real Estate</div>
+        </div>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-8 text-sm tracking-[.18em] uppercase">
+        <a href="#home" class="hover:text-accent">Home</a>
+        <a href="#featured" class="hover:text-accent">Featured</a>
+        <a href="#about" class="hover:text-accent">About</a>
+        <a href="#services" class="hover:text-accent">Services</a>
+        <a href="#contact" class="hover:text-accent">Contact</a>
+      </nav>
+
+      <div class="flex items-center gap-3">
+        <a href="#contact" class="hidden sm:inline-flex px-5 py-2 rounded-full btn-primary font-semibold">Get in touch</a>
+        <button id="menuToggle" class="md:hidden inline-flex items-center justify-center w-10 h-10 rounded-lg border border-gray-200">☰</button>
+      </div>
+    </div>
+
+    <!-- Mobile menu -->
+    <div id="mobileMenu" class="hidden md:hidden border-t border-gray-100 bg-white">
+      <div class="max-w-7xl mx-auto px-4 py-4 grid gap-3 font-semibold">
+        <a href="#home" class="py-2">Home</a>
+        <a href="#featured" class="py-2">Featured</a>
+        <a href="#about" class="py-2">About</a>
+        <a href="#services" class="py-2">Services</a>
+        <a href="#contact" class="py-2">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero-bg min-h-[78vh] flex items-center">
+    <div class="max-w-7xl mx-auto px-4 py-16 w-full">
+      <div class="max-w-2xl text-white">
+        <p class="uppercase tracking-widest text-xs sm:text-sm text-white/80">Buy • Sell • Lease • Invest</p>
+        <h1 class="mt-3 text-4xl sm:text-5xl font-bold leading-tight">
+          Find the right home in the <span class="text-accentLight">GTA</span>
+        </h1>
+        <p class="mt-5 text-base sm:text-lg text-white/90">
+          Data-driven pricing, strong negotiation, and clear guidance—so you can move with confidence.
+        </p>
+
+        <div class="mt-8 flex flex-col sm:flex-row gap-3">
+          <a href="properties.html?type=sale" class="px-6 py-3 rounded-full bg-accent hover:bg-accentDark font-semibold text-center">Browse For Sale</a>
+          <a href="properties.html?type=rent" class="px-6 py-3 rounded-full bg-white text-gray-900 hover:bg-gray-100 font-semibold text-center">Browse For Lease</a>
+        </div>
+
+        <!-- Quick stats (optional placeholders; adjust anytime) -->
+        <div class="mt-10 grid grid-cols-3 gap-4 max-w-xl">
+          <div class="rounded-2xl bg-white/10 border border-white/15 p-4">
+            <div class="text-2xl font-bold" id="sale-count">0</div>
+            <div class="text-xs text-white/80">Active For Sale</div>
+          </div>
+          <div class="rounded-2xl bg-white/10 border border-white/15 p-4">
+            <div class="text-2xl font-bold" id="rent-count">0</div>
+            <div class="text-xs text-white/80">Active For Lease</div>
+          </div>
+          <div class="rounded-2xl bg-white/10 border border-white/15 p-4">
+            <div class="text-2xl font-bold">GTA</div>
+            <div class="text-xs text-white/80">Coverage Area</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured categories (thumbnails + View All) -->
+  <section id="featured" class="fade-in py-20 bg-paper">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="text-center max-w-2xl mx-auto">
+        <h2 class="text-3xl font-bold">Featured listings</h2>
+        <div class="mt-2 text-sm text-ink/70">
+          <span id="count-total-sale">0</span> For Sale &middot; <span id="count-total-rent">0</span> For Rent
+        </div>
+        <p class="mt-3 text-gray-600">A quick snapshot from the live feed. Use “View All” to browse everything.</p>
+      </div>
+
+      <div class="mt-10 grid lg:grid-cols-2 gap-8">
+        <!-- Sale -->
+        <div class="rounded-2xl border border-gray-200 bg-gray-50 p-6 shadow-sm">
+          <div class="flex items-center justify-between gap-4">
+            <div>
+              <div class="text-xs uppercase tracking-widest text-gray-500">Properties</div>
+              <h3 class="text-xl font-bold">For Sale</h3>
+            </div>
+            <div class="text-sm bg-accentSoft text-ink px-3 py-1 rounded-full font-semibold">
+              <span id="sale-count-2">0</span> listings
+            </div>
+          </div>
+
+          <div id="sale-grid" class="mt-5 grid grid-cols-2 sm:grid-cols-3 gap-3"></div>
+
+          <div class="mt-6">
+            <a href="properties.html?type=sale" class="inline-flex items-center justify-center px-5 py-2 rounded-full bg-accent text-white font-semibold hover:bg-accentDark">View All For Sale</a>
+          </div>
+        </div>
+
+        <!-- Lease -->
+        <div class="rounded-2xl border border-gray-200 bg-gray-50 p-6 shadow-sm">
+          <div class="flex items-center justify-between gap-4">
+            <div>
+              <div class="text-xs uppercase tracking-widest text-gray-500">Properties</div>
+              <h3 class="text-xl font-bold">For Lease</h3>
+            </div>
+            <div class="text-sm bg-accentSoft text-ink px-3 py-1 rounded-full font-semibold">
+              <span id="rent-count-2">0</span> listings
+            </div>
+          </div>
+
+          <div id="rent-grid" class="mt-5 grid grid-cols-2 sm:grid-cols-3 gap-3"></div>
+
+          <div class="mt-6">
+            <a href="properties.html?type=rent" class="inline-flex items-center justify-center px-5 py-2 rounded-full bg-accent text-white font-semibold hover:bg-accentDark">View All For Lease</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- CTA strip -->
+      <div class="mt-12 rounded-2xl bg-gray-950 text-white p-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+        <div>
+          <h3 class="text-2xl font-bold">Want a curated shortlist?</h3>
+          <p class="mt-2 text-white/80">Tell me your budget + area and I’ll send options that fit.</p>
+        </div>
+        <a href="#contact" class="px-6 py-3 rounded-full bg-white text-gray-950 font-semibold hover:bg-gray-100">Request shortlist</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="fade-in py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="grid lg:grid-cols-2 gap-12 items-center">
+        <div class="rounded-2xl overflow-hidden border border-gray-200 bg-white shadow-sm">
+          <!-- Replace with an actual headshot if available -->
+          <div class="aspect-[4/3] bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center text-gray-500">
+            Add Chetan photo (assets/images/chetan.jpg)
+          </div>
+        </div>
+        <div>
+          <div class="text-xs uppercase tracking-widest text-gray-500">Meet your realtor</div>
+          <h2 class="mt-2 text-3xl font-bold">Chetan</h2>
+          <p class="mt-5 text-gray-700 leading-relaxed">
+            I help buyers, sellers, and investors across the GTA with a process that’s simple, transparent, and backed by market data.
+            From pricing strategy to negotiation, the goal is to make sure you feel informed at every step.
+          </p>
+
+          <div class="mt-6 grid sm:grid-cols-2 gap-4">
+            <div class="p-4 rounded-xl bg-white border border-gray-200">
+              <div class="font-bold">Buy with clarity</div>
+              <div class="text-sm text-gray-600 mt-1">Shortlists, comps, and a clear offer plan.</div>
+            </div>
+            <div class="p-4 rounded-xl bg-white border border-gray-200">
+              <div class="font-bold">Sell for max value</div>
+              <div class="text-sm text-gray-600 mt-1">Pricing + marketing built to convert.</div>
+            </div>
+          </div>
+
+          <div class="mt-8 flex flex-col sm:flex-row gap-3">
+            <a href="#contact" class="px-6 py-3 rounded-full bg-accent text-white font-semibold hover:bg-accentDark text-center">Book a call</a>
+            <a href="tel:+16479109999" class="px-6 py-3 rounded-full border border-gray-300 font-semibold hover:bg-white text-center">Call now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="fade-in py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="text-center max-w-2xl mx-auto">
+        <h2 class="text-3xl font-bold">Services</h2>
+        <p class="mt-3 text-gray-600">Everything you need for a smooth transaction.</p>
+      </div>
+
+      <div class="mt-10 grid md:grid-cols-3 gap-6">
+        <div class="rounded-2xl border border-gray-200 p-6 shadow-sm">
+          <div class="text-sm text-gray-500 uppercase tracking-widest">Buy</div>
+          <h3 class="mt-2 font-bold text-xl">Home buying</h3>
+          <p class="mt-3 text-gray-700">Area insights, shortlists, showings, and an offer strategy built on comps.</p>
+        </div>
+        <div class="rounded-2xl border border-gray-200 p-6 shadow-sm">
+          <div class="text-sm text-gray-500 uppercase tracking-widest">Sell</div>
+          <h3 class="mt-2 font-bold text-xl">Home selling</h3>
+          <p class="mt-3 text-gray-700">Pricing plan, staging guidance, marketing, and negotiation to maximize value.</p>
+        </div>
+        <div class="rounded-2xl border border-gray-200 p-6 shadow-sm">
+          <div class="text-sm text-gray-500 uppercase tracking-widest">Lease</div>
+          <h3 class="mt-2 font-bold text-xl">Lease & rentals</h3>
+          <p class="mt-3 text-gray-700">Tenant screening, paperwork support, and fast placement for landlords/tenants.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="fade-in py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="text-center max-w-2xl mx-auto">
+        <h2 class="text-3xl font-bold">Let’s connect</h2>
+        <p class="mt-3 text-gray-600">Fill the form and we’ll get back quickly.</p>
+      </div>
+
+      <div class="mt-10 rounded-2xl overflow-hidden border border-gray-200 bg-white shadow-sm">
+        <!-- Google Form Embed -->
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLScyQS-EEoYyBdq9q_LxSrpAv_0Q7pHvYfER0Yt7MM-fBOUQSg/viewform?embedded=true"
+          width="100%"
+          height="1000"
+          frameborder="0"
+          marginheight="0"
+          marginwidth="0"
+        >Loading…</iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-950 text-white">
+    <div class="max-w-7xl mx-auto px-4 py-12 grid md:grid-cols-3 gap-10">
+      <div>
+        <div class="font-bold text-xl">Homes by Chetan</div>
+        <p class="mt-3 text-white/75 text-sm leading-relaxed">
+          Helping you buy, sell, and lease across the GTA with a clear, data-driven process.
+        </p>
+      </div>
+
+      <div>
+        <div class="font-semibold mb-3">Quick links</div>
+        <ul class="grid gap-2 text-sm text-white/75">
+          <li><a href="#home" class="hover:text-white">Home</a></li>
+          <li><a href="#featured" class="hover:text-white">Featured</a></li>
+          <li><a href="properties.html?type=sale" class="hover:text-white">For Sale</a></li>
+          <li><a href="properties.html?type=rent" class="hover:text-white">For Lease</a></li>
+          <li><a href="#contact" class="hover:text-white">Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="font-semibold mb-3">Contact</div>
+        <div class="grid gap-2 text-sm text-white/75">
+          <div>Toronto, ON</div>
+          <a href="tel:+16479109999" class="hover:text-white">+1 (647) 910-9999</a>
+          <a href="#contact" class="hover:text-white">Send a message</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="border-t border-white/10">
+      <div class="max-w-7xl mx-auto px-4 py-5 text-sm text-white/60">
+        © <span id="year"></span> Homes by Chetan. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script>
+    // Mobile menu
+    const menuToggle = document.getElementById('menuToggle');
+    const mobileMenu = document.getElementById('mobileMenu');
+    if (menuToggle && mobileMenu) {
+      menuToggle.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
+    }
+
+    // Fade-in on scroll
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) entry.target.classList.add('visible');
+        });
+      },
+      { threshold: 0.12 }
+    );
+    document.querySelectorAll('.fade-in').forEach((el) => observer.observe(el));
+
+    // Footer year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+  <script src="home-categories.js"></script>
+</body>
+</html>

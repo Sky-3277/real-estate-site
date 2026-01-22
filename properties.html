@@ -5,15 +5,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Properties</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            accent: '#b08d57',
+            accentDark: '#8f6f3e',
+            accentSoft: '#efe6d8',
+            ink: '#0f172a',
+            sand: '#faf8f4',
+            paper: '#ffffff'
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    :root { --accent: #b08d57; --ink: #0f172a; --sand: #faf8f4; }
+    body { font-family: 'Montserrat', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+    h1, h2, h3, h4 { font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', serif; }
+  </style>
 </head>
-<body class="bg-white text-black">
-  <header class="border-b">
+<body class="bg-sand text-ink">
+  <header class="border-b border-ink/10 bg-paper/90 backdrop-blur">
     <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
-      <a href="index.html" class="font-bold text-xl">Chetan Chhabra</a>
-      <nav class="text-sm space-x-4">
-        <a href="index.html#about" class="hover:underline">About</a>
-        <a href="index.html#listings" class="hover:underline">Listings</a>
-        <a href="index.html#contact" class="hover:underline">Contact</a>
+      <a href="index.html" class="tracking-wide uppercase text-sm font-semibold">Homes by Chetan</a>
+      <nav class="text-xs tracking-[0.18em] uppercase space-x-5">
+        <a href="index.html#about" class="hover:text-accent">About</a>
+        <a href="index.html#listings" class="hover:text-accent">Listings</a>
+        <a href="index.html#contact" class="hover:text-accent">Contact</a>
       </nav>
     </div>
   </header>
@@ -21,14 +47,17 @@
   <main class="max-w-6xl mx-auto px-4 py-10">
     <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-4">
       <div>
-        <h1 id="pageTitle" class="text-3xl font-bold">Properties</h1>
-        <p id="pageSubtitle" class="text-gray-600 mt-1">Loading…</p>
+        <h1 id="pageTitle" class="text-4xl font-bold">Properties</h1>
+        <p id="pageSubtitle" class="text-ink/70 mt-1">Loading…</p>
       </div>
 
       <div class="flex gap-2">
-        <a id="filterAll" href="properties.html?type=all" class="px-4 py-2 rounded border hover:bg-gray-50">All</a>
-        <a id="filterSale" href="properties.html?type=sale" class="px-4 py-2 rounded border hover:bg-gray-50">For Sale</a>
-        <a id="filterRent" href="properties.html?type=rent" class="px-4 py-2 rounded border hover:bg-gray-50">For Rent</a>
+        <a id="filterAll" href="properties.html?type=all"
+           class="px-4 py-2 rounded-full border border-ink/20 hover:bg-paper">All</a>
+        <a id="filterSale" href="properties.html?type=sale"
+           class="px-4 py-2 rounded-full border border-ink/20 hover:bg-paper">For Sale</a>
+        <a id="filterRent" href="properties.html?type=rent"
+           class="px-4 py-2 rounded-full border border-ink/20 hover:bg-paper">For Rent</a>
       </div>
     </div>
 

@@ -3,433 +3,505 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Chetan Chhabra | Real Estate Broker</title>
-  <meta name="description" content="Real estate solutions in Ontario by Chetan Chhabra.">
+  <title>Homes by Chetan</title>
 
-  <!-- Tailwind CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <!-- Fonts (closest practical match to the reference site) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Oswald:wght@300;400;500;600&display=swap" rel="stylesheet" />
 
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="style/main.css" />
-
-  <!-- Swiper CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <!-- Tailwind for layout speed (no build step) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Montserrat', 'ui-sans-serif', 'system-ui'],
+            display: ['Oswald', 'Montserrat', 'ui-sans-serif', 'system-ui']
+          },
+          colors: {
+            ink: '#0b0b0b',
+            ink2: '#121212',
+            paper: '#ffffff',
+            muted: '#a7a7a7'
+          }
+        }
+      }
+    }
+  </script>
 
   <style>
-    .swiper {
+    /* Match the reference vibe: uppercase, wide tracking, minimal accents */
+    .caps { text-transform: uppercase; letter-spacing: .18em; }
+    .caps-tight { text-transform: uppercase; letter-spacing: .12em; }
+    .hairline { font-weight: 300; }
+
+    /* HERO */
+    .hero {
+      position: relative;
+      min-height: 92vh;
+      background: #0b0b0b;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      /* Gradient overlay on top of the hero video */
+      background: linear-gradient(180deg, rgba(0,0,0,.55) 0%, rgba(0,0,0,.45) 45%, rgba(0,0,0,.65) 100%);
+      z-index: 1;
+    }
+
+    .hero-video {
+      position: absolute;
+      inset: 0;
       width: 100%;
-      padding-top: 20px;
-      padding-bottom: 40px;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      z-index: 0;
     }
-    .swiper-slide {
-      text-align: center;
-      font-size: 18px;
-      background: #fff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(80% 60% at 55% 45%, rgba(255,255,255,.08) 0%, rgba(0,0,0,0) 60%);
+      pointer-events: none;
     }
+
+    /* Mosaic tiles */
+    .tile {
+      position: relative;
+      overflow: hidden;
+      background: #111;
+      border: 1px solid rgba(255,255,255,.08);
+    }
+    .tile img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: saturate(.9) contrast(1.05);
+      transform: scale(1.02);
+      transition: transform .6s ease;
+    }
+    .tile:hover img { transform: scale(1.08); }
+    .tile::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(0,0,0,.20) 0%, rgba(0,0,0,.70) 88%);
+    }
+    .tile-label {
+      position: absolute;
+      left: 18px;
+      bottom: 16px;
+      z-index: 2;
+      color: white;
+      font-family: Oswald, Montserrat, sans-serif;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: .16em;
+      font-size: 16px;
+      line-height: 1.1;
+    }
+
+    /* Smooth section dividers */
+    .shadow-soft { box-shadow: 0 10px 30px rgba(0,0,0,.08); }
+    .divider { height: 1px; background: rgba(255,255,255,.10); }
+
+    /* Make burger icon subtle */
+    .burger span { display:block; width: 26px; height: 2px; background: rgba(255,255,255,.90); margin: 5px 0; }
+
+    /* Portfolio section keeps your prior white theme cards; visually separate it */
+    .portfolio-wrap { background: #f7f7f7; }
   </style>
 </head>
 
-<body class="bg-black text-white font-sans">
+<body class="font-sans bg-paper text-ink">
 
-  <!-- Header -->
-  <header x-data="{ open: false }" class="fixed top-0 left-0 w-full z-50 bg-white shadow-sm">
-    <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
-      <div class="flex flex-col">
-        <h1 class="text-xl font-bold text-black">Chetan Chhabra</h1>
-        <span class="text-sm text-gray-700">Ontario SOLD!</span>
+  <!-- HERO / NAV (Steven-like) -->
+  <header class="hero" id="home">
+    <video class="hero-video" autoplay muted loop playsinline preload="metadata" poster="assets/images/hero/toronto-skyline.jpg">
+      <source src="assets/videos/toronto-hero.mp4" type="video/mp4" />
+    </video>
+    <div class="relative z-10">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="flex items-center justify-between py-6">
+          <!-- Logo (replace with your own) -->
+          <a href="#home" class="flex items-center gap-3 text-white">
+            <div class="w-10 h-10 rounded-full border border-white/30 flex items-center justify-center font-display text-lg">C</div>
+            <div class="leading-tight">
+              <div class="font-display text-base tracking-[0.22em] uppercase">Chetan Chhabra</div>
+              <div class="text-xs text-white/70 tracking-[0.28em] uppercase">Real Estate</div>
+            </div>
+          </a>
+
+          <!-- Desktop nav -->
+          <nav class="hidden md:flex items-center gap-8 text-white/90 text-xs caps">
+            <a href="#portfolioTiles" class="hover:text-white">Portfolio</a>
+            <a href="properties.html" class="hover:text-white">Home Search</a>
+            <a href="#connect" class="hover:text-white">Let's Connect</a>
+            <a href="tel:+16479012878" class="hover:text-white">(647) 901-2878</a>
+          </nav>
+
+          <!-- Mobile menu button (simple; no JS needed) -->
+          <a href="#connect" class="md:hidden burger" aria-label="Menu">
+            <span></span><span></span><span></span>
+          </a>
+        </div>
       </div>
 
-      <nav class="hidden md:flex space-x-6 text-sm font-medium text-gray-800 uppercase">
-        <a href="#about" class="hover:text-green-700">About</a>
-        <!-- <a href="#awards" class="hover:text-green-700">Awards</a> -->
-        <a href="#listings" class="hover:text-green-700">Listings</a>
-        <a href="#testimonials" class="hover:text-green-700">Testimonials</a>
-        <a href="#contact" class="text-green-700 font-semibold">Contact</a>
-        <a href="mortgage-calculator.html" class="hover:text-green-700">Mortgage Calculator</a>
-      </nav>
+      <!-- Hero content -->
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="pt-24 pb-20 md:pt-32 md:pb-28">
+          <h1 class="font-display text-white text-4xl md:text-6xl lg:text-7xl uppercase tracking-[0.12em]">
+            Chetan Chhabra | Homes by Chetan
+          </h1>
+          <div class="mt-5 flex items-center gap-6">
+            <div class="h-px w-16 bg-white/35"></div>
+            <p class="caps-tight text-white/75 text-xs">Real Estate Broker</p>
+          </div>
 
-      <!-- Hamburger -->
-      <div class="md:hidden">
-        <button @click="open = !open" class="text-gray-800 focus:outline-none">
-          <svg x-show="!open" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none"
-            viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              d="M4 6h16M4 12h16M4 18h16" />
-          </svg>
-          <svg x-show="open" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none"
-            viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              d="M6 18L18 6M6 6l12 12" />
-          </svg>
-        </button>
+          <div class="mt-14 flex flex-wrap gap-12">
+            <a href="properties.html" class="caps text-white/90 text-xs border-b border-white/35 pb-2 hover:text-white hover:border-white">
+              Home Search
+            </a>
+            <a href="#portfolioTiles" class="caps text-white/90 text-xs border-b border-white/35 pb-2 hover:text-white hover:border-white">
+              Explore Neighbourhoods
+            </a>
+          </div>
+        </div>
       </div>
-    </div>
-
-    <!-- Mobile Menu -->
-    <div x-show="open" @click.outside="open = false"
-      class="md:hidden bg-white shadow-md text-center px-6 py-4 space-y-4 text-gray-800 font-medium uppercase">
-      <a href="#about" @click="open = false" class="block hover:text-green-700">About</a>
-      <!-- <a href="#awards" @click="open = false" class="block hover:text-green-700">Awards</a> -->
-      <a href="#listings" @click="open = false" class="block hover:text-green-700">Listings</a>
-      <a href="#testimonials" @click="open = false" class="block hover:text-green-700">Testimonials</a>
-      <a href="#contact" @click="open = false" class="block text-green-700 font-semibold">Contact</a>
-      <a href="mortgage-calculator.html" @click="open = false" class="block hover:text-green-700">Mortgage Calculator</a>
     </div>
   </header>
 
-  <!-- Hero Section -->
-  <section class="min-h-screen flex flex-col md:flex-row">
-    <div class="md:w-1/2 w-full bg-center bg-no-repeat bg-contain min-h-screen"
-         style="background-image: url('assets/images/hero.enc'); background-color: #fff;">
-    </div>
-    <div class="md:w-1/2 w-full bg-gray-100 flex items-center justify-center p-8">
-      <div class="text-center max-w-xl">
-        <h1 class="text-3xl md:text-4xl font-bold mb-2 text-black">Chetan Chhabra</h1>
-        <p class="text-lg font-medium mb-6 text-gray-800">Your Vaughan Condo Expert</p>
-        <p class="mb-6 text-gray-800">
-          Chetan Chhabra is a successful real estate agent in the city of Vaughan with 10 years real estate experience...
+
+    <!-- PORTFOLIO SECTION (KEEP YOUR EXISTING FEATURED LISTINGS UI + functionality) -->
+  <section class="portfolio-wrap" id="portfolioTiles">
+    <div class="max-w-7xl mx-auto px-6 py-20">
+      <div class="text-center">
+        <h2 class="font-display text-4xl md:text-5xl uppercase tracking-[0.14em]">Portfolio</h2>
+        <p class="mt-4 text-gray-600">A quick snapshot from the live feed. Use “View All” to browse everything.</p>
+        <p class="mt-2 text-gray-700" aria-live="polite">
+          <span id="count-total-sale">0</span> For Sale • <span id="count-total-rent">0</span> For Lease
         </p>
-        <a href="#contact" class="inline-block bg-green-700 text-white px-6 py-2 rounded">Get in Touch</a>
+      </div>
+
+      <div class="mt-12 grid lg:grid-cols-2 gap-8">
+        <!-- For Sale card -->
+        <!-- <div class="bg-white rounded-2xl border border-gray-200 shadow-soft p-7">
+          <div class="flex items-start justify-between">
+            <div>
+              <div class="text-xs caps text-gray-500">Properties</div>
+              <div class="mt-1 text-2xl font-semibold text-gray-900">For Sale</div>
+            </div>
+            <div class="text-sm bg-ink text-white px-3 py-1 rounded-full">
+              <span id="sale-count">0</span> listings
+            </div>
+          </div>
+
+          <div class="mt-6 grid sm:grid-cols-3 gap-4" id="rent-grid"> -->
+            <!-- Injected by home-categories.js (up to 6 cards) -->
+          <!-- </div>
+
+          <div class="mt-8">
+            <a id="saleViewAll" href="properties.html?type=sale" class="inline-flex items-center justify-center px-6 py-3 rounded-full bg-ink text-white font-semibold hover:bg-black">
+              View All For Lease
+            </a>
+          </div>
+        </div> -->
+
+        <!-- For Sale card -->
+        <div class="bg-white rounded-2xl border border-gray-200 shadow-soft p-7">
+          <div class="flex items-start justify-between">
+            <div>
+              <div class="text-xs caps text-gray-500">Properties</div>
+              <div class="mt-1 text-2xl font-semibold text-gray-900">For Sale</div>
+            </div>
+            <div class="text-sm bg-ink text-white px-3 py-1 rounded-full">
+              <span id="sale-count">0</span> listings
+            </div>
+          </div>
+
+          <div class="mt-6 grid sm:grid-cols-3 gap-4" id="sale-grid">
+            <!-- Injected by home-categories.js (up to 6 cards) -->
+          </div>
+
+          <div class="mt-6">
+            <a id="saleViewAll" href="properties.html?type=sale" class="inline-flex items-center justify-center px-6 py-3 rounded-full bg-ink text-white font-semibold hover:bg-black">
+              View All For Sale
+            </a>
+          </div>
+
+          <!-- <div class="mt-8 grid grid-cols-3 gap-3">
+            <img id="salePreviewImg" src="assets/images/placeholder.jpg" alt="Sale preview" class="w-full h-28 object-cover rounded-xl border border-gray-200" />
+            <div class="col-span-2 text-gray-500 text-sm flex items-center">
+              Listings will appear here automatically when marked as “Sale” in your JSON/Sheet.
+            </div>
+          </div> -->
+        </div>
+
+        <!-- For Lease card -->
+        <div class="bg-white rounded-2xl border border-gray-200 shadow-soft p-7">
+          <div class="flex items-start justify-between">
+            <div>
+              <div class="text-xs caps text-gray-500">Properties</div>
+              <div class="mt-1 text-2xl font-semibold text-gray-900">For Lease</div>
+            </div>
+            <div class="text-sm bg-ink text-white px-3 py-1 rounded-full">
+              <span id="rent-count">0</span> listings
+            </div>
+          </div>
+
+          <div class="mt-6 grid sm:grid-cols-3 gap-4" id="rent-grid">
+            <!-- Injected by home-categories.js (up to 6 cards) -->
+          </div>
+
+          <div class="mt-8">
+            <a id="rentViewAll" href="properties.html?type=rent" class="inline-flex items-center justify-center px-6 py-3 rounded-full bg-ink text-white font-semibold hover:bg-black">
+              View All For Lease
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Secondary counts for any existing UI hooks -->
+      <div class="hidden">
+        <span id="sale-count-2">0</span>
+        <span id="rent-count-2">0</span>
+        <img id="rentPreviewImg" src="assets/images/placeholder.jpg" alt="Rent preview" />
       </div>
     </div>
   </section>
 
-  <!-- About Section -->
 
-  <section id="about" class="py-20 bg-white text-black fade-in">
-<div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row gap-8">
-  
-  <!-- Left Text Column -->
-  <div class="md:w-2/3 w-full">
-    <h2 class="text-4xl font-serif font-semibold mb-6">About Chetan Chhabra</h2>
-    <p class="mb-4 leading-relaxed">
-      Chetan, determined and one of the youngest agents to obtain his real estate license in Ontario, completing all his courses at just 17 years old, has a passion for real estate. Already an investor in Vaughan buying his first house at 18, he has been managing his property & tenants with ease and comes with a wealth of information & guidance!
-    </p>
-    <p class="mb-4 leading-relaxed">
-      His initial investment on a 390k property is today worth over $1,300,000! Specifically focusing in Vaughan and specializing in Vaughan condos, townhomes & semi-detached properties, his passion for working with first-time buyers, condo enthusiasts, tenants & investors is unparalleled.
-    </p>
-    <p class="mb-4 leading-relaxed">
-      Offering 10 years of real estate experience in Vaughan, he has a professional and personable working style and you will feel confident in his ability to represent your best interests in any real estate transaction.
-    </p>
-    <p class="leading-relaxed">
-      Chetan make a dynamic team offering combined classic, modern & innovative real estate advice & guidance.
-      <br><br>
-      They look forward to working with you!
-    </p>
-  </div>
-
-  <!-- Right Philosophy Box -->
-  <div class="md:w-1/3 w-full bg-gray-200 p-6 rounded flex flex-col justify-center">
-    <h3 class="text-2xl font-serif font-semibold mb-4 text-center">My Philosophy</h3>
-    <ul class="space-y-4 text-sm text-center">
-      <li>
-        <strong>Trust</strong><br>
-        When it comes to real estate, trust is key.
-      </li>
-      <li>
-        <strong>Relationships</strong><br>
-        With trust, strong relationships are built.
-      </li>
-      <li>
-        <strong>Professional</strong><br>
-        Over 10 years experience
-      </li>
-      <li>
-        <strong>Full Service</strong><br>
-        Service from start to finish, you can always count on me!
-      </li>
-    </ul>
-  </div>
-  
-</div>
-</section>
-
-<!-- Awards Section -->
-<!-- <section id="awards" class="fade-in py-20 bg-gray-200 text-center"> -->
-<!-- <div class="max-w-6xl mx-auto px-4">
-  <h2 class="text-3xl font-bold mb-2 text-black">Proven Results</h2>
-  <p class="text-lg text-gray-700 mb-10">An Award Winning Vaughan Agent</p>
-
-  <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 place-items-center text-black"> -->
-    <!-- Award 1 -->
-    <!-- <img src="assets/images/award1.png" alt="Diamond Award" class="w-24 h-24 object-contain"> -->
-    <!-- Award 2 -->
-    <!-- <img src="assets/images/award2.png" alt="Chairman's Club" class="w-24 h-24 object-contain"> -->
-    <!-- Award 3 -->
-    <!-- <img src="assets/images/award3.png" alt="Platinum Director's Award" class="w-24 h-24 object-contain"> -->
-    <!-- Award 4 -->
-    <!-- <img src="assets/images/award4.png" alt="President's Gala" class="w-24 h-24 object-contain"> -->
-    <!-- Award 5 -->
-    <!-- <img src="assets/images/award5.png" alt="Top Producer" class="w-24 h-24 object-contain">
-  </div>
-</div>
-</section> -->
-
-  <!-- Listings Section -->
-  <section id="listings" class="fade-in py-20 bg-white text-black">
-    <div class="max-w-7xl mx-auto px-4 text-center">
-      <h2 class="text-3xl font-bold mb-2">Featured Listings</h2>
-      <p class="text-lg text-gray-600 mb-8">We've got the right home for you!</p>
-
-      <div class="relative">
-        <div class="swiper mySwiper">
-          <div class="swiper-wrapper" id="listing-cards">
-            <!-- Dynamic listing cards will be injected here by main.js -->
-          </div>
-          <div class="swiper-button-next text-gray-700"></div>
-          <div class="swiper-button-prev text-gray-700"></div>
-          <div class="swiper-pagination mt-4"></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="featured-categories" class="py-16 bg-white text-black">
-  <div class="max-w-6xl mx-auto px-4">
-    <div class="text-center mb-10">
-      <h2 class="text-3xl font-bold">Browse Listings</h2>
-      <p class="text-gray-600 mt-2">
-        <span id="sale-count">0</span> For Sale • <span id="rent-count">0</span> For Rent
-      </p>
-    </div>
-
-    <!-- FOR SALE -->
-    <div class="mb-12">
-      <div class="flex items-end justify-between gap-4 mb-4">
+  <!-- BLACK FEATURE GRID (Steven-like) -->
+  <section class="bg-ink text-white" id="about">
+    <div class="max-w-7xl mx-auto px-6 py-16">
+      <!-- Stats row -->
+      <div class="grid md:grid-cols-3 gap-10 text-center">
         <div>
-          <h3 class="text-2xl font-semibold">Properties For Sale</h3>
-          <p class="text-gray-600"><span id="sale-count-2">0</span> listings</p>
+          <div class="font-display text-3xl tracking-[0.16em] uppercase">Top 1%</div>
+          <p class="mt-3 text-white/70 text-sm leading-6">Top realtor based on sales volume and transactions.</p>
         </div>
-        <a href="properties.html?type=sale" class="text-blue-600 font-semibold hover:underline">View all</a>
-      </div>
-
-      <div id="sale-grid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3">
-        <!-- Sale preview images injected by JS -->
-      </div>
-    </div>
-
-    <!-- FOR RENT -->
-    <div>
-      <div class="flex items-end justify-between gap-4 mb-4">
         <div>
-          <h3 class="text-2xl font-semibold">Properties For Rent</h3>
-          <p class="text-gray-600"><span id="rent-count-2">0</span> listings</p>
+          <div class="font-display text-3xl tracking-[0.16em] uppercase">$XXM</div>
+          <p class="mt-3 text-white/70 text-sm leading-6">Real estate transactions to date.</p>
         </div>
-        <a href="properties.html?type=rent" class="text-blue-600 font-semibold hover:underline">View all</a>
+        <div>
+          <div class="font-display text-3xl tracking-[0.16em] uppercase">XM</div>
+          <p class="mt-3 text-white/70 text-sm leading-6">Unique social media impressions.</p>
+        </div>
       </div>
 
-      <div id="rent-grid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3">
-        <!-- Rent preview images injected by JS -->
-      </div>
-    </div>
-  </div>
-</section>
+      <div class="mt-14 divider"></div>
 
+      <!-- Mosaic tiles (replace image paths as needed) -->
+      <!-- <div class="mt-12 grid grid-cols-12 gap-4">
+        <a class="tile col-span-12 md:col-span-7 h-[280px] md:h-[360px]" href="properties.html">
+          <img src="assets/images/tiles/portfolio.jpg" alt="Portfolio" />
+          <div class="tile-label">Portfolio</div>
+        </a>
 
-<!-- <section id="property-categories" class="py-16 bg-gray-50">
-  <div class="max-w-6xl mx-auto px-4">
-    <div class="text-center mb-10">
-      <h2 class="text-3xl font-bold text-black">Properties</h2>
-      <p class="text-gray-600 mt-2">
-        <span id="sale-count-2">0</span> For Sale • <span id="rent-count-2">0</span> For Rent
-      </p>
-    </div>
-
-    <div class="grid md:grid-cols-2 gap-8"> -->
-      <!-- For Sale -->
-      <!-- <div class="bg-white border border-gray-200 rounded-2xl p-6 shadow-sm">
-        <div class="flex items-baseline justify-between">
-          <h3 class="text-xl font-semibold text-black">For Sale</h3>
-          <div class="text-sm text-gray-600">
-            <span id="sale-count">0</span> listings
-          </div>
+        <div class="col-span-12 md:col-span-5 grid grid-cols-2 gap-4">
+          <a class="tile col-span-2 h-[170px]" href="#">
+            <img src="assets/images/tiles/press-media.jpg" alt="Press & Media" />
+            <div class="tile-label">Press &amp; Media</div>
+          </a>
+          <a class="tile col-span-2 h-[170px]" href="#">
+            <img src="assets/images/tiles/property-videos.jpg" alt="Property Videos" />
+            <div class="tile-label">Property Videos</div>
+          </a>
+          <a class="tile col-span-1 h-[170px]" href="#">
+            <img src="assets/images/tiles/buyers.jpg" alt="Buyers" />
+            <div class="tile-label">Buyers</div>
+          </a>
+          <a class="tile col-span-1 h-[170px]" href="#">
+            <img src="assets/images/tiles/sellers.jpg" alt="Sellers" />
+            <div class="tile-label">Sellers</div>
+          </a>
+          <a class="tile col-span-2 h-[210px]" href="#">
+            <img src="assets/images/tiles/home-valuation.jpg" alt="Home Valuation" />
+            <div class="tile-label">Home Valuation</div>
+          </a>
         </div>
-
-        <div id="sale-preview" class="grid grid-cols-4 gap-3 mt-4"></div>
-
-        <div id="sale-grid" class="grid sm:grid-cols-2 gap-4 mt-6"></div>
       </div> -->
+    </div>
+  </section>
 
-      <!-- For Rent -->
-      <!-- <div class="bg-white border border-gray-200 rounded-2xl p-6 shadow-sm">
-        <div class="flex items-baseline justify-between">
-          <h3 class="text-xl font-semibold text-black">For Rent</h3>
-          <div class="text-sm text-gray-600">
-            <span id="rent-count">0</span> listings
+  <!-- MEET SECTION (Steven-like) -->
+  <section class="bg-white" id="about">
+    <div class="max-w-7xl mx-auto px-6 py-20">
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div class="bg-gray-100 shadow-soft p-4">
+          <img src="assets/images/hero.enc" alt="Chetan" class="w-full h-[520px] object-cover" />
+        </div>
+        <div>
+          <h2 class="font-display text-4xl md:text-5xl uppercase tracking-[0.14em]">Meet Chetan</h2>
+          <div class="mt-6 h-px w-40 bg-black/20"></div>
+          <p class="mt-8 text-gray-700 leading-7 max-w-xl">
+            As a customer-focused professional, Chetan provides exceptional service to bring your vision to life.
+            He takes personalized measures to not only meet your needs, but to exceed expectations.
+          </p>
+          <a href="#connect" class="mt-12 inline-block caps text-xs text-black/80 border-b border-black/30 pb-2 hover:text-black hover:border-black">
+            Learn more
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS (Steven-like) -->
+  <section class="relative bg-ink text-white" id="testimonials">
+    <div class="absolute inset-0 opacity-30" style="background-image:url('assets/images/hero/interior-dark.jpg'); background-size:cover; background-position:center;"></div>
+    <div class="relative max-w-7xl mx-auto px-6 py-20">
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <div class="font-display text-4xl uppercase tracking-[0.18em]">Testimonials</div>
+          <div class="mt-8 flex items-center gap-6">
+            <button class="caps text-xs border-b border-white/30 pb-2 hover:border-white">Previous</button>
+            <button class="caps text-xs border-b border-white/30 pb-2 hover:border-white">Next</button>
+          </div>
+        </div>
+        <div class="text-white/85 leading-7">
+          <p>
+            “We recently worked with Chetan to sell our condo in a competitive market and purchase a home north of the city.
+            His experience, professionalism, and marketing strategy exceeded our expectations.”
+          </p>
+          <div class="mt-6 caps text-xs text-white/70">— Client Name</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- CONNECT (simple, clean) -->
+  <section id="connect" class="bg-white">
+    <div class="max-w-7xl mx-auto px-6 py-20">
+      <div class="grid md:grid-cols-2 gap-12">
+        <div>
+          <h2 class="font-display text-4xl uppercase tracking-[0.14em]">Let’s Connect</h2>
+          <p class="mt-5 text-gray-700 leading-7 max-w-xl">
+            Buying, selling, leasing, or just exploring options—send a quick message and we’ll get back to you.
+          </p>
+          <div class="mt-10 text-sm text-gray-700 space-y-2">
+            <div><span class="font-semibold">Phone:</span> <a class="underline" href="tel:+16479012878">(647) 901-2878</a></div>
+            <div><span class="font-semibold">Email:</span> <a class="underline" href="mailto:hello@homesbychetan.ca">hello@homesbychetan.ca</a></div>
           </div>
         </div>
 
-        <div id="rent-preview" class="grid grid-cols-4 gap-3 mt-4"></div>
+        <section id="contact" class="fade-in py-20 bg-white text-black">
+          <div class="max-w-5xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-6">Let’s Connect</h2>
 
-        <div id="rent-grid" class="grid sm:grid-cols-2 gap-4 mt-6"></div>
-      </div>
-    </div>
-  </div>
-</section> -->
-
-<!-- Testimonials Section -->
-<section id="testimonials" class="fade-in py-20 bg-white text-black">
-<div class="max-w-7xl mx-auto px-4">
-  <h2 class="text-3xl font-bold text-center mb-2">Client Testimonials</h2>
-  <p class="text-lg text-gray-600 text-center mb-10">Helping great families with their dream home</p>
-
-  <div class="flex flex-col md:flex-row gap-10 items-start">
-    <!-- Testimonial Text -->
-    <div class="md:w-1/2 text-gray-800 space-y-4">
-      <p>
-        I am thrilled to write this testimonial for Chetan Chhabra , our exceptional real estate agent who has consistently exceeded our expectations throughout our journey...
-      </p>
-      <p>
-        Chetan’s remarkable qualities stayed with us, so when the time came to sell our condo and find a new home in Innisfil, there was no doubt in our minds about who to turn to...
-      </p>
-      <p>
-        His approachability and genuine nature make communication effortless. He truly listens and ensures every step aligns with our vision...
-      </p>
-    </div>
-
-    <!-- Image -->
-    <div class="md:w-1/2">
-      <img src="assets/images/house1.jpg" alt="Client Testimonial" class="rounded-lg shadow-md w-full h-auto">
-    </div>
-  </div>
-</div>
-</section>
-
-<!-- Contact Section -->
-<!-- <section id="contact" class="fade-in py-20 bg-white text-black">
-<div class="max-w-5xl mx-auto px-4 text-center">
-  <h2 class="text-3xl font-bold mb-6">Let’s Connect</h2>
-
-<form id="contactForm" class="text-left space-y-6">
-
-  <p class="hidden">
-    <label>
-      Don’t fill this out if you're human:
-      <input name="bot-field" />
-    </label>
-  </p>
-
-  <div class="grid md:grid-cols-2 gap-6">
-    <div>
-      <label class="block font-semibold mb-1">First name: <span class="text-red-500">*</span></label>
-      <input type="text" name="first-name" required autocomplete="given-name" class="w-full border border-gray-300 rounded px-4 py-2">
-    </div>
-    <div>
-      <label class="block font-semibold mb-1">Last name: <span class="text-red-500">*</span></label>
-      <input type="text" name="last-name" required autocomplete="family-name" class="w-full border border-gray-300 rounded px-4 py-2">
-    </div>
-    <div>
-      <label class="block font-semibold mb-1">Email address: <span class="text-red-500">*</span></label>
-      <input type="email" name="email" required autocomplete="email" class="w-full border border-gray-300 rounded px-4 py-2">
-    </div>
-    <div>
-      <label class="block font-semibold mb-1">Phone number:</label>
-      <input type="tel" name="phone" autocomplete="tel" class="w-full border border-gray-300 rounded px-4 py-2">
-    </div>
-  </div>
-
-  <div>
-    <label class="block font-semibold mb-1">Message: <span class="text-red-500">*</span></label>
-    <textarea name="message" rows="5" required class="w-full border border-gray-300 rounded px-4 py-2"></textarea>
-  </div>
-
-  <div>
-    <label class="block font-semibold mb-1">How did you hear about me?</label>
-    <select name="referral" class="w-full border border-gray-300 rounded px-4 py-2">
-      <option value="">-- Select an option --</option>
-      <option value="friend">Friend or Family</option>
-      <option value="instagram">Instagram</option>
-      <option value="google">Google</option>
-      <option value="event">Open House / Event</option>
-      <option value="other">Other</option>
-    </select>
-  </div>
-    <button type="submit" class="bg-green-900 hover:bg-green-800 text-white px-6 py-2 rounded font-semibold shadow">
-        Send Message
-    </button>
-</form>
-</div>
-</section> -->
-
-<section id="contact" class="fade-in py-20 bg-white text-black">
-<div class="max-w-5xl mx-auto px-4 text-center">
-  <h2 class="text-3xl font-bold mb-6">Let’s Connect</h2>
-
-<div class="w-full">
-  <iframe
-    src="https://docs.google.com/forms/d/e/1FAIpQLSesNFZoDavvj09RIWqzg-AKALLveTAUsaa0RSIZcz29VrLLsg/viewform?embedded=true"
-    class="w-full"
-    height="900"
-    frameborder="0"
-    marginheight="0"
-    marginwidth="0"
+              <div class="w-full">
+              <iframe
+              src="https://docs.google.com/forms/d/e/1FAIpQLSesNFZoDavvj09RIWqzg-AKALLveTAUsaa0RSIZcz29VrLLsg/viewform?embedded=true"
+              class="w-full"
+              height="900"
+              frameborder="0"
+              marginheight="0"
+              marginwidth="0"
   >Loading…</iframe>
 </div>
 
 </div>
 </section>
 
-  <!-- Footer -->
-  <footer class="bg-gray-100 text-center py-6 text-sm text-gray-600 border-t">
-    &copy; <span id="year"></span> Chetan Chhabra. All rights reserved.
+        <!-- Keep your existing form structure if you want, or swap to Google Form embed later -->
+        <!-- <div class="bg-gray-50 border border-gray-200 rounded-2xl p-6 shadow-soft">
+          <form id="contactForm" class="space-y-4">
+            <div class="grid md:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-sm font-semibold mb-1">First name <span class="text-red-500">*</span></label>
+                <input name="first-name" required class="w-full border border-gray-300 rounded-lg px-4 py-2" />
+              </div>
+              <div>
+                <label class="block text-sm font-semibold mb-1">Last name <span class="text-red-500">*</span></label>
+                <input name="last-name" required class="w-full border border-gray-300 rounded-lg px-4 py-2" />
+              </div>
+              <div>
+                <label class="block text-sm font-semibold mb-1">Email <span class="text-red-500">*</span></label>
+                <input type="email" name="email" required class="w-full border border-gray-300 rounded-lg px-4 py-2" />
+              </div>
+              <div>
+                <label class="block text-sm font-semibold mb-1">Phone</label>
+                <input name="phone" class="w-full border border-gray-300 rounded-lg px-4 py-2" />
+              </div>
+            </div>
+            <div>
+              <label class="block text-sm font-semibold mb-1">Message <span class="text-red-500">*</span></label>
+              <textarea name="message" rows="4" required class="w-full border border-gray-300 rounded-lg px-4 py-2"></textarea>
+            </div>
+            <div>
+              <label class="block text-sm font-semibold mb-1">How did you hear about me?</label>
+              <select name="referral" class="w-full border border-gray-300 rounded-lg px-4 py-2">
+                <option value="">-- Select an option --</option>
+                <option value="friend">Friend or Family</option>
+                <option value="instagram">Instagram</option>
+                <option value="google">Google</option>
+                <option value="event">Open House / Event</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <button type="submit" class="w-full bg-ink text-white py-3 rounded-lg caps text-xs hover:bg-black">
+              Send Message
+            </button>
+            <div id="formStatus" class="text-sm text-gray-600"></div>
+          </form>
+        </div> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER (Steven-like dark) -->
+  <footer class="bg-ink text-white">
+    <div class="max-w-7xl mx-auto px-6 py-16">
+      <div class="grid md:grid-cols-2 gap-12 items-start">
+        <div>
+          <div class="font-display text-3xl uppercase tracking-[0.16em]">Homes by Chetan</div>
+          <div class="mt-6 text-sm text-white/70 space-y-2">
+            <div><span class="font-semibold text-white">Email:</span> hello@homesbychetan.ca</div>
+            <div><span class="font-semibold text-white">Phone:</span> (647) 901-2878</div>
+          </div>
+          <p class="mt-8 text-xs text-white/55 max-w-xl">
+            All information is deemed reliable but not guaranteed and should be independently reviewed and verified.
+          </p>
+        </div>
+        <div class="text-sm text-white/70">
+          <!-- <div class="font-display uppercase tracking-[0.14em] text-white">Brokerage</div>
+          <div class="mt-4">CENTURY 21 PROPERTY ZONE REALTY INC.</div>
+          <div class="mt-1">647-910-9999</div> -->
+          <div class="mt-10 flex gap-4 text-xs caps">
+            <a class="underline hover:text-white" href="#home">Home</a>
+            <a class="underline hover:text-white" href="#portfolio">Portfolio</a>
+            <a class="underline hover:text-white" href="#about">About</a>
+            <a class="underline hover:text-white" href="#connect">Let's Connect</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-12 divider"></div>
+      <div class="mt-6 text-xs text-white/55">Copyright © <span id="year"></span> Homes by Chetan</div>
+    </div>
   </footer>
 
-  <!-- Scripts -->
-  <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <script src="script/main.js"></script>
-  <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
-  <script>
-  // Replace this with your latest deployed Web App /exec URL
-  const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbz2acoJ4QXrNxYuHyny4PgIekrSOFvQoT0sm3aDne0/dev";
+  <!-- Existing functionality (keep) -->
+  <script src="home-categories.js" defer></script>
 
-  document.addEventListener("DOMContentLoaded", () => {
-    const form = document.getElementById("contactForm");
-    if (!form) {
-      console.error("contactForm not found. Check the form id.");
-      return;
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Minimal UX for contact form (no backend). Replace later with Google Form/App Script.
+    const form = document.getElementById('contactForm');
+    const statusEl = document.getElementById('formStatus');
+    if (form) {
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        statusEl.textContent = 'Form is not wired yet. If you want, we can embed a Google Form here.';
+      });
     }
-
-    form.addEventListener("submit", async (e) => {
-      e.preventDefault();
-
-      const payload = {
-        "first-name": form.querySelector('[name="first-name"]').value.trim(),
-        "last-name": form.querySelector('[name="last-name"]').value.trim(),
-        "email": form.querySelector('[name="email"]').value.trim(),
-        "phone": form.querySelector('[name="phone"]').value.trim(),
-        "message": form.querySelector('[name="message"]').value.trim(),
-        "referral": form.querySelector('[name="referral"]').value,
-        "pageUrl": window.location.href,
-        "userAgent": navigator.userAgent
-      };
-
-      try {
-        // Apps Script Web Apps usually require no-cors from static sites (GitHub Pages).
-        // Request will still be sent, but you cannot reliably read JSON response.
-        await fetch(SCRIPT_URL, {
-          method: "POST",
-          mode: "no-cors",
-          headers: { "Content-Type": "text/plain;charset=utf-8" },
-          body: JSON.stringify(payload)
-        });
-
-        alert("Thanks! Your message has been sent.");
-        form.reset();
-      } catch (err) {
-        console.error(err);
-        alert("Network error. Please try again.");
-      }
-    });
-  });
-</script>
-<!-- <script src="home-categories.js"></script> -->
-<script src="home-categories.js" defer></script>
-
+  </script>
 </body>
 </html>
