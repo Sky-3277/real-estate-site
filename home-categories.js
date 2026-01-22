@@ -1,201 +1,163 @@
-/*
-  home-categories.js
-  - Loads listings from listing.json (or listings.json as fallback)
-  - Calculates counts for Sale and Rent/Lease
-  - Renders up to 6 Rent/Lease preview cards in #rent-grid
-  - Updates multiple counters if present on the page
-  - Works on GitHub Pages / local http.server (no backend)
-*/
+(() => {
+  const DATA_URL = "./listing.json"; // keep listing.json in same folder as index.html
+  const MAX_CARDS = 6;
 
-(function () {
-  const DATA_URL_CANDIDATES = [
-    './listing.json',
-    './listings.json'
-  ];
+  // --- helpers ---
+  const $ = (id) => document.getElementById(id);
 
-  // ---------- DOM helpers ----------
-  function setTextByIds(ids, value) {
-    ids.forEach((id) => {
-      const el = document.getElementById(id);
-      if (el) el.textContent = String(value);
-    });
+  function normStr(v) {
+    return String(v || "").trim();
   }
 
-  function setAttrById(id, attr, value) {
-    const el = document.getElementById(id);
-    if (el) el.setAttribute(attr, value);
+  function normLower(v) {
+    return normStr(v).toLowerCase();
   }
 
-  function safeStr(v) {
-    return (v == null) ? '' : String(v);
+  function inferSaleOrLease(item) {
+    // 1) Explicit flag (recommended)
+    const sol = normLower(item.saleOrLease);
+    if (sol.includes("sale")) return "sale";
+    if (sol.includes("lease") || sol.includes("rent")) return "lease";
+
+    // 2) Other common fields
+    const t = normLower(item.transactionType || item.listingType || item.type);
+    if (t.includes("sale")) return "sale";
+    if (t.includes("lease") || t.includes("rent")) return "lease";
+
+    // 3) Status fallback
+    const s = normLower(item.status);
+    if (s.includes("leased") || s.includes("rent")) return "lease";
+    if (s.includes("sold")) return "sale";
+
+    // 4) Price string fallback (your JSON often stores "For Lease $X...")
+    const p = normLower(item.price);
+    if (p.includes("for lease") || p.includes("lease") || p.includes("rent")) return "lease";
+    if (p.includes("for sale") || p.includes("sale")) return "sale";
+
+    // Default (safe): lease
+    return "lease";
   }
 
-  function normalizeType(listing) {
-    // Prefer explicit field if present
-    const lt = safeStr(listing.listingType).trim().toLowerCase();
-    if (lt) {
-      if (lt === 'sale' || lt === 'for sale') return 'sale';
-      if (lt === 'rent' || lt === 'lease' || lt === 'for lease') return 'rent';
+  function getTitle(item) {
+    return (
+      normStr(item.title) ||
+      [item.address, item.city].filter(Boolean).join(", ") ||
+      "Property"
+    );
+  }
+
+  function getSubtitle(item) {
+    // Your JSON often has price like: "For Lease $1,800 | 1 Year"
+    const price = normStr(item.price);
+    const beds = normStr(item.beds);
+    const baths = normStr(item.baths);
+
+    const bb = [beds && `${beds} bd`, baths && `${baths} ba`].filter(Boolean).join(" | ");
+    if (price && bb) return `${price} • ${bb}`;
+    return price || bb || "";
+  }
+
+  function getImage(item) {
+    if (Array.isArray(item.images) && item.images.length) return item.images[0];
+    if (item.image) return item.image;
+    return "assets/images/placeholder.jpg";
+  }
+
+  function escapeHtml(str) {
+    return String(str || "")
+      .replaceAll("&", "&amp;")
+      .replaceAll("<", "&lt;")
+      .replaceAll(">", "&gt;")
+      .replaceAll('"', "&quot;")
+      .replaceAll("'", "&#039;");
+  }
+
+  function buildCard(item) {
+    const title = escapeHtml(getTitle(item));
+    const subtitle = escapeHtml(getSubtitle(item));
+    const img = escapeHtml(getImage(item));
+
+    return `
+      <div class="bg-white rounded-xl border border-gray-200 overflow-hidden shadow-sm">
+        <div class="aspect-[4/3] bg-gray-100">
+          <img src="${img}" alt="${title}" class="w-full h-full object-cover" loading="lazy">
+        </div>
+        <div class="p-3">
+          <div class="font-semibold text-sm text-gray-900 truncate">${title}</div>
+          <div class="text-xs text-gray-600 truncate">${subtitle}</div>
+        </div>
+      </div>
+    `;
+  }
+
+  function renderGrid(containerId, items) {
+    const el = $(containerId);
+    if (!el) return;
+
+    const slice = items.slice(0, MAX_CARDS);
+    if (!slice.length) {
+      el.innerHTML = `<div class="col-span-3 text-sm text-gray-500">No listings yet.</div>`;
+      return;
     }
 
-    // Fall back to status-like fields
-    const status = (
-      safeStr(listing.statusText) + ' ' +
-      safeStr(listing.status) + ' ' +
-      safeStr(listing.transactionType)
-    ).toLowerCase();
-
-    if (status.includes('for sale') || status.includes('sale')) return 'sale';
-    if (status.includes('for lease') || status.includes('lease') || status.includes('rent')) return 'rent';
-
-    // Try to infer from price text (some feeds put it there)
-    const price = safeStr(listing.price).toLowerCase();
-    if (price.includes('lease') || price.includes('rent')) return 'rent';
-    if (price.includes('sale')) return 'sale';
-
-    return 'unknown';
+    el.innerHTML = slice.map(buildCard).join("");
   }
 
-  function getCoverImage(listing) {
-    // Attempt a few common fields
-    const direct = listing.image || listing.coverImage || listing.thumbnail;
-    if (direct) return direct;
-
-    const images = listing.images || listing.gallery || listing.photos;
-    if (Array.isArray(images) && images.length) {
-      const first = images[0];
-      if (typeof first === 'string') return first;
-      if (first && typeof first === 'object') return first.url || first.src || first.image || '';
-    }
-
-    return 'assets/images/placeholder.jpg';
+  function setText(id, value) {
+    const el = $(id);
+    if (el) el.textContent = String(value);
   }
 
-  function getTitle(listing) {
-    return listing.title || listing.address || listing.fullAddress || listing.name || 'Property';
-  }
-
-  function getSubline(listing) {
-    // Prefer clean price + beds/baths
-    const price = safeStr(listing.price);
-    const beds = listing.beds != null ? `${listing.beds} bd` : '';
-    const baths = listing.baths != null ? `${listing.baths} ba` : '';
-    const sep = (beds || baths) ? ' | ' : '';
-    const suffix = (beds || baths) ? `${beds}${beds && baths ? ' | ' : ''}${baths}` : '';
-    return (price ? price : '') + (price && suffix ? sep : '') + suffix;
-  }
-
-  function makeCard(listing) {
-    const a = document.createElement('a');
-    a.href = listing.url || listing.link || 'properties.html';
-    a.className = 'block bg-white rounded-xl border border-gray-200 overflow-hidden shadow-sm hover:shadow-md transition';
-
-    const img = document.createElement('img');
-    img.src = getCoverImage(listing);
-    img.alt = getTitle(listing);
-    img.className = 'w-full h-28 object-cover';
-
-    const body = document.createElement('div');
-    body.className = 'p-3';
-
-    const t = document.createElement('div');
-    t.className = 'text-sm font-semibold text-gray-900 truncate';
-    t.textContent = getTitle(listing);
-
-    const s = document.createElement('div');
-    s.className = 'text-xs text-gray-600 truncate';
-    const type = normalizeType(listing);
-    const label = type === 'rent' ? 'For Lease' : (type === 'sale' ? 'For Sale' : 'Listing');
-    const sub = getSubline(listing);
-    s.textContent = sub ? `${label} ${sub}` : label;
-
-    body.appendChild(t);
-    body.appendChild(s);
-
-    a.appendChild(img);
-    a.appendChild(body);
-    return a;
-  }
-
-  async function fetchFirstWorkingJson() {
-    let lastErr = null;
-    for (const url of DATA_URL_CANDIDATES) {
-      try {
-        const res = await fetch(url, { cache: 'no-store' });
-        if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
-        const data = await res.json();
-        // Accept either an array, or { listings: [...] }
-        if (Array.isArray(data)) return { url, listings: data };
-        if (data && Array.isArray(data.listings)) return { url, listings: data.listings };
-        throw new Error(`Unexpected JSON shape in ${url}`);
-      } catch (e) {
-        lastErr = e;
-      }
-    }
-    throw lastErr || new Error('No data URLs worked');
-  }
-
-  function showError(err) {
-    console.error('Listings load error:', err);
-    setTextByIds(['sale-count', 'sale-count-2', 'count-total-sale'], 0);
-    setTextByIds(['rent-count', 'rent-count-2', 'count-total-rent'], 0);
-
-    const grid = document.getElementById('rent-grid');
-    if (grid) {
-      grid.innerHTML = '<div class="col-span-full text-sm text-gray-600">Unable to load listings. Check the JSON file path and open DevTools → Console.</div>';
-    }
-  }
-
+  // --- main ---
   async function init() {
-    const { listings } = await fetchFirstWorkingJson();
+    try {
+      const res = await fetch(DATA_URL, { cache: "no-store" });
+      if (!res.ok) throw new Error(`Failed to fetch ${DATA_URL}: ${res.status}`);
 
-    const saleListings = [];
-    const rentListings = [];
+      let data = await res.json();
+      if (data && !Array.isArray(data) && Array.isArray(data.listings)) data = data.listings;
+      if (!Array.isArray(data)) throw new Error("listing.json must be an array of listings");
 
-    for (const l of listings) {
-      const t = normalizeType(l);
-      if (t === 'sale') saleListings.push(l);
-      else if (t === 'rent') rentListings.push(l);
-    }
+      const sale = [];
+      const lease = [];
 
-    const saleCount = saleListings.length;
-    const rentCount = rentListings.length;
-
-    // Update counters anywhere they exist
-    setTextByIds(['sale-count', 'sale-count-2', 'count-total-sale'], saleCount);
-    setTextByIds(['rent-count', 'rent-count-2', 'count-total-rent'], rentCount);
-
-    // Sale preview image (if the page has one)
-    if (saleCount > 0) {
-      const img = getCoverImage(saleListings[0]);
-      setAttrById('salePreviewImg', 'src', img);
-    }
-
-    // Rent/lease preview grid
-    const rentGrid = document.getElementById('rent-grid');
-    if (rentGrid) {
-      rentGrid.innerHTML = '';
-      const preview = rentListings.slice(0, 6);
-      if (!preview.length) {
-        rentGrid.innerHTML = '<div class="col-span-full text-sm text-gray-600">No lease listings found.</div>';
-      } else {
-        preview.forEach((l) => rentGrid.appendChild(makeCard(l)));
+      for (const item of data) {
+        const type = inferSaleOrLease(item);
+        if (type === "sale") sale.push(item);
+        else lease.push(item);
       }
-    }
 
-    // Make sure View All buttons work even if they are <button>
-    const saleViewAll = document.getElementById('saleViewAll');
-    if (saleViewAll && saleViewAll.tagName === 'BUTTON') {
-      saleViewAll.addEventListener('click', () => window.location.href = 'properties.html?type=sale');
-    }
+      // counts
+      setText("sale-count", sale.length);
+      setText("rent-count", lease.length);
 
-    const rentViewAll = document.getElementById('rentViewAll');
-    if (rentViewAll && rentViewAll.tagName === 'BUTTON') {
-      rentViewAll.addEventListener('click', () => window.location.href = 'properties.html?type=rent');
+      // totals line
+      setText("count-total-sale", sale.length);
+      setText("count-total-rent", lease.length);
+
+      // render grids
+      renderGrid("sale-grid", sale);
+      renderGrid("rent-grid", lease);
+
+      // buttons
+      const saleBtn = $("saleViewAll");
+      if (saleBtn) saleBtn.addEventListener("click", () => {
+        window.location.href = "properties.html?type=sale";
+      });
+
+      const rentBtn = $("rentViewAll");
+      if (rentBtn) rentBtn.addEventListener("click", () => {
+        window.location.href = "properties.html?type=lease";
+      });
+
+    } catch (err) {
+      console.error("home-categories.js error:", err);
     }
   }
 
-  document.addEventListener('DOMContentLoaded', () => {
-    init().catch(showError);
-  });
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init);
+  } else {
+    init();
+  }
 })();

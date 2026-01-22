@@ -37,10 +37,6 @@
     .caps-tight { text-transform: uppercase; letter-spacing: .12em; }
     .hairline { font-weight: 300; }
 
-    html { scroll-behavior: smooth; }
-    /* Helpful when jumping to sections from nav */
-    section[id] { scroll-margin-top: 80px; }
-
     /* HERO */
     .hero {
       position: relative;
@@ -142,74 +138,17 @@
           </a>
 
           <!-- Desktop nav -->
-          <nav class="hidden md:flex items-center gap-6 lg:gap-8 text-white/90 text-xs caps">
-            <a href="#home" class="hover:text-white">Home</a>
+          <nav class="hidden md:flex items-center gap-8 text-white/90 text-xs caps">
             <a href="#portfolioTiles" class="hover:text-white">Portfolio</a>
-            <a href="#about" class="hover:text-white">About</a>
-            <a href="#testimonials" class="hover:text-white">Testimonials</a>
             <a href="properties.html" class="hover:text-white">Home Search</a>
             <a href="#connect" class="hover:text-white">Let's Connect</a>
-
-            
-
-            <a
-              href="https://wa.me/16479012878?text=Hi%20Chetan%2C%20I%20visited%20homesbychetan.ca%20and%20would%20like%20to%20discuss%20a%20property.%20My%20name%20is%20"
-              target="_blank" rel="noopener"
-              class="inline-flex items-center gap-2 hover:text-white"
-              aria-label="Chat on WhatsApp"
-            >
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5c-1.2 0-2.3-.2-3.4-.6L3 21l1.6-5.6c-.4-1.1-.6-2.2-.6-3.4A8.5 8.5 0 0 1 12.5 3 8.5 8.5 0 0 1 21 11.5z"/>
-                <path d="M8.2 10.7c.2 2.5 2.6 4.8 5.1 5.1"/>
-                <path d="M13.6 15.8l1.6-.5c.5-.2 1-.1 1.4.2l.8.7"/>
-                <path d="M8.1 10.4l.6-1.6c.2-.5.6-.8 1.1-.9l1-.1"/>
-              </svg>
-              <span>(647) 901-2878</span>
-            </a>
+            <a href="tel:+16479012878" class="hover:text-white">(647) 901-2878</a>
           </nav>
 
           <!-- Mobile menu button (simple; no JS needed) -->
-          <button id="mobileMenuBtn" class="md:hidden burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+          <a href="#connect" class="md:hidden burger" aria-label="Menu">
             <span></span><span></span><span></span>
-          </button>
-        </div>
-      </div>
-
-      <!-- Mobile menu -->
-      <div id="mobileMenu" class="md:hidden hidden">
-        <div class="fixed inset-0 bg-black/60 z-40" data-close="mobile"></div>
-        <div class="fixed top-0 right-0 h-full w-[85%] max-w-sm bg-ink text-white z-50 shadow-2xl p-6 overflow-y-auto">
-          <div class="flex items-center justify-between">
-            <div class="font-display uppercase tracking-[0.18em] text-sm">Menu</div>
-            <button id="mobileMenuClose" class="text-white/80 hover:text-white" aria-label="Close menu">✕</button>
-          </div>
-
-          <div class="mt-8 flex flex-col gap-5 text-sm caps">
-            <a href="#home" class="hover:text-white" data-link="mobile">Home</a>
-            <a href="#portfolioTiles" class="hover:text-white" data-link="mobile">Portfolio</a>
-            <a href="#about" class="hover:text-white" data-link="mobile">About</a>
-            <a href="#testimonials" class="hover:text-white" data-link="mobile">Testimonials</a>
-            <a href="properties.html" class="hover:text-white">Home Search</a>
-            <a href="#connect" class="hover:text-white" data-link="mobile">Let's Connect</a>
-
-            <div class="mt-4 h-px bg-white/10"></div>
-
-            <a href="tel:+16479012878" class="hover:text-white">(647) 901-2878</a>
-
-            <a
-              href="https://wa.me/16479012878?text=Hi%20Chetan%2C%20I%20visited%20homesbychetan.ca%20and%20would%20like%20to%20discuss%20a%20property.%20My%20name%20is%20"
-              target="_blank" rel="noopener"
-              class="inline-flex items-center gap-2 hover:text-white"
-            >
-              <span class="inline-flex items-center justify-center w-8 h-8 rounded-full border border-white/20">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5c-1.2 0-2.3-.2-3.4-.6L3 21l1.6-5.6c-.4-1.1-.6-2.2-.6-3.4A8.5 8.5 0 0 1 12.5 3 8.5 8.5 0 0 1 21 11.5z"/>
-                  <path d="M8.2 10.7c.2 2.5 2.6 4.8 5.1 5.1"/>
-                </svg>
-              </span>
-              <span>WhatsApp</span>
-            </a>
-          </div>
+          </a>
         </div>
       </div>
 
@@ -338,7 +277,7 @@
 
 
   <!-- BLACK FEATURE GRID (Steven-like) -->
-  <section class="bg-ink text-white" id="services">
+  <section class="bg-ink text-white" id="about">
     <div class="max-w-7xl mx-auto px-6 py-16">
       <!-- Stats row -->
       <div class="grid md:grid-cols-3 gap-10 text-center">
@@ -448,21 +387,27 @@
           </p>
           <div class="mt-10 text-sm text-gray-700 space-y-2">
             <div><span class="font-semibold">Phone:</span> <a class="underline" href="tel:+16479012878">(647) 901-2878</a></div>
-            <div><span class="font-semibold">Email:</span> <a class="underline" href="mailto:teamchetanc@gmail.com">teamchetanc@gmail.com</a></div>
+            <div><span class="font-semibold">Email:</span> <a class="underline" href="mailto:hello@homesbychetan.ca">hello@homesbychetan.ca</a></div>
           </div>
         </div>
 
-        <div class="bg-gray-50 border border-gray-200 rounded-2xl p-0 shadow-soft overflow-hidden">
-          <iframe
-            src="https://docs.google.com/forms/d/e/1FAIpQLSesNFZoDavvj09RIWqzg-AKALLveTAUsaa0RSIZcz29VrLLsg/viewform?embedded=true"
-            class="w-full"
-            height="900"
-            frameborder="0"
-            marginheight="0"
-            marginwidth="0"
-            title="Contact form"
-          >Loading…</iframe>
-        </div>
+        <section id="contact" class="fade-in py-20 bg-white text-black">
+          <div class="max-w-5xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-6">Let’s Connect</h2>
+
+              <div class="w-full">
+              <iframe
+              src="https://docs.google.com/forms/d/e/1FAIpQLSesNFZoDavvj09RIWqzg-AKALLveTAUsaa0RSIZcz29VrLLsg/viewform?embedded=true"
+              class="w-full"
+              height="900"
+              frameborder="0"
+              marginheight="0"
+              marginwidth="0"
+  >Loading…</iframe>
+</div>
+
+</div>
+</section>
 
         <!-- Keep your existing form structure if you want, or swap to Google Form embed later -->
         <!-- <div class="bg-gray-50 border border-gray-200 rounded-2xl p-6 shadow-soft">
@@ -517,7 +462,7 @@
         <div>
           <div class="font-display text-3xl uppercase tracking-[0.16em]">Homes by Chetan</div>
           <div class="mt-6 text-sm text-white/70 space-y-2">
-            <div><span class="font-semibold text-white">Email:</span> teamchetanc@gmail.com</div>
+            <div><span class="font-semibold text-white">Email:</span> hello@homesbychetan.ca</div>
             <div><span class="font-semibold text-white">Phone:</span> (647) 901-2878</div>
           </div>
           <p class="mt-8 text-xs text-white/55 max-w-xl">
@@ -530,7 +475,7 @@
           <div class="mt-1">647-910-9999</div> -->
           <div class="mt-10 flex gap-4 text-xs caps">
             <a class="underline hover:text-white" href="#home">Home</a>
-            <a class="underline hover:text-white" href="#portfolioTiles">Portfolio</a>
+            <a class="underline hover:text-white" href="#portfolio">Portfolio</a>
             <a class="underline hover:text-white" href="#about">About</a>
             <a class="underline hover:text-white" href="#connect">Let's Connect</a>
           </div>
@@ -546,47 +491,17 @@
   <script src="home-categories.js" defer></script>
 
   <script>
-    // Footer year
-    const yearEl = document.getElementById('year');
-    if (yearEl) yearEl.textContent = new Date().getFullYear();
+    document.getElementById('year').textContent = new Date().getFullYear();
 
-    // Mobile menu
-    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
-    const mobileMenu = document.getElementById('mobileMenu');
-    const mobileMenuClose = document.getElementById('mobileMenuClose');
-
-    const openMobileMenu = () => {
-      if (!mobileMenu) return;
-      mobileMenu.classList.remove('hidden');
-      document.body.style.overflow = 'hidden';
-      if (mobileMenuBtn) mobileMenuBtn.setAttribute('aria-expanded', 'true');
-    };
-
-    const closeMobileMenu = () => {
-      if (!mobileMenu) return;
-      mobileMenu.classList.add('hidden');
-      document.body.style.overflow = '';
-      if (mobileMenuBtn) mobileMenuBtn.setAttribute('aria-expanded', 'false');
-    };
-
-    if (mobileMenuBtn) mobileMenuBtn.addEventListener('click', openMobileMenu);
-    if (mobileMenuClose) mobileMenuClose.addEventListener('click', closeMobileMenu);
-
-    // Close on overlay click
-    if (mobileMenu) {
-      const overlay = mobileMenu.querySelector('[data-close="mobile"]');
-      if (overlay) overlay.addEventListener('click', closeMobileMenu);
-
-      // Close after tapping an in-page link
-      mobileMenu.querySelectorAll('[data-link="mobile"]').forEach((a) => {
-        a.addEventListener('click', closeMobileMenu);
+    // Minimal UX for contact form (no backend). Replace later with Google Form/App Script.
+    const form = document.getElementById('contactForm');
+    const statusEl = document.getElementById('formStatus');
+    if (form) {
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        statusEl.textContent = 'Form is not wired yet. If you want, we can embed a Google Form here.';
       });
     }
-
-    // Close on ESC
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape') closeMobileMenu();
-    });
   </script>
 </body>
 </html>
