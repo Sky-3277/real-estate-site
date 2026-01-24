@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Buying | Homes by Chetan</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Oswald:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind (no build step) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Montserrat', 'ui-sans-serif', 'system-ui'],
+            display: ['Oswald', 'Montserrat', 'ui-sans-serif', 'system-ui']
+          },
+          colors: {
+            ink: '#0b0b0b',
+            ink2: '#121212',
+            paper: '#ffffff',
+            muted: '#a7a7a7'
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    .caps { text-transform: uppercase; letter-spacing: .18em; }
+    .caps-tight { text-transform: uppercase; letter-spacing: .12em; }
+    .hero {
+      position: relative;
+      min-height: 78vh;
+      background: #0b0b0b;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      /* Replace with your own buying hero image */
+      background-image:
+        linear-gradient(180deg, rgba(0,0,0,.35) 0%, rgba(0,0,0,.45) 60%, rgba(0,0,0,.70) 100%),
+        url('assets/images/buy/hero.jpg');
+      background-size: cover;
+      background-position: center;
+      transform: scale(1.02);
+    }
+    .divider { height: 1px; background: rgba(255,255,255,.12); }
+    .burger span { display:block; width: 26px; height: 2px; background: rgba(255,255,255,.92); margin: 5px 0; }
+
+    /* Smooth scroll */
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+
+<body class="font-sans bg-paper text-ink">
+
+  <!-- HERO + NAV -->
+  <header class="hero" id="top" style="background-image: linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)), url('assets/images/house2.jpg');">
+    <div class="relative z-10">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="flex items-center justify-between py-6">
+          <!-- Logo / Brand -->
+          <a href="index.html#home" class="flex items-center gap-3 text-white">
+            <div class="w-10 h-10 rounded-full border border-white/30 flex items-center justify-center font-display text-lg">C</div>
+            <div class="leading-tight">
+              <div class="font-display text-base tracking-[0.22em] uppercase">Chetan Chhabra</div>
+              <div class="text-xs text-white/70 tracking-[0.28em] uppercase">Real Estate</div>
+            </div>
+          </a>
+
+          <!-- Desktop nav -->
+          <nav class="hidden md:flex items-center gap-8 text-white/90 text-xs caps">
+            <a href="index.html#portfolioTiles" class="hover:text-white">Portfolio</a>
+            <a href="properties.html" class="hover:text-white">Home Search</a>
+            <a href="index.html#about" class="hover:text-white">About</a>
+            <a href="index.html#testimonials" class="hover:text-white">Testimonials</a>
+            <a href="index.html#connect" class="hover:text-white">Let's Connect</a>
+            <a href="tel:+16479012878" class="hover:text-white">(647) 901-2878</a>
+            <a href="https://wa.me/16479012878?text=Hi%20Chetan%2C%20I%27m%20interested%20in%20buying%20a%20home.%20Can%20we%20connect%3F" target="_blank" rel="noopener" class="flex items-center gap-2 hover:text-white" aria-label="Chat on WhatsApp">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.52 3.48A11.82 11.82 0 0 0 12.06 0C5.48 0 .12 5.36.12 11.94c0 2.1.55 4.16 1.6 5.98L0 24l6.24-1.64a11.9 11.9 0 0 0 5.82 1.48h.01c6.58 0 11.94-5.36 11.94-11.94 0-3.19-1.25-6.19-3.49-8.42Zm-8.46 18.3h-.01a9.9 9.9 0 0 1-5.04-1.38l-.36-.21-3.7.97.99-3.6-.23-.37a9.88 9.88 0 0 1-1.52-5.25C2.2 6.46 6.6 2.06 12.06 2.06c2.64 0 5.13 1.03 7 2.9a9.82 9.82 0 0 1 2.9 7c0 5.46-4.4 9.86-9.9 9.86Zm5.44-7.4c-.3-.15-1.76-.86-2.03-.96-.28-.1-.48-.15-.68.15-.2.3-.78.96-.96 1.16-.18.2-.35.23-.65.08-.3-.15-1.26-.46-2.4-1.47-.89-.8-1.49-1.78-1.66-2.08-.18-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.38-.03-.53-.08-.15-.68-1.64-.93-2.25-.24-.58-.48-.5-.68-.51h-.58c-.2 0-.53.08-.81.38-.28.3-1.06 1.04-1.06 2.53 0 1.49 1.08 2.93 1.23 3.13.15.2 2.12 3.24 5.13 4.55.72.31 1.28.5 1.72.64.72.23 1.38.2 1.9.12.58-.09 1.76-.72 2.01-1.41.25-.69.25-1.28.17-1.41-.08-.13-.28-.2-.58-.35Z"/></svg>
+              <span class="hidden lg:inline"></span>
+            </a>
+          </nav>
+
+          <!-- Mobile: burger -->
+          <button id="mobileBtn" class="md:hidden burger" aria-label="Open menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+
+        <!-- Mobile menu -->
+        <div id="mobileMenu" class="md:hidden hidden pb-6">
+          <div class="rounded-xl border border-white/15 bg-black/45 backdrop-blur px-5 py-4">
+            <div class="grid gap-3 text-white/90 text-xs caps">
+              <a href="index.html#portfolioTiles" class="hover:text-white">Portfolio</a>
+              <a href="properties.html" class="hover:text-white">Home Search</a>
+              <a href="index.html#about" class="hover:text-white">About</a>
+              <a href="index.html#testimonials" class="hover:text-white">Testimonials</a>
+              <a href="index.html#connect" class="hover:text-white">Let's Connect</a>
+              <a href="tel:+16479012878" class="hover:text-white">Call: (647) 901-2878</a>
+              <a href="https://wa.me/16479012878?text=Hi%20Chetan%2C%20I%27m%20interested%20in%20buying%20a%20home.%20Can%20we%20connect%3F" target="_blank" rel="noopener" class="hover:text-white">WhatsApp: Message Chetan</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero title -->
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="pt-24 pb-20 md:pt-28 md:pb-24">
+          <div class="text-center">
+            <h1 class="font-display text-white text-4xl md:text-6xl uppercase tracking-[0.16em]">Buying</h1>
+            <div class="mt-5 flex items-center justify-center gap-6">
+              <div class="h-px w-16 bg-white/35"></div>
+              <p class="caps-tight text-white/75 text-xs">Your next home, guided clearly</p>
+              <div class="h-px w-16 bg-white/35"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- BLACK INTRO BAND -->
+  <section class="bg-ink text-white">
+    <div class="max-w-7xl mx-auto px-6 py-16 md:py-20">
+      <div class="text-center">
+        <h2 class="font-display text-2xl md:text-3xl uppercase tracking-[0.18em]">Your real estate journey starts here</h2>
+        <p class="mt-7 max-w-4xl mx-auto text-white/80 leading-7">
+          Buying a home can feel overwhelming—especially in a competitive market. The goal here is simple: give you a clean plan,
+          clear expectations, and the right support at every step.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- GUIDE + GOOGLE FORM (replaces Steven's native form) -->
+  <!-- <section class="bg-white">
+    <div class="max-w-5xl mx-auto px-6 py-16 md:py-20">
+      <div class="text-center">
+        <h3 class="font-display text-3xl md:text-4xl uppercase tracking-[0.14em]">Educate yourself</h3>
+        <p class="mt-4 text-gray-600">Request the buyer's guide and get the first steps delivered to you.</p>
+      </div>
+
+      <div class="mt-10"> -->
+        <!--
+          Replace the iframe src with YOUR Google Form embed URL.
+          In Google Forms: Send -> <> Embed HTML -> copy the iframe src.
+        -->
+        <!-- <div class="rounded-2xl border border-gray-200 overflow-hidden shadow-sm">
+          <iframe
+            title="Buyer Guide Request"
+            src="https://docs.google.com/forms/d/e/1FAIpQLSf_kUwPftTkwCqB1kkW10hJd9LRp6G3sp1d7OueFzm6NN8U5Q/viewform?embedded=true"
+            width="100%"
+            height="760"
+            frameborder="0"
+            marginheight="0"
+            marginwidth="0"
+            class="w-full">
+            Loading…
+          </iframe>
+        </div>
+        <p class="mt-4 text-xs text-gray-500 text-center">
+          By submitting this form, you consent to being contacted regarding real estate services.
+        </p>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- STEPS HEADER -->
+  <section class="bg-ink text-white">
+    <div class="max-w-7xl mx-auto px-6 py-14 md:py-16">
+      <h3 class="font-display text-3xl md:text-4xl uppercase tracking-[0.18em] text-center">10 steps to purchasing a property</h3>
+    </div>
+  </section>
+
+  <!-- STEPS (alternating image/text) -->
+  <main>
+    <!-- STEP 1 -->
+    <section class="bg-white">
+      <div class="max-w-7xl mx-auto">
+        <div class="flex flex-col md:flex-row">
+          <div class="md:w-1/2">
+            <img src="assets/images/buy/step1.jpg" alt="Step 1" class="w-full h-[320px] md:h-[560px] object-cover" />
+          </div>
+          <div class="md:w-1/2 px-6 md:px-16 py-12 md:py-16 flex items-center">
+            <div>
+              <div class="font-display text-3xl md:text-4xl uppercase tracking-[0.12em]">1. Start with the guide</div>
+              <p class="mt-6 text-gray-700 leading-7 max-w-xl">
+                Understand the buying process, timelines, and common mistakes—before you tour homes. Preparation makes decisions faster
+                and confidence higher when the right property appears.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STEP 2 -->
+    <section class="bg-white">
+      <div class="max-w-7xl mx-auto">
+        <div class="flex flex-col md:flex-row-reverse">
+          <div class="md:w-1/2">
+            <img src="assets/images/buy/step2.jpg" alt="Step 2" class="w-full h-[320px] md:h-[560px] object-cover" />
+          </div>
+          <div class="md:w-1/2 px-6 md:px-16 py-12 md:py-16 flex items-center">
+            <div>
+              <div class="font-display text-3xl md:text-4xl uppercase tracking-[0.12em]">2. Choose the right realtor</div>
+              <p class="mt-6 text-gray-700 leading-7 max-w-xl">
+                A strong realtor adds leverage: strategy, negotiation, trusted partners (mortgage, legal, inspection), and market context.
+                The goal is to protect your interests while making the process smooth.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STEP 3 -->
+    <section class="bg-white">
+      <div class="max-w-7xl mx-auto">
+        <div class="flex flex-col md:flex-row">
+          <div class="md:w-1/2">
+            <img src="assets/images/buy/step3.jpg" alt="Step 3" class="w-full h-[320px] md:h-[560px] object-cover" />
+          </div>
+          <div class="md:w-1/2 px-6 md:px-16 py-12 md:py-16 flex items-center">
+            <div>
+              <div class="font-display text-3xl md:text-4xl uppercase tracking-[0.12em]">3. Set your budget</div>
+              <p class="mt-6 text-gray-700 leading-7 max-w-xl">
+                Confirm affordability with a mortgage professional and plan your closing costs. Clear numbers prevent surprises and let you
+                move quickly when the right home shows up.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STEP 4 -->
+    <section class="bg-white">
+      <div class="max-w-7xl mx-auto">
+        <div class="flex flex-col md:flex-row-reverse">
+          <div class="md:w-1/2">
+            <img src="assets/images/buy/step4.jpg" alt="Step 4" class="w-full h-[320px] md:h-[560px] object-cover" />
+          </div>
+          <div class="md:w-1/2 px-6 md:px-16 py-12 md:py-16 flex items-center">
+            <div>
+              <div class="font-display text-3xl md:text-4xl uppercase tracking-[0.12em]">4. Focus your search</div>
+              <p class="mt-6 text-gray-700 leading-7 max-w-xl">
+                Define target neighbourhoods, property types, and non‑negotiables. Focus beats endless browsing—especially in fast markets.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STEP 5 -->
+    <section class="bg-white">
+      <div class="max-w-7xl mx-auto">
+        <div class="flex flex-col md:flex-row">
+          <div class="md:w-1/2">
+            <img src="assets/images/buy/step5.jpg" alt="Step 5" class="w-full h-[320px] md:h-[560px] object-cover" />
+          </div>
+          <div class="md:w-1/2 px-6 md:px-16 py-12 md:py-16 flex items-center">
+            <div>
+              <div class="font-display text-3xl md:text-4xl uppercase tracking-[0.12em]">5. Wants vs needs</div>
+              <p class="mt-6 text-gray-700 leading-7 max-w-xl">
+                Create a realistic checklist and prioritize what truly matters. This helps you decide faster and avoid buyer’s regret.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STEP 6 -->
+    <section class="bg-white">
+      <div class="max-w-7xl mx-auto">
+        <div class="flex flex-col md:flex-row-reverse">
+          <div class="md:w-1/2">
+            <img src="assets/images/buy/step6.jpg" alt="Step 6" class="w-full h-[320px] md:h-[560px] object-cover" />
+          </div>
+          <div class="md:w-1/2 px-6 md:px-16 py-12 md:py-16 flex items-center">
+            <div>
+              <div class="font-display text-3xl md:text-4xl uppercase tracking-[0.12em]">6. Get listing alerts</div>
+              <p class="mt-6 text-gray-700 leading-7 max-w-xl">
+                Automatic updates keep you ahead. The earlier you see a good listing, the better your chances to book showings and act.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STEP 7 -->
+    <section class="bg-white">
+      <div class="max-w-7xl mx-auto">
+        <div class="flex flex-col md:flex-row">
+          <div class="md:w-1/2">
+            <img src="assets/images/buy/step7.jpg" alt="Step 7" class="w-full h-[320px] md:h-[560px] object-cover" />
+          </div>
+          <div class="md:w-1/2 px-6 md:px-16 py-12 md:py-16 flex items-center">
+            <div>
+              <div class="font-display text-3xl md:text-4xl uppercase tracking-[0.12em]">7. Offer strategy</div>
+              <p class="mt-6 text-gray-700 leading-7 max-w-xl">
+                We build an offer plan using comparable sales, market momentum, and your priorities—price, conditions, timing.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STEP 8 -->
+    <section class="bg-white">
+      <div class="max-w-7xl mx-auto">
+        <div class="flex flex-col md:flex-row-reverse">
+          <div class="md:w-1/2">
+            <img src="assets/images/buy/step8.jpg" alt="Step 8" class="w-full h-[320px] md:h-[560px] object-cover" />
+          </div>
+          <div class="md:w-1/2 px-6 md:px-16 py-12 md:py-16 flex items-center">
+            <div>
+              <div class="font-display text-3xl md:text-4xl uppercase tracking-[0.12em]">8. Deposit planning</div>
+              <p class="mt-6 text-gray-700 leading-7 max-w-xl">
+                In many purchases, deposit timing matters. We help you prepare early so nothing delays the transaction.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STEP 9 -->
+    <section class="bg-white">
+      <div class="max-w-7xl mx-auto">
+        <div class="flex flex-col md:flex-row">
+          <div class="md:w-1/2">
+            <img src="assets/images/buy/step9.jpg" alt="Step 9" class="w-full h-[320px] md:h-[560px] object-cover" />
+          </div>
+          <div class="md:w-1/2 px-6 md:px-16 py-12 md:py-16 flex items-center">
+            <div>
+              <div class="font-display text-3xl md:text-4xl uppercase tracking-[0.12em]">9. Conditions & due diligence</div>
+              <p class="mt-6 text-gray-700 leading-7 max-w-xl">
+                Inspections, financing, status certificates—depending on property type. We coordinate your timeline and keep it organized.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STEP 10 -->
+    <section class="bg-white">
+      <div class="max-w-7xl mx-auto">
+        <div class="flex flex-col md:flex-row-reverse">
+          <div class="md:w-1/2">
+            <img src="assets/images/buy/step10.jpg" alt="Step 10" class="w-full h-[320px] md:h-[560px] object-cover" />
+          </div>
+          <div class="md:w-1/2 px-6 md:px-16 py-12 md:py-16 flex items-center">
+            <div>
+              <div class="font-display text-3xl md:text-4xl uppercase tracking-[0.12em]">10. Closing day</div>
+              <p class="mt-6 text-gray-700 leading-7 max-w-xl">
+                From final walkthrough to key handoff, we make sure the last mile is smooth. Then you move in with confidence.
+              </p>
+              <div class="mt-10">
+                <a href="index.html#connect" class="inline-block caps text-xs text-black/80 border-b border-black/30 pb-2 hover:text-black hover:border-black">
+                  Let’s talk about your plan
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-ink text-white">
+    <div class="max-w-7xl mx-auto px-6 py-14">
+      <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-8">
+        <div>
+          <div class="font-display text-2xl uppercase tracking-[0.16em]">Homes by Chetan</div>
+          <div class="mt-4 text-sm text-white/70">Buying page</div>
+        </div>
+        <div class="text-sm text-white/70 space-y-2">
+          <div><span class="text-white font-semibold">Phone:</span> <a href="tel:+16479012878" class="underline hover:text-white">(647) 901-2878</a></div>
+          <div><span class="text-white font-semibold">Email:</span> <a href="mailto:teamchetanc@gmail.com" class="underline hover:text-white">teamchetanc@gmail.com</a></div>
+        </div>
+      </div>
+      <div class="mt-10 divider"></div>
+      <div class="mt-6 text-xs text-white/55">Copyright © <span id="year"></span> Homes by Chetan</div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    const btn = document.getElementById('mobileBtn');
+    const menu = document.getElementById('mobileMenu');
+    if (btn && menu) {
+      btn.addEventListener('click', () => {
+        const isOpen = !menu.classList.contains('hidden');
+        menu.classList.toggle('hidden');
+        btn.setAttribute('aria-expanded', String(!isOpen));
+      });
+    }
+  </script>
+</body>
+</html>
