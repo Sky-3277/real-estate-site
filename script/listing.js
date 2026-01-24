@@ -486,7 +486,7 @@
                   : ""
               }
             </div>
-            <button onclick="window.print()" class="mt-1 text-sm text-gray-500 hover:text-green-700 whitespace-nowrap">🖨 Print</button>
+<!--            <button onclick="window.print()" class="mt-1 text-sm text-gray-500 hover:text-green-700 whitespace-nowrap">🖨 Print</button> -->
           </div>
         </section>
 

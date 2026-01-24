@@ -6,7 +6,7 @@
   "neighborhood": "Brampton, Credit Valley, Peel, Ontario L6X 5K1",
   "price": "For sale $1,799 | 1 Year",
   "status": "Available",
-  "mlsNum": "W12595816",
+  "mlsNums": "W12595816",
   "homeStyle": "Detached 2-Storey",
   "propertyType": "Detached",
   "bedrooms": 2,
@@ -35,18 +35,17 @@
     "rooms": 4,
     "parking": 1,
     "sqft": "1500-2000 Sqft",
-    "dom": 36
+    "doms": 36
   },
   "links": {
     "directions": "https://maps.google.com/?q=438+Royal+West+Dr+Brampton",
-    "neighbourhoodGuide": "https://example.com/neighbourhood.pdf",
-    "addressGuide": "https://example.com/address.pdf"
+    "neighbourhoodGuides": "https://example.com/neighbourhood.pdf",
+    "addressGuides": "https://example.com/address.pdf"
   },
   "listingInformation": {
     "PIN#": "140932218",
     "Portion For Lease": "Basement",
-    "Status": "Available",
-    "Possession Date": "12/15/2025"
+    "Status": "Available"
   },
   "propertyInformation": {
   "Fronting On": "North",
@@ -98,8 +97,8 @@
   "includedInLease": ["None"],
   "map": { "query": "438 Royal West Dr, Brampton, ON" },
   "contract": {
-    "brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC.",
-    "phone": "647-910-9999"
+    "brokerage": "Cheran Chhabra",
+    "phone": "647-901-2878"
   }
 }
   ,
@@ -109,7 +108,7 @@
   "neighborhood": "Milton, 1032 - FO Ford, Halton, Ontario L9E 0A5",
   "price": "Leased $1,800 | 1 Year",
   "status": "Leased",
-  "mlsNum": "W12607168",
+  "mlsNums": "W12607168",
   "homeStyle": "Detached 2-Storey",
   "propertyType": "Detached",
   "bedrooms": 2,
@@ -137,12 +136,12 @@
     "rooms": 2,
     "parking": 2,
     "sqft": "2500-3000 Sqft",
-    "dom": 18
+    "doms": 18
   },
   "links": {
     "directions": "https://maps.google.com/?q=474+English+Mill+Crt+Milton",
-    "neighbourhoodGuide": "https://example.com/neighbourhood.pdf",
-    "addressGuide": "https://example.com/address.pdf"
+    "neighbourhoodGuides": "https://example.com/neighbourhood.pdf",
+    "addressGuides": "https://example.com/address.pdf"
   },
   "listingInformation": {
     "Leased": "$1,800",
@@ -150,7 +149,6 @@
     "Portion For Lease": "Basement",
     "Status": "Leased",
     "Leased Date": "12/23/2025",
-    "Possession Date": "01/01/2026",
     "Seller Property Info": "N",
     "Statement": ""
   },
@@ -218,8 +216,8 @@
     "name": "Chetan Chhabra",
     "role": "Salesperson",
     "instagram": "https://www.instagram.com/realtor_chetan/",
-    "brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC.",
-    "phone": "647-910-9999"
+    "brokerage": "Cheran Chhabra",
+    "phone": "647-901-2878"
   }
 }
 ,
@@ -230,7 +228,7 @@
   "neighborhood": "Toronto W08, Markland Wood, Toronto, Ontario M9C 1H6",
   "price": "For Lease $1,800 | 1 Year",
   "status": "Available",
-  "mlsNum": "W12535280",
+  "mlsNums": "W12535280",
   "homeStyle": "Semi-Detached 1 1/2 Storey",
   "propertyType": "Semi-Detached",
   "bedrooms": 1,
@@ -258,19 +256,18 @@
     "rooms": 4,
     "parking": 1,
     "sqft": "< 700 Sqft",
-    "dom": 58
+    "doms": 58
   },
 
   "links": {
     "directions": "https://maps.google.com/?q=19+Terryellen+Cres+Toronto+ON",
-    "neighbourhoodGuide": "https://example.com/neighbourhood.pdf",
-    "addressGuide": "https://example.com/address.pdf"
+    "neighbourhoodGuides": "https://example.com/neighbourhood.pdf",
+    "addressGuides": "https://example.com/address.pdf"
   },
 
   "listingInformation": {
     "Portion For Lease": "Basement",
     "Status": "Available",
-    "Possession Date": "11/10/2025",
     "Seller Property Info Statement": "N"
   },
 
@@ -332,8 +329,8 @@
   "map": { "query": "19 Terryellen Cres, Toronto, ON" },
 
   "contract": {
-    "brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC.",
-    "phone": "647-910-9999"
+    "brokerage": "Cheran Chhabra",
+    "phone": "647-901-2878"
   }
 }
 ,
@@ -343,7 +340,7 @@
   "neighborhood": "Milton, 1023 - BE Beaty, Halton, Ontario L9T 6G8",
   "price": "For Lease $1,800 | 1 Year",
   "status": "Available",
-  "mlsNum": "W12500692",
+  "mlsNums": "W12500692",
   "homeStyle": "Semi-Detached 2-Storey",
   "propertyType": "Semi-Detached",
   "bedrooms": 2,
@@ -374,13 +371,13 @@
     "rooms": 4,
     "parking": 1,
     "sqft": "1500-2000 Sqft",
-    "dom": 68
+    "doms": 68
   },
 
   "links": {
     "directions": "https://maps.google.com/?q=660+Armstrong+Blvd+Milton+ON",
-    "neighbourhoodGuide": "",
-    "addressGuide": ""
+    "neighbourhoodGuides": "",
+    "addressGuides": ""
   },
 
   "listingInformation": {
@@ -449,8 +446,8 @@
   "map": { "query": "660 Armstrong Blvd, Milton, ON" },
 
   "contract": {
-    "brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC.",
-    "phone": "647-910-9999"
+    "brokerage": "Cheran Chhabra",
+    "phone": "647-901-2878"
   }
 }
 
@@ -462,7 +459,7 @@
   "neighborhood": "Hamilton, Waterdown, Hamilton, Ontario L8B 1Z3",
   "price": "For Lease $1,800 | 1 Year",
   "status": "Available",
-  "mlsNum": "X12542220",
+  "mlsNums": "X12542220",
   "homeStyle": "Semi-Detached 2-Storey",
   "propertyType": "Semi-Detached",
   "bedrooms": 1,
@@ -500,13 +497,13 @@
     "rooms": 4,
     "parking": 2,
     "sqft": "1500-2000 Sqft",
-    "dom": 58
+    "doms": 58
   },
 
   "links": {
     "directions": "https://maps.google.com/?q=9+Hager+Creek+Terr+Hamilton+ON",
-    "neighbourhoodGuide": "",
-    "addressGuide": ""
+    "neighbourhoodGuides": "",
+    "addressGuides": ""
   },
 
   "listingInformation": {
@@ -514,7 +511,6 @@
     "Portion For Lease": "Basement",
     "Vacant Land Condo": "N",
     "Status": "Available",
-    "Possession Date": "11/15/2025",
     "Seller Property Info Statement": "N"
   },
 
@@ -610,7 +606,7 @@
     "neighborhood": "Toronto W08, Islington-City Centre West, Toronto, Ontario M8Z 4Z6",
     "price": "For Lease $1,899 | 1 Year",
     "status": "Available",
-    "mlsNum": "W12593922",
+    "mlsNums": "W12593922",
     "homeStyle": "Condo Apt Apartment",
     "propertyType": "Condo Apt",
     "bedrooms": 1,
@@ -638,13 +634,13 @@
       "rooms": 4,
       "parking": 0,
       "sqft": "500-599 Sqft",
-      "dom": 38
+      "doms": 38
     },
 
     "links": {
       "directions": "https://maps.google.com/?q=17+Zorra+St+Toronto+ON",
-      "neighbourhoodGuide": "",
-      "addressGuide": ""
+      "neighbourhoodGuides": "",
+      "addressGuides": ""
     },
 
     "listingInformation": {
@@ -652,8 +648,6 @@
       "Status": "Available",
       "Condo Registry Office": "TSCP",
       "Condo Corp#": "2699",
-      "Possession Remarks": "Jan 1/04, 25",
-      "Possession Date": "01/04/2026",
       "Property Mgmt Co": "Remington Facilities Management",
       "Seller Property Info Statement": "N"
     },
@@ -718,8 +712,8 @@
     "map": { "query": "17 Zorra St, Toronto, ON" },
 
     "contract": {
-      "brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC.",
-      "phone": "647-910-9999"
+      "brokerage": "Cheran Chhabra",
+      "phone": "647-901-2878"
     }
   },
   {
@@ -729,7 +723,7 @@
   "neighborhood": "Brampton, Sandringham-Wellington, Peel, Ontario L6R 3T7",
   "price": "For Lease $1,899 | 1 Year",
   "status": "Available",
-  "mlsNum": "W12645388",
+  "mlsNums": "W12645388",
   "homeStyle": "Detached 2-Storey",
   "propertyType": "Detached",
   "bedrooms": 2,
@@ -760,19 +754,18 @@
     "rooms": 2,
     "parking": 2,
     "sqft": "< 700 Sqft",
-    "dom": 20
+    "doms": 20
   },
 
   "links": {
     "directions": "https://maps.google.com/?q=45+Cookview+Dr+Brampton+ON",
-    "neighbourhoodGuide": "",
-    "addressGuide": ""
+    "neighbourhoodGuides": "",
+    "addressGuides": ""
   },
 
   "listingInformation": {
     "Portion For Lease": "Basement",
     "Status": "Available",
-    "Possession Date": "01/01/2026",
     "Payment Frequency": "Monthly",
     "Seller Property Info Statement": "N"
   },
@@ -844,8 +837,8 @@
   "map": { "query": "45 Cookview Dr, Brampton, ON" },
 
   "contract": {
-    "brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC.",
-    "phone": "647-910-9999"
+    "brokerage": "Cheran Chhabra",
+    "phone": "647-901-2878"
   }
 },
 {
@@ -855,7 +848,7 @@
   "neighborhood": "Brampton, Credit Valley, Peel, Ontario L6X 0W8",
   "price": "For Lease $1,899 | 1 Year",
   "status": "Available",
-  "mlsNum": "W12597312",
+  "mlsNums": "W12597312",
   "homeStyle": "Detached 2-Storey",
   "propertyType": "Detached",
   "bedrooms": 2,
@@ -881,18 +874,17 @@
     "rooms": 5,
     "parking": 1,
     "sqft": "2500-3000 Sqft",
-    "dom": 37
+    "doms": 37
   },
   "links": {
     "directions": "https://maps.google.com/?q=9195+Creditview+Rd+Brampton+ON",
-    "neighbourhoodGuide": "",
-    "addressGuide": ""
+    "neighbourhoodGuides": "",
+    "addressGuides": ""
   },
   "listingInformation": {
     "Portion For Lease": "Basement",
     "Status": "Available",
     "Possession Remarks": "Tenanted",
-    "Possession Date": "01/01/2026",
     "Payment Frequency": "Monthly",
     "Seller Property Info Statement": "N"
   },
@@ -952,8 +944,8 @@
   "includedInLease": ["Parking"],
   "map": { "query": "9195 Creditview Rd, Brampton, ON" },
   "contract": {
-    "brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC.",
-    "phone": "647-910-9999"
+    "brokerage": "Cheran Chhabra",
+    "phone": "647-901-2878"
   }
 },
 {
@@ -963,7 +955,7 @@
   "neighborhood": "Brampton, Northwest Brampton, Peel, Ontario L7A 5L5",
   "price": "For Lease $1,999 | 1 Year",
   "status": "Available",
-  "mlsNum": "W12649712",
+  "mlsNums": "W12649712",
   "homeStyle": "Condo Townhouse Stacked Townhse",
   "propertyType": "Condo Townhouse",
   "bedrooms": 1,
@@ -1004,19 +996,18 @@
     "rooms": 4,
     "parking": 0,
     "sqft": "500-599 Sqft",
-    "dom": 17
+    "doms": 17
   },
   "links": {
     "directions": "https://maps.google.com/?q=20+Lagerfeld+Dr+Brampton+ON",
-    "neighbourhoodGuide": "",
-    "addressGuide": ""
+    "neighbourhoodGuides": "",
+    "addressGuides": ""
   },
   "listingInformation": {
     "Portion For Lease": "Main",
     "Status": "Available",
     "Condo Registry Office": "PCC",
     "Condo Corp#": "1167",
-    "Possession Date": "12/31/2025",
     "Payment Frequency": "Monthly",
     "Property Mgmt Co": "GPM Property Management",
     "Seller Property Info Statement": "N"
@@ -1096,8 +1087,8 @@
   "includedInLease": ["Building Insurance", "Common Elements"],
   "map": { "query": "20 Lagerfeld Dr, Brampton, ON" },
   "contract": {
-    "brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC.",
-    "phone": "647-910-9999"
+    "brokerage": "Cheran Chhabra",
+    "phone": "647-901-2878"
   }
 },
 {
@@ -1107,7 +1098,7 @@
   "neighborhood": "Mississauga, City Centre, Peel, Ontario L5B 4M8",
   "price": "For Lease $2,050 | 1 Year",
   "status": "Available",
-  "mlsNum": "W12475234",
+  "mlsNums": "W12475234",
   "homeStyle": "Condo Apt Apartment",
   "propertyType": "Condo Apt",
   "bedrooms": 1,
@@ -1135,13 +1126,13 @@
     "rooms": 4,
     "parking": 1,
     "sqft": "500-599 Sqft",
-    "dom": 79
+    "doms": 79
   },
 
   "links": {
     "directions": "https://maps.google.com/?q=4090+Living+Arts+Dr+Mississauga+ON",
-    "neighbourhoodGuide": "",
-    "addressGuide": ""
+    "neighbourhoodGuides": "",
+    "addressGuides": ""
   },
 
   "listingInformation": {
@@ -1149,7 +1140,6 @@
     "Status": "Available",
     "Condo Registry Office": "PSCC",
     "Condo Corp#": "771",
-    "Possession Date": "01/13/2026",
     "Payment Frequency": "",
     "Property Mgmt Co": "Maple Ridge Community Management",
     "Seller Property Info Statement": "N",
@@ -1216,8 +1206,8 @@
   "map": { "query": "4090 Living Arts Dr, Mississauga, ON" },
 
   "contract": {
-    "brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC.",
-    "phone": "647-910-9999"
+    "brokerage": "Cheran Chhabra",
+    "phone": "647-901-2878"
   }
 },
 {
@@ -1227,7 +1217,7 @@
   "neighborhood": "Vaughan, Vaughan Corporate Centre, York, Ontario L4K 0L1",
   "price": "For Lease $2,100 | 1 Year",
   "status": "Available",
-  "mlsNum": "N12448779",
+  "mlsNums": "N12448779",
   "homeStyle": "Condo Apt Apartment",
   "propertyType": "Condo Apt",
   "bedrooms": 1,
@@ -1257,13 +1247,13 @@
     "rooms": 2,
     "parking": 0,
     "sqft": "0-499 Sqft",
-    "dom": 94
+    "doms": 94
   },
 
   "links": {
     "directions": "https://maps.google.com/?q=1000+Portage+Pkwy+Vaughan+ON",
-    "neighbourhoodGuide": "",
-    "addressGuide": ""
+    "neighbourhoodGuides": "",
+    "addressGuides": ""
   },
 
   "listingInformation": {
@@ -1335,8 +1325,8 @@
   "map": { "query": "1000 Portage Pkwy, Vaughan, ON" },
 
   "contract": {
-    "brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC.",
-    "phone": "647-910-9999"
+    "brokerage": "Cheran Chhabra",
+    "phone": "647-901-2878"
   }
 }
 ,
@@ -1347,7 +1337,7 @@
   "neighborhood": "Milton, 1051 - Walker, Halton, Ontario L9E 1Z2",
   "price": "For Lease $2,100 | 1 Year",
   "status": "Available",
-  "mlsNum": "W12606534",
+  "mlsNums": "W12606534",
   "homeStyle": "Condo Apt Apartment",
   "propertyType": "Condo Apt",
   "bedrooms": 1,
@@ -1383,12 +1373,12 @@
     "rooms": 4,
     "parking": 1,
     "sqft": "500-599 Sqft",
-    "dom": 36
+    "doms": 36
   },
   "links": {
     "directions": "https://maps.google.com/?q=460+Gordon+Krantz+Ave+Milton+ON",
-    "neighbourhoodGuide": "",
-    "addressGuide": ""
+    "neighbourhoodGuides": "",
+    "addressGuides": ""
   },
   "listingInformation": {
     "PIN#": "260720276",
@@ -1467,8 +1457,8 @@
   "includedInLease": ["Building Insurance"],
   "map": { "query": "460 Gordon Krantz Ave, Milton, ON" },
   "contract": {
-    "brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC.",
-    "phone": "647-910-9999"
+    "brokerage": "Cheran Chhabra",
+    "phone": "647-901-2878"
   }
 },
 {
@@ -1478,7 +1468,7 @@
 "neighborhood": "Toronto W08, Islington-City Centre West, Toronto, Ontario M8Z 6C7",
 "price": "For Lease $2,150 | 1 Year",
 "status": "Available",
-"mlsNum": "W12617320",
+"mlsNums": "W12617320",
 "homeStyle": "Condo Apt Apartment",
 "propertyType": "Condo Apt",
 "bedrooms": 1,
@@ -1511,19 +1501,18 @@
 "rooms": 5,
 "parking": 1,
 "sqft": "500-599 Sqft",
-"dom": 30
+"doms": 30
 },
 
 "links": {
 "directions": "https://maps.google.com/?q=1007+The+Queensway+Toronto+ON",
-"neighbourhoodGuide": "",
-"addressGuide": ""
+"neighbourhoodGuides": "",
+"addressGuides": ""
 },
 
 "listingInformation": {
 "Portion For Lease": "Entire Property",
 "Status": "Available",
-"Possession Date": "",
 "Payment Frequency": "Monthly",
 "Seller Property Info Statement": "N"
 },
@@ -1584,8 +1573,8 @@
 "map": { "query": "1007 The Queensway, Toronto, ON" },
 
 "contract": {
-"brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC.",
-"phone": "647-910-9999"
+"brokerage": "Cheran Chhabra",
+"phone": "647-901-2878"
 }
 },
 {
@@ -1595,7 +1584,7 @@
   "neighborhood": "Niagara Falls, 216 - Dorchester, Niagara, Ontario L2G 2M1",
   "price": "For Lease $2,195 | 1 Year",
   "status": "Available",
-  "mlsNum": "X12644950",
+  "mlsNums": "X12644950",
   "homeStyle": "Detached Bungalow",
   "propertyType": "Detached",
   "bedrooms": 3,
@@ -1625,19 +1614,18 @@
     "rooms": "6+2",
     "parking": 2,
     "sqft": "700-1100 Sqft",
-    "dom": 21
+    "doms": 21
   },
 
   "links": {
     "directions": "https://maps.google.com/?q=6300+Corwin+Cres+Niagara+Falls+ON",
-    "neighbourhoodGuide": "",
-    "addressGuide": ""
+    "neighbourhoodGuides": "",
+    "addressGuides": ""
   },
 
   "listingInformation": {
     "Portion For Lease": "Entire Property",
     "Status": "Available",
-    "Possession Date": "12/22/2025",
     "Payment Frequency": "",
     "Seller Property Info Statement": "N"
   },
@@ -1709,8 +1697,8 @@
   "map": { "query": "6300 Corwin Cres, Niagara Falls, ON" },
 
   "contract": {
-    "brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC.",
-    "phone": "647-910-9999"
+    "brokerage": "Cheran Chhabra",
+    "phone": "647-901-2878"
   }
 },
 {
@@ -1720,7 +1708,7 @@
   "neighborhood": "Niagara Falls, 216 - Dorchester, Niagara, Ontario L2G 2M1",
   "price": "For Lease $2,195 | 1 Year",
   "status": "Available",
-  "mlsNum": "X12644950",
+  "mlsNums": "X12644950",
   "homeStyle": "Detached Bungalow",
   "propertyType": "Detached",
   "bedrooms": 3,
@@ -1750,19 +1738,18 @@
     "rooms": "6+2",
     "parking": 2,
     "sqft": "700-1100 Sqft",
-    "dom": 21
+    "doms": 21
   },
 
   "links": {
     "directions": "https://maps.google.com/?q=6300+Corwin+Cres+Niagara+Falls+ON",
-    "neighbourhoodGuide": "",
-    "addressGuide": ""
+    "neighbourhoodGuides": "",
+    "addressGuides": ""
   },
 
   "listingInformation": {
     "Portion For Lease": "Entire Property",
     "Status": "Available",
-    "Possession Date": "12/22/2025",
     "Payment Frequency": "",
     "Seller Property Info Statement": "N"
   },
@@ -1834,8 +1821,8 @@
   "map": { "query": "6300 Corwin Cres, Niagara Falls, ON" },
 
   "contract": {
-    "brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC.",
-    "phone": "647-910-9999"
+    "brokerage": "Cheran Chhabra",
+    "phone": "647-901-2878"
   }
 },
 {
@@ -1845,7 +1832,7 @@
   "neighborhood": "Brampton, Northwood Park, Peel, Ontario L6X 3J8",
   "price": "For Lease $2,199 | 1 Year",
   "status": "Available",
-  "mlsNum": "W12605156",
+  "mlsNums": "W12605156",
   "homeStyle": "Detached 2-Storey (Basement Apartment)",
   "propertyType": "Detached",
   "bedrooms": 2,
@@ -1878,19 +1865,18 @@
     "rooms": "5",
     "parking": 1,
     "sqft": "2000-2500 Sqft",
-    "dom": 36
+    "doms": 36
   },
 
   "links": {
     "directions": "https://maps.google.com/?q=19+Hall+Cres+Brampton+ON",
-    "neighbourhoodGuide": "",
-    "addressGuide": ""
+    "neighbourhoodGuides": "",
+    "addressGuides": ""
   },
 
   "listingInformation": {
     "Portion For Lease": "Basement",
     "Status": "Available",
-    "Possession Date": "01/01/2026",
     "Payment Frequency": "",
     "Seller Property Info Statement": "N"
   },
@@ -1990,8 +1976,8 @@
   "map": { "query": "19 Hall Cres, Brampton, ON L6X 3J8" },
 
   "contract": {
-    "brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC.",
-    "phone": "647-910-9999"
+    "brokerage": "Cheran Chhabra",
+    "phone": "647-901-2878"
   }
 },
 {
@@ -2001,7 +1987,7 @@
   "neighborhood": "Cambridge, Waterloo, Ontario N3C 0G8",
   "price": "For Lease $2,200 | 1 Year",
   "status": "Available",
-  "mlsNum": "X12553238",
+  "mlsNums": "X12553238",
   "homeStyle": "Condo Townhouse 2-Storey",
   "propertyType": "Condo Townhouse",
   "bedrooms": 2,
@@ -2048,19 +2034,18 @@
     "rooms": 5,
     "parking": 1,
     "sqft": "900-999 Sqft",
-    "dom": 55
+    "doms": 55
   },
 
   "links": {
     "directions": "https://maps.google.com/?q=370+Fisher+Mills+Rd+Cambridge+ON",
-    "neighbourhoodGuide": "",
-    "addressGuide": ""
+    "neighbourhoodGuides": "",
+    "addressGuides": ""
   },
 
   "listingInformation": {
     "Portion For Lease": "Entire Property",
     "Status": "Available",
-    "Possession Date": "11/16/2025",
     "Payment Frequency": "",
     "Seller Property Info Statement": "N"
   },
@@ -2175,8 +2160,8 @@
   },
 
   "contract": {
-    "brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC.",
-    "phone": "647-910-9999"
+    "brokerage": "Cheran Chhabra",
+    "phone": "647-901-2878"
   }
 },
 {
@@ -2186,7 +2171,7 @@
   "neighborhood": "Toronto C01, Waterfront Communities C1, Toronto, Ontario M5V 0W2",
   "price": "For Lease $2,050 | 2 Year",
   "status": "Available",
-  "mlsNum": "C12603092",
+  "mlsNums": "C12603092",
   "homeStyle": "Condo Apartment",
   "propertyType": "Condo Apt",
   "bedrooms": "0+1",
@@ -2214,19 +2199,18 @@
     "rooms": 2,
     "parking": 0,
     "sqft": "0-499 Sqft",
-    "dom": 37
+    "doms": 37
   },
 
   "links": {
     "directions": "https://maps.google.com/?q=108+Peter+St+Toronto+ON",
-    "neighbourhoodGuide": "",
-    "addressGuide": ""
+    "neighbourhoodGuides": "",
+    "addressGuides": ""
   },
 
   "listingInformation": {
     "Portion For Lease": "Entire Property",
     "Status": "Available",
-    "Possession Date": "01/01/2026",
     "Payment Frequency": "",
     "Seller Property Info Statement": "N",
     "Condo Registry Office": "TSCC",
@@ -2332,8 +2316,8 @@
   },
 
   "contract": {
-    "brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC.",
-    "phone": "647-910-9999"
+    "brokerage": "Cheran Chhabra",
+    "phone": "647-901-2878"
   }
 },
 {
@@ -2343,7 +2327,7 @@
   "neighborhood": "Mississauga, City Centre, Peel, Ontario L5B 0E1",
   "price": "Leased $2,200 | 1 Year",
   "status": "Leased",
-  "mlsNum": "W12637402",
+  "mlsNums": "W12637402",
   "homeStyle": "Condo Apartment",
   "propertyType": "Condo Apt",
   "bedrooms": "1+1",
@@ -2390,19 +2374,18 @@
     "rooms": 5,
     "parking": 1,
     "sqft": "600-699 Sqft",
-    "dom": 21
+    "doms": 21
   },
 
   "links": {
     "directions": "https://maps.google.com/?q=330+Burnhamthorpe+Rd+W+Mississauga+ON",
-    "neighbourhoodGuide": "",
-    "addressGuide": ""
+    "neighbourhoodGuides": "",
+    "addressGuides": ""
   },
 
   "listingInformation": {
     "Portion For Lease": "Entire Property",
     "Status": "Leased",
-    "Possession Date": "01/01/2026",
     "Payment Frequency": "Monthly",
     "Seller Property Info Statement": "N",
     "Condo Registry Office": "PSCP",
@@ -2487,8 +2470,8 @@
   "map": { "query": "330 Burnhamthorpe Rd W, Mississauga, ON" },
 
   "contract": {
-    "brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC.",
-    "phone": "647-910-9999"
+    "brokerage": "Cheran Chhabra",
+    "phone": "647-901-2878"
   }
 },
 {
@@ -2498,7 +2481,7 @@
 "neighborhood": "Mississauga, Erin Mills, Peel, Ontario L5L 4A2",
 "price": "For Lease $2,250 | 1 Year",
 "status": "Available",
-"mlsNum": "W12454712",
+"mlsNums": "W12454712",
 "homeStyle": "Detached 2-Storey",
 "propertyType": "Detached",
 "bedrooms": "0+2",
@@ -2536,18 +2519,17 @@
 "rooms": "0+4",
 "parking": 1,
 "sqft": "1500-2000 Sqft",
-"dom": 93
+"doms": 93
 },
 "links": {
 "directions": "https://maps.google.com/?q=3200+Osbourne+Rd+Mississauga+ON",
-"neighbourhoodGuide": "",
-"addressGuide": ""
+"neighbourhoodGuides": "",
+"addressGuides": ""
 },
 "listingInformation": {
 "PIN#": "134060477",
 "Portion For Lease": "Basement",
 "Status": "Available",
-"Possession Date": "11/01/2025",
 "Possession Remarks": "Flexible",
 "Seller Property Info Statement": "N"
 },
@@ -2638,8 +2620,8 @@
 "query": "3200 Osbourne Rd, Mississauga, ON"
 },
 "contract": {
-"brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC.",
-"phone": "647-910-9999"
+"brokerage": "Cheran Chhabra",
+"phone": "647-901-2878"
 }
 },
 {
@@ -2649,7 +2631,7 @@
 "neighborhood": "Guelph, Riverside Park, Wellington, Ontario N1H 7G6",
 "price": "For Lease $2,300 | 1 Year",
 "status": "Available",
-"mlsNum": "X12636472",
+"mlsNums": "X12636472",
 "homeStyle": "Condo Townhouse 1 Storey/Apt",
 "propertyType": "Condo Townhouse",
 "bedrooms": "2",
@@ -2696,12 +2678,12 @@
 "rooms": 6,
 "parking": 1,
 "sqft": "900-999 Sqft",
-"dom": 25
+"doms": 25
 },
 "links": {
 "directions": "https://maps.google.com/?q=708+Woolwich+St+Guelph+ON",
-"neighbourhoodGuide": "",
-"addressGuide": ""
+"neighbourhoodGuides": "",
+"addressGuides": ""
 },
 "listingInformation": {
 "Portion For Lease": "Entire Property",
@@ -2851,8 +2833,8 @@
 "query": "708 Woolwich St, Guelph, ON"
 },
 "contract": {
-"brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC.",
-"phone": "647-910-9999"
+"brokerage": "Cheran Chhabra",
+"phone": "647-901-2878"
 }
 },
 {
@@ -2862,7 +2844,7 @@
 "neighborhood": "Guelph, Riverside Park, Wellington, Ontario N1H 0C8",
 "price": "For Lease $2,350 | 1 Year",
 "status": "Available",
-"mlsNum": "X12636068",
+"mlsNums": "X12636068",
 "homeStyle": "Condo Townhouse 1 Storey/Apt",
 "propertyType": "Condo Townhouse",
 "bedrooms": "2",
@@ -2895,12 +2877,12 @@
 "rooms": 6,
 "parking": 1,
 "sqft": "900-999 Sqft",
-"dom": 25
+"doms": 25
 },
 "links": {
 "directions": "https://maps.google.com/?q=708+Woolwich+St+W+101+Guelph+ON",
-"neighbourhoodGuide": "",
-"addressGuide": ""
+"neighbourhoodGuides": "",
+"addressGuides": ""
 },
 "listingInformation": {
 "Portion For Lease": "Entire Property",
@@ -3007,8 +2989,8 @@
 "query": "708 Woolwich St W, Guelph, ON"
 },
 "contract": {
-"brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC.",
-"phone": "647-910-9999"
+"brokerage": "Cheran Chhabra",
+"phone": "647-901-2878"
 }
 },
 {
@@ -3018,7 +3000,7 @@
 "neighborhood": "Brantford, Brantford, Ontario N3T 0P3",
 "price": "For Lease $2,350 | 1 Year",
 "status": "Available",
-"mlsNum": "X12473906",
+"mlsNums": "X12473906",
 "homeStyle": "Att/Row/Twhouse 2-Storey",
 "propertyType": "Att/Row/Twhouse",
 "bedrooms": "3",
@@ -3052,17 +3034,16 @@
 "rooms": "6",
 "parking": "2 Tot prk spcs",
 "sqft": "1500-2000 Sqft",
-"dom": "81 DOM"
+"doms": "81 doms"
 },
 "links": {
 "directions": "https://www.google.com/maps/search/?api=1&query=3%20Butcher%20Cres%2C%20Brantford%2C%20ON",
-"neighbourhoodGuide": "",
-"addressGuide": ""
+"neighbourhoodGuides": "",
+"addressGuides": ""
 },
 "listingInformation": {
 "Portion For Lease": "Entire Property",
 "Status": "Available",
-"Possession Date": "12/01/2025",
 "Seller Property Info": "N",
 "Statement": "—"
 },
@@ -3185,7 +3166,7 @@
 "map": {
 "query": "3 Butcher Cres, Brantford, ON"
 },
-"contract": "CENTURY 21 PROPERTY ZONE REALTY INC. | 647-910-9999"
+"contract": "Cheran Chhabra | 647-901-2878"
 },
 {
 "saleOrLease": "lease",  
@@ -3194,7 +3175,7 @@
 "neighborhood": "Guelph, Riverside Park, Wellington, Ontario N1H 7G6",
 "price": "Unavailable $2,400 | 1 Year",
 "status": "Unavailable",
-"mlsNum": "X12638634",
+"mlsNums": "X12638634",
 "homeStyle": "Condo Townhouse 2-Storey",
 "propertyType": "Condo Townhouse",
 "bedrooms": 2,
@@ -3232,12 +3213,12 @@
 "rooms": 6,
 "parking": 1,
 "sqft": "1000-1199 Sqft",
-"dom": 22
+"doms": 22
 },
 "links": {
 "directions": "https://maps.google.com/?q=708+Woolwich+St+Guelph+ON",
-"neighbourhoodGuide": "",
-"addressGuide": ""
+"neighbourhoodGuides": "",
+"addressGuides": ""
 },
 "listingInformation": {
 "Portion For Lease": "Entire Property",
@@ -3245,7 +3226,7 @@
 "Condo Registry Office": "WSCC",
 "Condo Corp#": "303",
 "Possession Remarks": "Immediate",
-"Property Mgmt Co": "WELLINGTON STANDARD CONDOMINIUM CORPORATION",
+"Property Mgmt Co": "WELLINGTON STANDARD CONdomsINIUM CORPORATION",
 "Seller Property Info Statement": "N"
 },
 "propertyInformation": {
@@ -3375,8 +3356,8 @@
 "query": "708 Woolwich St, Guelph, ON"
 },
 "contract": {
-"brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC.",
-"phone": "647-910-9999"
+"brokerage": "Cheran Chhabra",
+"phone": "647-901-2878"
 }
 },
 {
@@ -3386,7 +3367,7 @@
 "neighborhood": "Barrie, Painswick South, Simcoe, Ontario L9J 0M6",
 "price": "For Lease $2,499 | 1 Year",
 "status": "Available",
-"mlsNum": "S12595564",
+"mlsNums": "S12595564",
 "homeStyle": "Att/Row/Townhouse 2-Storey",
 "propertyType": "Att/Row/Townhouse",
 "bedrooms": 3,
@@ -3426,12 +3407,12 @@
 "rooms": 3,
 "parking": 3,
 "sqft": "1500-2000 Sqft",
-"dom": 40
+"doms": 40
 },
 "links": {
 "directions": "https://maps.google.com/?q=5+Evergreen+Terr+Barrie+ON",
-"neighbourhoodGuide": "",
-"addressGuide": ""
+"neighbourhoodGuides": "",
+"addressGuides": ""
 },
 "listingInformation": {
 "PIN#": "580914775",
@@ -3498,8 +3479,8 @@
 "query": "5 Evergreen Terr, Barrie, ON"
 },
 "contract": {
-"brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC.",
-"phone": "647-910-9999"
+"brokerage": "Cheran Chhabra",
+"phone": "647-901-2878"
 }
 },
 {
@@ -3509,7 +3490,7 @@
 "neighborhood": "Brampton, Brampton North, Peel, Ontario L6V 2Z3",
 "price": "For Lease $2,499 | 1 Year",
 "status": "Available",
-"mlsNum": "W12488756",
+"mlsNums": "W12488756",
 "homeStyle": "Semi-Detached 1 Storey/Apt",
 "propertyType": "Semi-Detached",
 "bedrooms": "3",
@@ -3548,17 +3529,16 @@
 "rooms": "6",
 "parking": "5",
 "sqft": "1100-1500 Sqft",
-"dom": "74"
+"doms": "74"
 },
 "links": {
 "directions": "https://www.google.com/maps/search/?api=1&query=96+Centre+St+N,+Brampton,+ON",
-"neighbourhoodGuide": "",
-"addressGuide": ""
+"neighbourhoodGuides": "",
+"addressGuides": ""
 },
 "listingInformation": {
 "Portion For Lease": "Main",
 "Status": "Available",
-"Possession Date": "11/01/2025",
 "Seller Property Info Statement": "N"
 },
 "propertyInformation": {
@@ -3679,7 +3659,7 @@
 "map": {
 "query": "96 Centre St N, Brampton, ON"
 },
-"contract": "CENTURY 21 PROPERTY ZONE REALTY INC. | 647-910-9999"
+"contract": "Cheran Chhabra | 647-901-2878"
 },
 {
 "saleOrLease": "lease",  
@@ -3688,7 +3668,7 @@
 "neighborhood": "Toronto C14, Willowdale East, Toronto, Ontario M2N 7J6",
 "price": "For Lease $2,499 | 1 Year",
 "status": "Available",
-"mlsNum": "C12592342",
+"mlsNums": "C12592342",
 "homeStyle": "Condo Apartment",
 "propertyType": "Condo Apt",
 "bedrooms": "1+1",
@@ -3717,19 +3697,18 @@
 "rooms": 4,
 "parking": 1,
 "sqft": "600-699",
-"dom": 41
+"doms": 41
 },
 "links": {
 "directions": "https://www.google.com/maps?q=16+Harrison+Garden+Blvd,+Toronto,+ON",
-"neighbourhoodGuide": "",
-"addressGuide": ""
+"neighbourhoodGuides": "",
+"addressGuides": ""
 },
 "listingInformation": {
 "Portion For Lease": "Entire Property",
 "Status": "Available",
 "Condo Registry Office": "TSCC",
 "Condo Corp#": "1633",
-"Possession Date": "12/01/2025",
 "Payment Frequency": "Monthly",
 "Property Mgmt Co": "Icc Property Management",
 "Seller Property Info Statement": "N"
@@ -3828,7 +3807,7 @@
 "map": {
 "query": "16 Harrison Garden Blvd, Toronto, ON"
 },
-"contract": "CENTURY 21 PROPERTY ZONE REALTY INC. 647-910-9999"
+"contract": "Cheran Chhabra 647-901-2878"
 },
 {
 "saleOrLease": "lease", 
@@ -3837,7 +3816,7 @@
 "neighborhood": "Mississauga, Central Erin Mills, Peel, Ontario L5M 4J9",
 "price": "For Lease $2,500 | 1 Year",
 "status": "Available",
-"mlsNum": "W12652444",
+"mlsNums": "W12652444",
 "homeStyle": "Detached 2-Storey",
 "propertyType": "Detached",
 "bedrooms": "2",
@@ -3870,19 +3849,18 @@
 "rooms": "3",
 "parking": "2",
 "sqft": "2500-3000",
-"dom": "14"
+"doms": "14"
 },
 "links": {
 "directions": "[https://www.google.com/maps/search/?api=1&query=2686+Ambercroft+Tr,+Mississauga,+ON](https://www.google.com/maps/search/?api=1&query=2686+Ambercroft+Tr,+Mississauga,+ON)",
-"neighbourhoodGuide": "",
-"addressGuide": ""
+"neighbourhoodGuides": "",
+"addressGuides": ""
 },
 "listingInformation": {
 "Portion For Lease": "Basement",
 "Portion Lease": "Basement",
 "Comments": "—",
 "Status": "Available",
-"Possession Date": "02/01/2026",
 "Payment Frequency": "Monthly",
 "Seller Property Info Statement": "N"
 },
@@ -3969,7 +3947,7 @@
 "map": {
 "query": "2686 Ambercroft Tr, Mississauga, ON"
 },
-"contract": "CENTURY 21 PROPERTY ZONE REALTY INC. 647-910-9999"
+"contract": "Cheran Chhabra 647-901-2878"
 },
 {
 "saleOrLease": "lease",  
@@ -3978,7 +3956,7 @@
 "neighborhood": "Thorold, 557 - Thorold Downtown, Niagara, Ontario L2V 0J6",
 "price": "For Lease $2,500 | 1 Year",
 "status": "Available",
-"mlsNum": "X12562608",
+"mlsNums": "X12562608",
 "homeStyle": "Att/Row/Twnhouse 2-Storey",
 "propertyType": "Att/Row/Twnhouse",
 "bedrooms": 3,
@@ -4021,12 +3999,12 @@
 "rooms": 7,
 "parking": 3,
 "sqft": "1500-2000 Sqft",
-"dom": 51
+"doms": 51
 },
 "links": {
 "directions": "[https://maps.google.com/?q=36+Bruton+St+Thorold+ON](https://maps.google.com/?q=36+Bruton+St+Thorold+ON)",
-"neighbourhoodGuide": "",
-"addressGuide": ""
+"neighbourhoodGuides": "",
+"addressGuides": ""
 },
 "listingInformation": {
 "Portion For Lease": "Entire Property",
@@ -4134,8 +4112,8 @@
 "query": "36 Bruton St, Thorold, ON"
 },
 "contract": {
-"brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC.",
-"phone": "647-910-9999"
+"brokerage": "Cheran Chhabra",
+"phone": "647-901-2878"
 }
 }
 

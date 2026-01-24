@@ -5,53 +5,127 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Property Details | Chetan Chhabra</title>
 
-  <!-- Tailwind CSS -->
+  <!-- Tailwind CSS (kept v2 to avoid breaking existing injected markup from listing.js) -->
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
 
   <!-- Swiper CSS -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
-  <link rel="stylesheet" href="style/main.css" />
+  <!-- Match fonts with the rest of the site -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Oswald:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Main site styles (if present in your project) -->
+  <link rel="stylesheet" href="css/main.css" />
 
   <style>
-    /* Thumbs sizing */
-    .thumbsSwiper .swiper-slide {
-      opacity: 0.6;
-      cursor: pointer;
+    :root {
+      --font-display: 'Oswald', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      --font-body: 'Montserrat', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
     }
-    .thumbsSwiper .swiper-slide-thumb-active {
-      opacity: 1;
-      border: 2px solid #047857; /* emerald-700 */
-      border-radius: 0.5rem;
+
+    body { font-family: var(--font-body); }
+    .font-display { font-family: var(--font-display); }
+
+    .caps-tight {
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
     }
+
+    /* Make Swiper thumbnails feel more premium */
+    .swiper-thumbs .swiper-slide {
+      border-radius: 0.75rem;
+      overflow: hidden;
+    }
+
+    /* Reduce jumpy scroll when loading */
+    html { scroll-behavior: smooth; }
   </style>
 </head>
 
-<body class="bg-gray-50 font-sans text-gray-800">
+<body class="bg-white text-gray-900">
 
-  <!-- Header -->
-  <header class="bg-white shadow-sm p-4 sticky top-0 z-50">
-    <div class="max-w-7xl mx-auto flex justify-between items-center">
-      <a href="index.html"><h1 class="text-lg md:text-xl font-bold text-gray-900">Chetan Chhabra</h1></a>
-      <a href="index.html" class="text-green-700 hover:underline text-sm md:text-base">← Back to Listings</a>
+  <!-- Top bar (matches the black/white luxury look from the rest of the site) -->
+  <header class="sticky top-0 z-50 bg-black bg-opacity-90 backdrop-filter backdrop-blur border-b border-gray-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <div class="h-16 flex items-center justify-between">
+
+        <!-- Logo / Home -->
+        <a href="index.html" class="flex items-center gap-3 text-white">
+          <div class="h-9 w-9 rounded-full border border-white border-opacity-30 flex items-center justify-center">
+            <span class="font-display text-sm tracking-widest">C</span>
+          </div>
+          <div class="hidden sm:block leading-tight">
+            <div class="font-display text-sm tracking-widest uppercase">Chetan Chhabra</div>
+            <div class="text-xs text-white text-opacity-70 caps-tight" style="letter-spacing:0.12em;">Real Estate</div>
+          </div>
+        </a>
+
+        <!-- Back link -->
+        <a href="index.html#portfolio" class="hidden md:inline-flex items-center text-white text-opacity-80 hover:text-opacity-100 text-xs caps-tight">
+          Back to Portfolio
+        </a>
+
+        <!-- Actions: Print + WhatsApp (WhatsApp sits right beside the printer icon) -->
+        <div class="flex items-center gap-3">
+          <button id="printBtn" type="button" class="inline-flex items-center gap-2 px-3 py-2 rounded-full border border-white border-opacity-20 text-white text-opacity-90 hover:text-opacity-100 hover:border-opacity-35 transition">
+            <!-- Printer icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="w-5 h-5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 9V2h12v7"/>
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/>
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 14h12v8H6z"/>
+            </svg>
+            <span class="hidden sm:inline text-xs caps-tight">Print</span>
+          </button>
+
+          <a id="whatsappLink" href="#" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-3 py-2 rounded-full border border-white border-opacity-20 text-white text-opacity-90 hover:text-opacity-100 hover:border-opacity-35 transition" aria-label="Click to connect on WhatsApp">
+            <!-- WhatsApp icon (simple) -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" class="w-5 h-5">
+              <path d="M19.11 17.35c-.27-.13-1.58-.78-1.82-.87-.24-.09-.42-.13-.6.13-.18.27-.69.87-.85 1.05-.16.18-.31.2-.58.07-.27-.13-1.12-.41-2.14-1.31-.79-.7-1.33-1.56-1.49-1.83-.16-.27-.02-.41.12-.54.12-.12.27-.31.4-.47.13-.16.18-.27.27-.45.09-.18.04-.33-.02-.47-.07-.13-.6-1.45-.82-1.99-.22-.53-.44-.46-.6-.47h-.51c-.18 0-.47.07-.71.33-.24.27-.93.91-.93 2.22 0 1.31.95 2.58 1.08 2.76.13.18 1.87 2.86 4.53 4.01.63.27 1.12.43 1.5.55.63.2 1.2.17 1.65.1.5-.07 1.58-.65 1.8-1.27.22-.62.22-1.15.16-1.27-.06-.11-.24-.18-.51-.31Z"/>
+              <path d="M26.67 5.33A13.18 13.18 0 0 0 16.02 1C8.85 1 3.02 6.83 3.02 14c0 2.2.57 4.34 1.66 6.23L3 31l10.97-1.64A12.92 12.92 0 0 0 16 27c7.17 0 13-5.83 13-13 0-3.46-1.35-6.71-3.33-8.67ZM16 25.09c-1.87 0-3.7-.5-5.31-1.44l-.38-.22-6.5.97 1.01-6.33-.25-.41A10.98 10.98 0 0 1 5 14c0-6.06 4.93-11 11-11 2.94 0 5.7 1.15 7.78 3.23A10.93 10.93 0 0 1 27 14c0 6.06-4.93 11.09-11 11.09Z"/>
+            </svg>
+            <span class="hidden sm:inline text-xs caps-tight">Click to connect</span>
+          </a>
+        </div>
+      </div>
     </div>
   </header>
 
-  <!-- Listing Wrapper -->
-  <main id="listing-container" class="max-w-7xl mx-auto px-4 py-10 space-y-10">
-    <!-- Dynamic Content injected by listing.js -->
+  <!-- Listing Content -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 py-6 md:py-10">
+    <div id="listing-container" class="bg-white rounded-2xl shadow-xl"></div>
   </main>
 
   <!-- Footer -->
-  <footer class="bg-gray-100 text-center py-6 text-sm text-gray-600 border-t mt-10">
-    &copy; <span id="year"></span> Chetan Chhabra. All rights reserved.
+  <footer class="bg-black text-white text-opacity-70 text-center py-6 mt-10">
+    <p class="text-xs">&copy; <span id="year"></span> Chetan Chhabra. All rights reserved.</p>
   </footer>
 
-  <!-- Scripts -->
+  <!-- Swiper JS -->
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Existing Listing Logic (kept as-is) -->
   <script src="script/listing.js"></script>
+
+  <!-- Page enhancements (doesn't touch listing.js functionality) -->
   <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
+    // Footer year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Print action
+    document.getElementById('printBtn').addEventListener('click', () => window.print());
+
+    // WhatsApp: auto-message + include the listing URL being viewed
+    (function setWhatsAppLink() {
+      // Uses the same phone number found in your index.html tel: link (update if your number changes)
+      const WHATSAPP_NUMBER = '16479012878'; // e.g. 16479012878 (no +, no spaces)
+      const listingUrl = window.location.href;
+      const message = `Hi Chetan, I'm viewing this listing and would like to connect: ${listingUrl}`;
+      const waUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
+      const el = document.getElementById('whatsappLink');
+      if (el) el.href = waUrl;
+    })();
   </script>
 </body>
 </html>

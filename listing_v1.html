@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Property Details | Chetan Chhabra</title>
+
+  <!-- Tailwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="style/main.css" />
+
+  <style>
+    /* Thumbs sizing */
+    .thumbsSwiper .swiper-slide {
+      opacity: 0.6;
+      cursor: pointer;
+    }
+    .thumbsSwiper .swiper-slide-thumb-active {
+      opacity: 1;
+      border: 2px solid #047857; /* emerald-700 */
+      border-radius: 0.5rem;
+    }
+  </style>
+</head>
+
+<body class="bg-gray-50 font-sans text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-white shadow-sm p-4 sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <a href="index.html"><h1 class="text-lg md:text-xl font-bold text-gray-900">Chetan Chhabra</h1></a>
+      <a href="index.html" class="text-green-700 hover:underline text-sm md:text-base">← Back to Listings</a>
+    </div>
+  </header>
+
+  <!-- Listing Wrapper -->
+  <main id="listing-container" class="max-w-7xl mx-auto px-4 py-10 space-y-10">
+    <!-- Dynamic Content injected by listing.js -->
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-100 text-center py-6 text-sm text-gray-600 border-t mt-10">
+    &copy; <span id="year"></span> Chetan Chhabra. All rights reserved.
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="script/listing.js"></script>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
