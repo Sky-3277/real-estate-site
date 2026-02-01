@@ -127,5 +127,48 @@
       if (el) el.href = waUrl;
     })();
   </script>
+  <!-- Floating WhatsApp Button (bottom-right) -->
+<a
+  id="waFloat"
+  href="#"
+  target="_blank"
+  rel="noopener"
+  aria-label="Chat on WhatsApp"
+  style="
+    position: fixed;
+    right: 18px;
+    bottom: 18px;
+    width: 56px;
+    height: 56px;
+    border-radius: 9999px;
+    background: #25D366;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 12px 28px rgba(0,0,0,.25);
+    z-index: 9999;
+    text-decoration: none;
+  "
+>
+  <!-- WhatsApp icon -->
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" style="width:28px;height:28px;">
+    <path d="M16.02 4C9.38 4 4 9.38 4 16.02c0 2.3.65 4.46 1.78 6.3L4 28l5.86-1.7a11.96 11.96 0 0 0 6.16 1.68h.01C22.66 27.98 28 22.64 28 16.02 28 9.38 22.66 4 16.02 4Zm6.98 17.3c-.3.84-1.48 1.55-2.4 1.74-.63.13-1.44.24-4.18-.9-3.5-1.45-5.76-5-5.93-5.24-.16-.24-1.43-1.9-1.43-3.63 0-1.72.9-2.57 1.22-2.92.32-.35.7-.44.94-.44.24 0 .47 0 .68.01.22.01.5-.08.78.6.3.7 1.01 2.42 1.1 2.6.09.19.15.41.03.65-.12.24-.18.4-.35.62-.17.22-.36.49-.52.66-.17.17-.33.35-.14.68.19.33.85 1.4 1.83 2.27 1.26 1.12 2.32 1.47 2.65 1.64.33.17.52.14.71-.08.19-.22.82-.96 1.04-1.29.22-.33.45-.27.76-.16.3.11 1.92.91 2.25 1.07.33.16.55.24.63.38.08.14.08.81-.22 1.65Z"/>
+  </svg>
+</a>
+
+<script>
+  (function () {
+    const WHATSAPP_NUMBER = "16479012878"; // countrycode+number, no +
+    const pageUrl = window.location.href;
+
+    const message = `Hi Chetan, I’m viewing this page and would like more details:\n${pageUrl}`;
+    const waUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
+
+    const btn = document.getElementById("waFloat");
+    if (btn) btn.href = waUrl;
+  })();
+</script>
+
 </body>
 </html>
