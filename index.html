@@ -339,7 +339,7 @@
   </section>
 
   <!-- TESTIMONIALS (Steven-like) -->
-  <section class="relative bg-ink text-white" id="testimonials" aria-label="Testimonials">
+  <!-- <section class="relative bg-ink text-white" id="testimonials" aria-label="Testimonials">
     <div class="absolute inset-0 opacity-30" style="background-image:url('assets/images/hero/interior-dark.jpg'); background-size:cover; background-position:center;"></div>
     <div class="relative max-w-7xl mx-auto px-4 sm:px-6 py-20">
       <div class="grid lg:grid-cols-2 gap-12 items-center">
@@ -359,7 +359,125 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
+<!-- TESTIMONIALS (working slider; add as many as you want) -->
+<section class="relative bg-ink text-white" id="testimonials" aria-label="Testimonials">
+  <div class="absolute inset-0 opacity-30"
+       style="background-image:url('assets/images/hero/interior-dark.jpg'); background-size:cover; background-position:center;"></div>
+
+  <div class="relative max-w-7xl mx-auto px-4 sm:px-6 py-20">
+    <div class="grid lg:grid-cols-2 gap-12 items-center">
+      <div>
+        <div class="font-display text-4xl uppercase tracking-[0.18em]">Testimonials</div>
+
+        <div class="mt-8 flex items-center gap-6">
+          <button id="testPrev"
+                  class="caps text-xs border-b border-white/30 pb-2 hover:border-white"
+                  type="button">
+            Previous
+          </button>
+          <button id="testNext"
+                  class="caps text-xs border-b border-white/30 pb-2 hover:border-white"
+                  type="button">
+            Next
+          </button>
+
+          <div class="ml-2 text-xs text-white/60 caps">
+            <span id="testIndex">1</span>/<span id="testTotal">1</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-white/85 leading-7">
+        <p id="testQuote">“...”</p>
+        <div class="mt-6 caps text-xs text-white/70">
+          <span id="testAuthor">—</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  // 1) ADD/EDIT TESTIMONIALS HERE (unlimited)
+  const TESTIMONIALS = [
+    {
+      quote:
+        "Chetan is an outstanding real estate professional and a true expert in his field. From the first conversation, he was extremely knowledgeable, responsive, and genuinely focused on helping me find the right property—not just closing a deal.What really sets Chetan apart is his attention to detail and data-driven approach. He took the time to explain market trends, pricing, and neighborhood insights so I could make confident decisions. Every question I had was answered quickly and clearly, and I always felt supported at every step of the process.He is professional, honest, and highly reliable. If you are looking for a realtor who actually works in your best interest and makes the entire buying or selling experience smooth and stress-free, I would strongly recommend Chetan.",
+      author: "Aakash"
+    },
+    {
+      quote:
+        "Chetan has been an absolute pleasure to work with. He is professional, honest, responsive, and truly cares about his clients’ needs. Throughout the entire process, he guided me with patience and clarity, making everything smooth and stress-free. His market knowledge and dedication really stand out. I would highly recommend Chetan to anyone looking for a trustworthy and reliable realtor. Thank you for your amazing support, Chetan!",
+      author: "Syed M. Nawab Ali"
+    }
+    ,
+    {
+      quote:
+        "Working with Chetan has been an exceptional experience. He stands out as the most reliable and skilled realtor we’ve ever partnered with. His organization, deep market knowledge, and constant willingness to assist made every step easy. We’ve completed several purchases and sales with him, and each one was handled flawlessly because of his professionalism and dedication. His team is equally supportive and friendly—truly making the entire process feel effortless. From mortgage guidance to closing arrangements, Chetan has everything perfectly coordinated. We’re extremely grateful for his hard work. Excited to collaborate again on future projects!🙏",
+      author: "Shreya Sharma"
+    },
+    {
+      quote:
+        "Chetan is an outstanding person who actually listens and finds time to deliver results. He has been working with us and can honestly say he is very trustworthy, honest and looking out for his clients. Never felt rushed, always gave insight on how we can benefit. Solid performance and great personality. Will always be my go to for any investment properties in the future.",
+      author: "Assad Khan"
+    },
+    {
+      quote:
+        "From our very first meeting to closing day, Chetan was an absolute pleasure to work with. His deep understanding of the local market was clear right from the start. He provided an accurate home valuation, guided us on effective staging, and marketed our property strategically—resulting in multiple offers well above the asking price.What truly set Chetan apart was his exceptional communication. He was always available to answer our questions and consistently kept us updated throughout the process. His negotiation skills were impressive, ensuring we secured the best possible outcome. We highly recommend him!",
+      author: "Stuti Parwal"
+    }
+  ];
+
+  // 2) Slider logic
+  (function initTestimonials() {
+    const quoteEl = document.getElementById("testQuote");
+    const authorEl = document.getElementById("testAuthor");
+    const prevBtn = document.getElementById("testPrev");
+    const nextBtn = document.getElementById("testNext");
+    const idxEl = document.getElementById("testIndex");
+    const totalEl = document.getElementById("testTotal");
+
+    if (!quoteEl || !authorEl || !prevBtn || !nextBtn || !idxEl || !totalEl) return;
+    if (!Array.isArray(TESTIMONIALS) || TESTIMONIALS.length === 0) return;
+
+    let i = 0;
+
+    function render() {
+      const t = TESTIMONIALS[i];
+      quoteEl.textContent = `“${t.quote}”`;
+      authorEl.textContent = `— ${t.author || "Client"}`;
+      idxEl.textContent = String(i + 1);
+      totalEl.textContent = String(TESTIMONIALS.length);
+    }
+
+    function prev() {
+      i = (i - 1 + TESTIMONIALS.length) % TESTIMONIALS.length;
+      render();
+    }
+
+    function next() {
+      i = (i + 1) % TESTIMONIALS.length;
+      render();
+    }
+
+    prevBtn.addEventListener("click", prev);
+    nextBtn.addEventListener("click", next);
+
+    // Optional: keyboard support
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "ArrowLeft") prev();
+      if (e.key === "ArrowRight") next();
+    });
+
+    // Optional: auto-rotate (uncomment if you want)
+    // setInterval(next, 6000);
+
+    render();
+  })();
+</script>
+
+
 
   <!-- PORTFOLIO LISTINGS (keep functionality) -->
   <!-- <section class="bg-ink text-white" id="portfolio" aria-label="Portfolio listings"></section> -->
