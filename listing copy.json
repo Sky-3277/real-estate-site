@@ -2810,6 +2810,162 @@
 },
 {
   "saleOrLease": "lease",
+  "id": "108-peter-st-2509-toronto",
+  "title": "108 Peter St 2509, Toronto",
+  "neighborhood": "Toronto C01, Waterfront Communities C1, Toronto, Ontario M5V 0W2",
+  "price": "For Lease $2,050 | 2 Year",
+  "status": "Available",
+  "mlsNums": "C12603092",
+  "homeStyle": "Condo Apartment",
+  "propertyType": "Condo Apt",
+  "bedrooms": "0+1",
+  "bathrooms": 1,
+  "area": "0-499 Sqft",
+  "description": "Stylish condo suite in the heart of Downtown Toronto featuring a bright, airy open-concept layout with abundant natural light. Modern kitchen with stainless steel appliances, sleek cabinetry, and quartz finishes. Spacious den ideal as a bedroom, office, or creative workspace. Residents enjoy premium amenities including party room, co-working spaces, outdoor lounge, fitness and yoga studio, sauna, private dining room, scenic terrace, and kids' play area. Steps to CN Tower, Rogers Centre, TTC, shopping, dining, and nightlife.",
+
+  "image": "assets/images/108_Peter_St_2509/H1.jpg",
+  "images": [
+    "assets/images/108_Peter_St_2509/H1.jpg",
+    "assets/images/108_Peter_St_2509/H2.jpg",
+    "assets/images/108_Peter_St_2509/H3.jpg",
+    "assets/images/108_Peter_St_2509/H4.jpg",
+    "assets/images/108_Peter_St_2509/H5.jpg",
+    "assets/images/108_Peter_St_2509/H6.jpg",
+    "assets/images/108_Peter_St_2509/H7.jpg",
+    "assets/images/108_Peter_St_2509/H8.jpg",
+    "assets/images/108_Peter_St_2509/H9.jpg"
+  ],
+
+  "quickFacts": {
+    "style": "Apartment",
+    "beds": "0+1",
+    "baths": 1,
+    "rooms": 2,
+    "parking": 0,
+    "sqft": "0-499 Sqft",
+    "doms": 37
+  },
+
+  "links": {
+    "directions": "https://maps.google.com/?q=108+Peter+St+Toronto+ON",
+    "neighbourhoodGuides": "",
+    "addressGuides": ""
+  },
+
+  "listingInformation": {
+    "Portion For Lease": "Entire Property",
+    "Status": "Available",
+    "Payment Frequency": "",
+    "Seller Property Info Statement": "N",
+    "Condo Registry Office": "TSCC",
+    "Condo Corp#": "3008",
+    "Property Mgmt Co": "Del Property Management"
+  },
+
+  "propertyInformation": {
+    "Level": "25",
+    "Square Feet": "0-499",
+    "Sqft Source": "Estimated",
+    "Exposure": "South",
+    "Unit #": "2509",
+    "Dir/Cross St": "Peter and Adelaide",
+    "Directions": "Peter and Adelaide",
+    "Drive": "None",
+    "Parking/Drive": "None",
+    "Parking Drive Spaces": "0",
+    "Total Parking Spaces": "0",
+    "Parking Type": "None",
+    "A/C": "Central Air",
+    "Balcony": "None",
+    "Laundry Features": "Ensuite",
+    "Locker": "None",
+    "Area": "Toronto",
+    "Municipality": "Toronto C01",
+    "Community": "Waterfront Communities C1",
+    "Rooms": "2",
+    "Bedrooms": "0+1",
+    "Washrooms": "1",
+    "Kitchens": "1",
+    "Exterior": "Concrete",
+    "Garage Type": "None",
+    "Garage Parking Spaces": "0",
+    "Survey Type": "None",
+    "Apt/Unit": "2509",
+    "Basement": "None",
+    "Elevator": "Y",
+    "Heating Source": "Gas",
+    "Heating Type": "Forced Air",
+    "Area Influences": "",
+    "Property Type": "Condo Apt",
+    "Style": "Apartment",
+    "Family Room": "N",
+    "Fireplace/Stv": "N",
+    "Central Vac": "N"
+  },
+
+  "features": ["Ensuite Laundry", "Park", "Partially Furnished", "Public Transit", "Rec Centre"],
+  "interiorFeatures": ["Built-In Oven", "Carpet Free", "Countertop Range"],
+  "buildingFeatures": ["Concierge", "Gym", "Party/Meeting Room", "Sauna"],
+  "securityFeatures": ["Concierge/Security"],
+  "specialDesignations": ["Unknown"],
+  "waterfront": ["WaterfrontYN: N", "Waterfront: None"],
+
+  "roomInfo": [
+    {
+      "room": "Living",
+      "level": "Flat",
+      "dimensions": "3.33 m x 3.22 m (10.93 ft x 10.56 ft)",
+      "notes": "Large Window, Open Concept"
+    },
+    {
+      "room": "Kitchen",
+      "level": "Flat",
+      "dimensions": "2.91 m x 2.37 m (9.55 ft x 7.78 ft)",
+      "notes": "B/I Ctr-Top Stove, Stainless Steel Appl, Open Concept"
+    },
+    {
+      "room": "Den",
+      "level": "Flat",
+      "dimensions": "2.19 m x 2.5 m (7.19 ft x 8.2 ft)",
+      "notes": ""
+    },
+    {
+      "room": "Bathroom",
+      "level": "Flat",
+      "dimensions": "1.19 m x 2.21 m (3.9 ft x 7.25 ft)",
+      "notes": "3 Pc Bath"
+    }
+  ],
+
+  "washrooms": [
+    { "count": 1, "pieces": 3, "level": "Flat" }
+  ],
+
+  "includedInLease": ["Common Elements", "Building Insurance"],
+
+  "inclusions": [
+    "Stove",
+    "Microwave",
+    "Fridge",
+    "Dishwasher",
+    "Washer",
+    "Dryer",
+    "All ELFs",
+    "Window Coverings",
+    "Existing Furniture"
+  ],
+
+  "map": {
+    "query": "108 Peter St, Toronto, ON"
+  },
+
+  "contract": {
+    "brokerage": "Cheran Chhabra",
+    "phone": "647-901-2878"
+  }
+},
+{
+  "saleOrLease": "lease",
   "id": "330-burnhamthorpe-rd-w-2401-mississauga",
   "title": "330 Burnhamthorpe Rd W 2401, Mississauga",
   "neighborhood": "Mississauga, City Centre, Peel, Ontario L5B 0E1",
@@ -2961,6 +3117,525 @@
     "brokerage": "Cheran Chhabra",
     "phone": "647-901-2878"
   }
+},
+{
+"saleOrLease": "lease",  
+"id": "3200-osbourne-rd-basement-mississauga",
+"title": "3200 Osbourne Rd Basement, Mississauga",
+"neighborhood": "Mississauga, Erin Mills, Peel, Ontario L5L 4A2",
+"price": "For Lease $2,250 | 1 Year",
+"status": "Available",
+"mlsNums": "W12454712",
+"homeStyle": "Detached 2-Storey",
+"propertyType": "Detached",
+"bedrooms": "0+2",
+"bathrooms": 1,
+"area": "1500-2000 Sqft",
+"description": "Your Next Home Awaits in the Heart of Erin Mills! Step into a home that blends comfort, style, and convenience all in one beautiful package. This bright and spacious basement apartment is tucked away in one of Erin Mills' most sought-after and peaceful neighbourhoods, a place where you'll feel right at home from the moment you arrive. Enjoy a large, open-concept living and dining area, perfect for relaxing after a long day or hosting cozy get-togethers with loved ones. The two well-designed bedrooms offer both comfort and privacy, making this space ideal for professionals, couples, or small families. You'll also love the separate entrance, private laundry, and exclusive driveway parking features that make this unit stand out from the rest. Plus, utilities (Hydro, Water, and Gas) are all included so that you can enjoy a stress-free living experience without any surprise bills. And when it comes to location, it doesn't get better than this! You're just minutes from Erin Mills Town Centre, Highway 403, top-rated schools, and all your favourite grocery stores and cafes. Everything you need is right at your doorstep. Experience the perfect balance of comfort, convenience, and privacy all in one amazing home. Book your private showing today before it's gone!",
+"image": "assets/images/3200_Osbourne_Rd_Basement/H1.jpg",
+"images": [
+"assets/images/3200_Osbourne_Rd_Basement/H1.jpg",
+"assets/images/3200_Osbourne_Rd_Basement/H2.jpg",
+"assets/images/3200_Osbourne_Rd_Basement/H3.jpg",
+"assets/images/3200_Osbourne_Rd_Basement/H4.jpg",
+"assets/images/3200_Osbourne_Rd_Basement/H5.jpg",
+"assets/images/3200_Osbourne_Rd_Basement/H6.jpg",
+"assets/images/3200_Osbourne_Rd_Basement/H7.jpg",
+"assets/images/3200_Osbourne_Rd_Basement/H8.jpg",
+"assets/images/3200_Osbourne_Rd_Basement/H9.jpg",
+"assets/images/3200_Osbourne_Rd_Basement/H10.jpg",
+"assets/images/3200_Osbourne_Rd_Basement/H11.jpg",
+"assets/images/3200_Osbourne_Rd_Basement/H12.jpg",
+"assets/images/3200_Osbourne_Rd_Basement/H13.jpg",
+"assets/images/3200_Osbourne_Rd_Basement/H14.jpg",
+"assets/images/3200_Osbourne_Rd_Basement/H15.jpg",
+"assets/images/3200_Osbourne_Rd_Basement/H16.jpg",
+"assets/images/3200_Osbourne_Rd_Basement/H17.jpg",
+"assets/images/3200_Osbourne_Rd_Basement/H18.jpg",
+"assets/images/3200_Osbourne_Rd_Basement/H19.jpg",
+"assets/images/3200_Osbourne_Rd_Basement/H20.jpg",
+"assets/images/3200_Osbourne_Rd_Basement/H21.jpg"
+],
+"quickFacts": {
+"style": "2-Storey",
+"beds": "0+2",
+"baths": 1,
+"rooms": "0+4",
+"parking": 1,
+"sqft": "1500-2000 Sqft",
+"doms": 93
+},
+"links": {
+"directions": "https://maps.google.com/?q=3200+Osbourne+Rd+Mississauga+ON",
+"neighbourhoodGuides": "",
+"addressGuides": ""
+},
+"listingInformation": {
+"PIN#": "134060477",
+"Portion For Lease": "Basement",
+"Status": "Available",
+"Possession Remarks": "Flexible",
+"Seller Property Info Statement": "N"
+},
+"propertyInformation": {
+"Approx Age": "31-50",
+"Year Built": "1986",
+"Year Built Source": "MPAC",
+"Fronting On": "North",
+"Lot Size": "31.99 x 119.75 Feet",
+"Lot Size Source": "MPAC",
+"Square Feet": "1500-2000",
+"Dir/Cross St": "Winston Churchill Blvd / Burnhamthorpe",
+"Directions": "Winston Churchill Blvd / Burnhamthorpe",
+"Drive": "Available",
+"Parking Drive Spaces": "1",
+"Total Parking Spaces": "1",
+"Pool": "None",
+"A/C": "Central Air",
+"Laundry Features": "In-Suite Laundry",
+"Laundry Level": "Lower",
+"Area": "Peel",
+"Municipality": "Mississauga",
+"Community": "Erin Mills",
+"Rooms": "0+4",
+"Bedrooms": "0+2",
+"Washrooms": "1",
+"Kitchens": "0+1",
+"Exterior": "Brick Front",
+"Roof": "Shingles",
+"Foundation": "Concrete",
+"Garage Type": "Attached",
+"Garage Parking Spaces": "0",
+"Survey Type": "None",
+"Apt/Unit": "Basement",
+"Basement": "Apartment",
+"Heating Source": "Gas",
+"Heating Type": "Forced Air",
+"Water": "Municipal",
+"Sewers": "Sewers",
+"Area Influences": "",
+"Property Type": "Detached",
+"Link": "N",
+"Style": "2-Storey",
+"Family Room": "Y",
+"Fireplace/Stv": "Y",
+"Central Vac": "N"
+},
+"features": [
+"Family Room",
+"Fireplace/Stove",
+"Hospital",
+"Library",
+"Park",
+"Private Entrance",
+"Public Transit",
+"Rec Centre",
+"School Bus Route"
+],
+"interiorFeatures": ["None"],
+"buildingFeatures": [],
+"securityFeatures": [],
+"specialDesignations": ["Unknown"],
+"waterfront": ["WaterfrontYN: N"],
+"roomInfo": [],
+"washrooms": [
+{
+"count": 1,
+"pieces": 3,
+"level": "Bsmt"
+}
+],
+"includedInLease": [
+"Central Air Conditioning",
+"Heat",
+"Water Heater",
+"Water",
+"Parking",
+"Hydro"
+],
+"inclusions": [
+"Stove With Oven",
+"Fridge",
+"Microwave",
+"Washer",
+"Range Hood"
+],
+"map": {
+"query": "3200 Osbourne Rd, Mississauga, ON"
+},
+"contract": {
+"brokerage": "Cheran Chhabra",
+"phone": "647-901-2878"
+}
+},
+{
+"saleOrLease": "lease",  
+"id": "708-woolwich-st-124-guelph",
+"title": "708 Woolwich St 124, Guelph",
+"neighborhood": "Guelph, Riverside Park, Wellington, Ontario N1H 7G6",
+"price": "For Lease $2,300 | 1 Year",
+"status": "Available",
+"mlsNums": "X12636472",
+"homeStyle": "Condo Townhouse 1 Storey/Apt",
+"propertyType": "Condo Townhouse",
+"bedrooms": "2",
+"bathrooms": 2,
+"area": "900-999 Sqft",
+"description": "Modern, brand-new condo townhouse offering 2 bedrooms and 2 full washrooms with about 908+ sq ft of open-concept living. Features luxury finishes, large windows, and carpet-free flooring. Kitchen includes two-tone soft-close cabinetry, an island with storage, and stainless steel appliances. In-suite family-size washer/dryer included. Comes with one ground-level parking spot, with EV chargers available in the complex. Conveniently located close to amenities like Walmart, Home Depot, Canadian Tire, and Dollarama, plus a riverside picnic park across the road and a short drive to the University of Guelph. Available immediately and move-in ready.",
+"image": "assets/images/708_Woolwich_St_124/H1.jpg",
+"images": [
+"assets/images/708_Woolwich_St_124/H1.jpg",
+"assets/images/708_Woolwich_St_124/H2.jpg",
+"assets/images/708_Woolwich_St_124/H3.jpg",
+"assets/images/708_Woolwich_St_124/H4.jpg",
+"assets/images/708_Woolwich_St_124/H5.jpg",
+"assets/images/708_Woolwich_St_124/H6.jpg",
+"assets/images/708_Woolwich_St_124/H7.jpg",
+"assets/images/708_Woolwich_St_124/H8.jpg",
+"assets/images/708_Woolwich_St_124/H9.jpg",
+"assets/images/708_Woolwich_St_124/H10.jpg",
+"assets/images/708_Woolwich_St_124/H11.jpg",
+"assets/images/708_Woolwich_St_124/H12.jpg",
+"assets/images/708_Woolwich_St_124/H13.jpg",
+"assets/images/708_Woolwich_St_124/H14.jpg",
+"assets/images/708_Woolwich_St_124/H15.jpg",
+"assets/images/708_Woolwich_St_124/H16.jpg",
+"assets/images/708_Woolwich_St_124/H17.jpg",
+"assets/images/708_Woolwich_St_124/H18.jpg",
+"assets/images/708_Woolwich_St_124/H19.jpg",
+"assets/images/708_Woolwich_St_124/H20.jpg",
+"assets/images/708_Woolwich_St_124/H21.jpg",
+"assets/images/708_Woolwich_St_124/H22.jpg",
+"assets/images/708_Woolwich_St_124/H23.jpg",
+"assets/images/708_Woolwich_St_124/H24.jpg",
+"assets/images/708_Woolwich_St_124/H25.jpg",
+"assets/images/708_Woolwich_St_124/H26.jpg",
+"assets/images/708_Woolwich_St_124/H27.jpg",
+"assets/images/708_Woolwich_St_124/H28.jpg",
+"assets/images/708_Woolwich_St_124/H29.jpg",
+"assets/images/708_Woolwich_St_124/H30.jpg"
+],
+"quickFacts": {
+"style": "1 Storey/Apt",
+"beds": "2",
+"baths": 2,
+"rooms": 6,
+"parking": 1,
+"sqft": "900-999 Sqft",
+"doms": 25
+},
+"links": {
+"directions": "https://maps.google.com/?q=708+Woolwich+St+Guelph+ON",
+"neighbourhoodGuides": "",
+"addressGuides": ""
+},
+"listingInformation": {
+"Portion For Lease": "Entire Property",
+"Status": "Available",
+"Condo Registry Office": "N/A",
+"Condo Corp#": "0",
+"Possession Remarks": "Immediate",
+"Property Mgmt Co": "Wellington.",
+"Seller Property Info Statement": "N",
+"Statement": "—"
+},
+"propertyInformation": {
+"Approx Age": "New",
+"Year Built": "2025",
+"Level": "1",
+"Square Feet": "900-999",
+"Sqft Source": "980",
+"View": "Clear, City",
+"Exposure": "West",
+"Unit #": "1",
+"Dir/Cross St": "Speedvale Ave E & Woolwich St",
+"Directions": "Speedvale Ave E & Woolwich St",
+"Drive": "Surface, Private",
+"Parking/Drive": "Surface",
+"Parking Drive Spaces": "1",
+"Total Parking Spaces": "1",
+"Parking Type": "Owned",
+"A/C": "Central Air",
+"Balcony": "None",
+"Laundry Features": "Ensuite",
+"Locker": "None",
+"Area": "Wellington",
+"Municipality": "Guelph",
+"Community": "Riverside Park",
+"Rooms": "6",
+"Bedrooms": "2",
+"Washrooms": "2",
+"Kitchens": "1",
+"Exterior": "Concrete",
+"Garage Type": "Surface",
+"Garage Parking Spaces": "0",
+"Survey Type": "Unknown",
+"Apt/Unit": "124",
+"Basement": "Apartment",
+"Elevator": "—",
+"Heating Source": "Gas",
+"Heating Type": "Forced Air",
+"Area Influences": "—",
+"Property Type": "Condo Townhouse",
+"Style": "1 Storey/Apt",
+"Family Room": "N",
+"Fireplace/Stv": "N",
+"Central Vac": "N"
+},
+"features": [
+"Ensuite Laundry",
+"Hospital",
+"Library",
+"Pets Allowed with Restrictions",
+"Private Entrance",
+"Public Transit",
+"River/Stream",
+"School"
+],
+"interiorFeatures": [
+"Built-In Oven",
+"Carpet Free",
+"Primary Bedroom - Main Floor",
+"Water Heater"
+],
+"buildingFeatures": [
+"Bike Storage",
+"Visitor Parking"
+],
+"securityFeatures": [],
+"specialDesignations": [
+"Unknown"
+],
+"waterfront": [
+"WaterfrontYN: N"
+],
+"roomInfo": [
+{
+"room": "Living",
+"level": "Main",
+"dimensions": "2.89 m x 4.81 m (9.48 ft x 15.78 ft)",
+"notes": "—"
+},
+{
+"room": "Kitchen",
+"level": "Main",
+"dimensions": "2.89 m x 4.81 m (9.48 ft x 15.78 ft)",
+"notes": "—"
+},
+{
+"room": "Den",
+"level": "Main",
+"dimensions": "5.6 m x 3.81 m (18.37 ft x 12.5 ft)",
+"notes": "—"
+},
+{
+"room": "Prim Bdrm",
+"level": "Main",
+"dimensions": "2.89 m x 5.33 m (9.48 ft x 17.49 ft)",
+"notes": "—"
+},
+{
+"room": "2nd Br",
+"level": "Main",
+"dimensions": "2.89 m x 5.33 m (9.48 ft x 17.49 ft)",
+"notes": "Closet, Wood Floor"
+},
+{
+"room": "Bathroom",
+"level": "Main",
+"dimensions": "—",
+"notes": "4 Pc Bath, B/I Vanity"
+}
+],
+"washrooms": [
+{
+"count": 1,
+"pieces": 4,
+"level": "Ground"
+},
+{
+"count": 1,
+"pieces": 4,
+"level": "Ground"
+}
+],
+"includedInLease": [
+"Building Insurance",
+"Building Maintenance",
+"Common Elements",
+"Parking"
+],
+"inclusions": [
+"FRIDGE",
+"STOVE",
+"MICROWAVE",
+"DISHWASHER",
+"LARGE WASHER AND DRYER",
+"CAC"
+],
+"map": {
+"query": "708 Woolwich St, Guelph, ON"
+},
+"contract": {
+"brokerage": "Cheran Chhabra",
+"phone": "647-901-2878"
+}
+},
+{
+"saleOrLease": "lease", 
+"id": "708-woolwich-st-w-101-guelph",
+"title": "708 Woolwich St W 101, Guelph",
+"neighborhood": "Guelph, Riverside Park, Wellington, Ontario N1H 0C8",
+"price": "For Lease $2,350 | 1 Year",
+"status": "Available",
+"mlsNums": "X12636068",
+"homeStyle": "Condo Townhouse 1 Storey/Apt",
+"propertyType": "Condo Townhouse",
+"bedrooms": "2",
+"bathrooms": 2,
+"area": "900-999 Sqft",
+"description": "Modern, brand-new townhouse offering 2 bedrooms and 2 full washrooms with over 908 sq ft of living space. Features luxury finishes, large windows, and carpet-free flooring with an open-concept layout. Bright living area opens to a patio. Kitchen includes two-tone soft-close cabinetry, an island with storage, and built-in stainless steel appliances. Ensuite family-size washer and dryer. Includes one ground-level parking spot, with EV chargers available in the complex. Conveniently located near major amenities like Walmart, Home Depot, Canadian Tire, and Dollarama, with a riverside family picnic park across the road and about 7 minutes to the University of Guelph. Available immediately and ready to move in.",
+"image": "assets/images/708_Woolwich_St_W_101_Guelph/H1.jpg",
+"images": [
+"assets/images/708_Woolwich_St_W_101_Guelph/H1.jpg",
+"assets/images/708_Woolwich_St_W_101_Guelph/H2.jpg",
+"assets/images/708_Woolwich_St_W_101_Guelph/H3.jpg",
+"assets/images/708_Woolwich_St_W_101_Guelph/H4.jpg",
+"assets/images/708_Woolwich_St_W_101_Guelph/H5.jpg",
+"assets/images/708_Woolwich_St_W_101_Guelph/H6.jpg",
+"assets/images/708_Woolwich_St_W_101_Guelph/H7.jpg",
+"assets/images/708_Woolwich_St_W_101_Guelph/H8.jpg",
+"assets/images/708_Woolwich_St_W_101_Guelph/H9.jpg",
+"assets/images/708_Woolwich_St_W_101_Guelph/H10.jpg",
+"assets/images/708_Woolwich_St_W_101_Guelph/H11.jpg",
+"assets/images/708_Woolwich_St_W_101_Guelph/H12.jpg",
+"assets/images/708_Woolwich_St_W_101_Guelph/H13.jpg",
+"assets/images/708_Woolwich_St_W_101_Guelph/H14.jpg",
+"assets/images/708_Woolwich_St_W_101_Guelph/H15.jpg",
+"assets/images/708_Woolwich_St_W_101_Guelph/H16.jpg"
+],
+"quickFacts": {
+"style": "1 Storey/Apt",
+"beds": "2",
+"baths": 2,
+"rooms": 6,
+"parking": 1,
+"sqft": "900-999 Sqft",
+"doms": 25
+},
+"links": {
+"directions": "https://maps.google.com/?q=708+Woolwich+St+W+101+Guelph+ON",
+"neighbourhoodGuides": "",
+"addressGuides": ""
+},
+"listingInformation": {
+"Portion For Lease": "Entire Property",
+"Status": "Available",
+"Condo Registry Office": "TBA",
+"Condo Corp#": "0",
+"Possession Remarks": "Immediate",
+"Property Mgmt Co": "Alwington",
+"Seller Property Info Statement": "N"
+},
+"propertyInformation": {
+"Approx Age": "New",
+"Year Built": "2025",
+"Level": "1",
+"Square Feet": "900-999",
+"Sqft Source": "980",
+"Exposure": "West",
+"Unit #": "124",
+"Dir/Cross St": "Speedvale / Woolwich St",
+"Directions": "Speedvale / Woolwich St",
+"Parking Drive Spaces": "0",
+"Total Parking Spaces": "1",
+"Parking Type": "Owned",
+"A/C": "Central Air",
+"Balcony": "None",
+"Laundry Features": "Ensuite",
+"Laundry Level": "Main",
+"Locker": "None",
+"Area": "Wellington",
+"Municipality": "Guelph",
+"Community": "Riverside Park",
+"Rooms": "6",
+"Bedrooms": "2",
+"Washrooms": "2",
+"Kitchens": "1",
+"Exterior": "Concrete",
+"Roof": "Asphalt Shingle",
+"Foundation": "Unknown",
+"Garage Type": "Surface",
+"Garage Parking Spaces": "0",
+"Survey Type": "Unknown",
+"Apt/Unit": "101",
+"Basement": "None",
+"Heating Source": "Gas",
+"Heating Type": "Forced Air",
+"Area Influences": "—",
+"Property Type": "Condo Townhouse",
+"Style": "1 Storey/Apt",
+"Family Room": "N",
+"Fireplace/Stv": "N",
+"Central Vac": "N"
+},
+"features": ["Ensuite Laundry", "Private Entrance"],
+"interiorFeatures": ["Built-In Oven", "Carpet Free", "Primary Bedroom - Main Floor", "Water Heater"],
+"buildingFeatures": [],
+"securityFeatures": [],
+"specialDesignations": ["Unknown"],
+"waterfront": ["WaterfrontYN: N", "Waterfront: —"],
+"roomInfo": [
+{
+"room": "Living",
+"level": "Main",
+"dimensions": "9.6 m x 15.1 m (31.5 ft x 49.54 ft)",
+"notes": "Combined W/Kitchen, Open Concept, W/O To Patio"
+},
+{
+"room": "Kitchen",
+"level": "Main",
+"dimensions": "9.6 m x 15.1 m (31.5 ft x 49.54 ft)",
+"notes": "Combined W/Living, B/I Appliances, Breakfast Area"
+},
+{
+"room": "Den",
+"level": "Main",
+"dimensions": "5.6 m x 5.8 m (18.37 ft x 19.03 ft)",
+"notes": "—"
+},
+{
+"room": "Prim Bdrm",
+"level": "Main",
+"dimensions": "9.7 m x 17.7 m (31.82 ft x 58.07 ft)",
+"notes": "Closet, 4 Pc Ensuite, Window"
+},
+{
+"room": "2nd Br",
+"level": "Main",
+"dimensions": "9.2 m x 12.7 m (30.18 ft x 41.67 ft)",
+"notes": "Closet, Hardwood Floor"
+},
+{
+"room": "Bathroom",
+"level": "Main",
+"dimensions": "—",
+"notes": "4 Pc Bath, B/I Vanity"
+}
+],
+"washrooms": [
+{ "count": 1, "pieces": 3, "level": "Flat" },
+{ "count": 1, "pieces": 3, "level": "Flat" }
+],
+"includedInLease": ["Building Insurance", "Building Maintenance", "Common Elements", "Parking"],
+"inclusions": [],
+"map": {
+"query": "708 Woolwich St W, Guelph, ON"
+},
+"contract": {
+"brokerage": "Cheran Chhabra",
+"phone": "647-901-2878"
+}
 },
 {
 "saleOrLease": "lease",  
@@ -3139,6 +3814,499 @@
 },
 {
 "saleOrLease": "lease",  
+"id": "708-woolwich-st-220-guelph",
+"title": "708 Woolwich St 220, Guelph",
+"neighborhood": "Guelph, Riverside Park, Wellington, Ontario N1H 7G6",
+"price": "Unavailable $2,400 | 1 Year",
+"status": "Unavailable",
+"mlsNums": "X12638634",
+"homeStyle": "Condo Townhouse 2-Storey",
+"propertyType": "Condo Townhouse",
+"bedrooms": 2,
+"bathrooms": 2,
+"area": "1000-1199 Sqft",
+"description": "Brand new modern townhouse offering over 1,000 sq ft of bright, carpet-free living space with luxury finishes and large windows. Open-concept living and kitchen area featuring a functional island and four stainless steel appliances with two-tone soft-close cabinetry. Main floor includes an open balcony and in-suite laundry. Upstairs offers two bedrooms and two full bathrooms, including a primary bedroom with a 3-piece ensuite and private balcony. Includes one parking space, EV chargers in the complex, and is close to major amenities, Riverside Park, shopping, and a direct route to the University of Guelph. Available immediately.",
+"image": "assets/images/708_Woolwich_St_220_Guelph/H1.jpg",
+"images": [
+"assets/images/708_Woolwich_St_220_Guelph/H1.jpg",
+"assets/images/708_Woolwich_St_220_Guelph/H2.jpg",
+"assets/images/708_Woolwich_St_220_Guelph/H3.jpg",
+"assets/images/708_Woolwich_St_220_Guelph/H4.jpg",
+"assets/images/708_Woolwich_St_220_Guelph/H5.jpg",
+"assets/images/708_Woolwich_St_220_Guelph/H6.jpg",
+"assets/images/708_Woolwich_St_220_Guelph/H7.jpg",
+"assets/images/708_Woolwich_St_220_Guelph/H8.jpg",
+"assets/images/708_Woolwich_St_220_Guelph/H9.jpg",
+"assets/images/708_Woolwich_St_220_Guelph/H10.jpg",
+"assets/images/708_Woolwich_St_220_Guelph/H11.jpg",
+"assets/images/708_Woolwich_St_220_Guelph/H12.jpg",
+"assets/images/708_Woolwich_St_220_Guelph/H13.jpg",
+"assets/images/708_Woolwich_St_220_Guelph/H14.jpg",
+"assets/images/708_Woolwich_St_220_Guelph/H15.jpg",
+"assets/images/708_Woolwich_St_220_Guelph/H16.jpg",
+"assets/images/708_Woolwich_St_220_Guelph/H17.jpg",
+"assets/images/708_Woolwich_St_220_Guelph/H18.jpg",
+"assets/images/708_Woolwich_St_220_Guelph/H19.jpg",
+"assets/images/708_Woolwich_St_220_Guelph/H20.jpg",
+"assets/images/708_Woolwich_St_220_Guelph/H21.jpg"
+],
+"quickFacts": {
+"style": "2-Storey",
+"beds": 2,
+"baths": 2,
+"rooms": 6,
+"parking": 1,
+"sqft": "1000-1199 Sqft",
+"doms": 22
+},
+"links": {
+"directions": "https://maps.google.com/?q=708+Woolwich+St+Guelph+ON",
+"neighbourhoodGuides": "",
+"addressGuides": ""
+},
+"listingInformation": {
+"Portion For Lease": "Entire Property",
+"Status": "Unavailable",
+"Condo Registry Office": "WSCC",
+"Condo Corp#": "303",
+"Possession Remarks": "Immediate",
+"Property Mgmt Co": "WELLINGTON STANDARD CONdomsINIUM CORPORATION",
+"Seller Property Info Statement": "N"
+},
+"propertyInformation": {
+"Approx Age": "New",
+"Level": "1",
+"Square Feet": "1000-1199",
+"Sqft Source": "As per Builder",
+"View": "Clear, City",
+"Exposure": "West",
+"Unit #": "220",
+"Dir/Cross St": "Speedvale Ave E & Woolwich St",
+"Directions": "Speedvale Ave E & Woolwich St",
+"Drive": "Surface, Private",
+"Parking/Drive": "Surface",
+"Parking Drive Spaces": "1",
+"Total Parking Spaces": "1",
+"Parking Type": "Owned",
+"A/C": "Central Air",
+"Balcony": "Open",
+"Laundry Features": "In-Suite Laundry",
+"Laundry Level": "Main",
+"Locker": "None",
+"Area": "Wellington",
+"Municipality": "Guelph",
+"Community": "Riverside Park",
+"Rooms": "6",
+"Bedrooms": "2",
+"Washrooms": "2",
+"Kitchens": "1",
+"Exterior": "Concrete",
+"Roof": "Asphalt Rolled",
+"Foundation": "Concrete",
+"Garage Type": "Surface",
+"Garage Parking Spaces": "0",
+"Survey Type": "Unknown",
+"Apt/Unit": "220",
+"Basement": "None",
+"Heating Source": "Gas",
+"Heating Type": "Forced Air",
+"Area Influences": "—",
+"Property Type": "Condo Townhouse",
+"Style": "2-Storey",
+"Family Room": "N",
+"Fireplace/Stv": "N",
+"Central Vac": "N"
+},
+"features": [
+"Ensuite Laundry",
+"Park",
+"Pets Allowed with Restrictions",
+"Private Entrance",
+"Public Transit",
+"School"
+],
+"interiorFeatures": [
+"Built-In Oven",
+"Carpet Free",
+"Water Heater"
+],
+"buildingFeatures": [
+"Visitor Parking"
+],
+"securityFeatures": [],
+"specialDesignations": [
+"Unknown"
+],
+"waterfront": [
+"WaterfrontYN: N"
+],
+"roomInfo": [
+{
+"room": "Living",
+"level": "Main",
+"dimensions": "6.05 m x 3.4 m (19.85 ft x 11.15 ft)",
+"notes": "—"
+},
+{
+"room": "Kitchen",
+"level": "Main",
+"dimensions": "3.78 m x 1.78 m (12.4 ft x 5.84 ft)",
+"notes": "—"
+},
+{
+"room": "Prim Bdrm",
+"level": "2nd",
+"dimensions": "2.97 m x 2.97 m (9.74 ft x 9.74 ft)",
+"notes": "Walk-Out, Balcony"
+},
+{
+"room": "Prim Bdrm",
+"level": "2nd",
+"dimensions": "2.97 m x 3.05 m (9.74 ft x 10.01 ft)",
+"notes": "—"
+},
+{
+"room": "Bathroom",
+"level": "2nd",
+"dimensions": "—",
+"notes": "3 Pc Bath"
+},
+{
+"room": "Bathroom",
+"level": "2nd",
+"dimensions": "—",
+"notes": "3 Pc Bath"
+}
+],
+"washrooms": [
+{ "count": 1, "pieces": 3, "level": "2nd" },
+{ "count": 1, "pieces": 3, "level": "2nd" }
+],
+"includedInLease": [
+"Building Insurance",
+"Building Maintenance",
+"Common Elements",
+"Parking"
+],
+"inclusions": [
+"Fridge",
+"Stove",
+"Microwave",
+"Dishwasher",
+"Large Washer and Dryer",
+"CAC"
+],
+"map": {
+"query": "708 Woolwich St, Guelph, ON"
+},
+"contract": {
+"brokerage": "Cheran Chhabra",
+"phone": "647-901-2878"
+}
+},
+{
+"saleOrLease": "lease",  
+"id": "5-evergreen-terr-barrie",
+"title": "5 Evergreen Terr, Barrie",
+"neighborhood": "Barrie, Painswick South, Simcoe, Ontario L9J 0M6",
+"price": "For Lease $2,499 | 1 Year",
+"status": "Available",
+"mlsNums": "S12595564",
+"homeStyle": "Att/Row/Townhouse 2-Storey",
+"propertyType": "Att/Row/Townhouse",
+"bedrooms": 3,
+"bathrooms": 3,
+"area": "1500-2000 Sqft",
+"description": "Park-facing freehold townhouse with a semi-detached feel in the sought-after South Barrie community. Bright and spacious with abundant natural light, this home features a brick exterior, eat-in kitchen with granite countertops, center island, and ample cabinetry. Main floor includes convenient laundry and a powder room. Upstairs offers a primary bedroom with private ensuite plus two additional bedrooms and full washrooms. A generous backyard provides space for relaxation or entertaining. Close to GO Station, shopping, schools, parks, Hwy 400, and everyday amenities.",
+"image": "assets/images/5_Evergreen_Terr_Barrie/H1.jpg",
+"images": [
+"assets/images/5_Evergreen_Terr_Barrie/H1.jpg",
+"assets/images/5_Evergreen_Terr_Barrie/H2.jpg",
+"assets/images/5_Evergreen_Terr_Barrie/H3.jpg",
+"assets/images/5_Evergreen_Terr_Barrie/H4.jpg",
+"assets/images/5_Evergreen_Terr_Barrie/H5.jpg",
+"assets/images/5_Evergreen_Terr_Barrie/H6.jpg",
+"assets/images/5_Evergreen_Terr_Barrie/H7.jpg",
+"assets/images/5_Evergreen_Terr_Barrie/H8.jpg",
+"assets/images/5_Evergreen_Terr_Barrie/H9.jpg",
+"assets/images/5_Evergreen_Terr_Barrie/H10.jpg",
+"assets/images/5_Evergreen_Terr_Barrie/H11.jpg",
+"assets/images/5_Evergreen_Terr_Barrie/H12.jpg",
+"assets/images/5_Evergreen_Terr_Barrie/H13.jpg",
+"assets/images/5_Evergreen_Terr_Barrie/H14.jpg",
+"assets/images/5_Evergreen_Terr_Barrie/H15.jpg",
+"assets/images/5_Evergreen_Terr_Barrie/H16.jpg",
+"assets/images/5_Evergreen_Terr_Barrie/H17.jpg",
+"assets/images/5_Evergreen_Terr_Barrie/H18.jpg",
+"assets/images/5_Evergreen_Terr_Barrie/H19.jpg",
+"assets/images/5_Evergreen_Terr_Barrie/H20.jpg",
+"assets/images/5_Evergreen_Terr_Barrie/H21.jpg",
+"assets/images/5_Evergreen_Terr_Barrie/H22.jpg",
+"assets/images/5_Evergreen_Terr_Barrie/H23.jpg"
+],
+"quickFacts": {
+"style": "2-Storey",
+"beds": 3,
+"baths": 3,
+"rooms": 3,
+"parking": 3,
+"sqft": "1500-2000 Sqft",
+"doms": 40
+},
+"links": {
+"directions": "https://maps.google.com/?q=5+Evergreen+Terr+Barrie+ON",
+"neighbourhoodGuides": "",
+"addressGuides": ""
+},
+"listingInformation": {
+"PIN#": "580914775",
+"Portion For Lease": "Entire Property",
+"Status": "Available",
+"Possession Remarks": "Immediate",
+"Payment Frequency": "Monthly",
+"Seller Property Info Statement": "N"
+},
+"propertyInformation": {
+"Year Built": "2022",
+"Year Built Source": "MPAC",
+"Fronting On": "North",
+"Lot Size": "19.69 x 86.94 Feet",
+"Lot Size Source": "MPAC",
+"Square Feet": "1500-2000",
+"Dir/Cross St": "Gateland Dr & Evergreen Terr",
+"Directions": "Gateland Dr & Evergreen Terr",
+"Drive": "Available",
+"Parking Drive Spaces": "2",
+"Total Parking Spaces": "3",
+"Pool": "None",
+"A/C": "Central Air",
+"Laundry Features": "Ensuite",
+"Area": "Simcoe",
+"Municipality": "Barrie",
+"Community": "Painswick South",
+"Rooms": "3",
+"Bedrooms": "3",
+"Washrooms": "3",
+"Kitchens": "1",
+"Exterior": "Brick",
+"Roof": "Other",
+"Foundation": "Other",
+"Garage Type": "Attached",
+"Garage Parking Spaces": "1",
+"Survey Type": "None",
+"Basement": "Unfinished",
+"Heating Source": "Gas",
+"Heating Type": "Forced Air",
+"Water": "Municipal",
+"Sewers": "Sewers",
+"Property Type": "Att/Row/Townhouse",
+"Style": "2-Storey",
+"Family Room": "Y",
+"Fireplace/Stv": "Y",
+"Central Vac": "N"
+},
+"features": ["Ensuite Laundry", "Family Room", "Fireplace/Stove", "Private Entrance"],
+"interiorFeatures": ["Other"],
+"buildingFeatures": [],
+"securityFeatures": [],
+"specialDesignations": ["Unknown"],
+"waterfront": ["WaterfrontYN: N"],
+"roomInfo": [],
+"washrooms": [
+{ "count": 1, "pieces": 4, "level": "2nd" },
+{ "count": 1, "pieces": 4, "level": "—" },
+{ "count": 1, "pieces": 2, "level": "—" }
+],
+"includedInLease": ["Water Heater", "Parking"],
+"inclusions": [],
+"map": {
+"query": "5 Evergreen Terr, Barrie, ON"
+},
+"contract": {
+"brokerage": "Cheran Chhabra",
+"phone": "647-901-2878"
+}
+},
+{
+"saleOrLease": "lease",  
+"id": "96-centre-st-n-brampton",
+"title": "96 Centre St N, Brampton",
+"neighborhood": "Brampton, Brampton North, Peel, Ontario L6V 2Z3",
+"price": "For Lease $2,499 | 1 Year",
+"status": "Available",
+"mlsNums": "W12488756",
+"homeStyle": "Semi-Detached 1 Storey/Apt",
+"propertyType": "Semi-Detached",
+"bedrooms": "3",
+"bathrooms": 1,
+"area": "1100-1500 Sqft",
+"description": "Well-maintained semi-detached home offering three bedrooms and a finished basement in one of Brampton’s most desirable neighborhoods. The layout is spacious and practical, with bright living areas and a functional kitchen. Conveniently located close to downtown, schools, hospitals, shopping, parks, and transit, making it ideal for comfortable everyday living.",
+"image": "assets/images/96-centre-st-n-brampton/H1.jpg",
+"images": [
+"assets/images/96-centre-st-n-brampton/H1.jpg",
+"assets/images/96-centre-st-n-brampton/H2.jpg",
+"assets/images/96-centre-st-n-brampton/H3.jpg",
+"assets/images/96-centre-st-n-brampton/H4.jpg",
+"assets/images/96-centre-st-n-brampton/H5.jpg",
+"assets/images/96-centre-st-n-brampton/H6.jpg",
+"assets/images/96-centre-st-n-brampton/H7.jpg",
+"assets/images/96-centre-st-n-brampton/H8.jpg",
+"assets/images/96-centre-st-n-brampton/H9.jpg",
+"assets/images/96-centre-st-n-brampton/H10.jpg",
+"assets/images/96-centre-st-n-brampton/H11.jpg",
+"assets/images/96-centre-st-n-brampton/H12.jpg",
+"assets/images/96-centre-st-n-brampton/H13.jpg",
+"assets/images/96-centre-st-n-brampton/H14.jpg",
+"assets/images/96-centre-st-n-brampton/H15.jpg",
+"assets/images/96-centre-st-n-brampton/H16.jpg",
+"assets/images/96-centre-st-n-brampton/H17.jpg",
+"assets/images/96-centre-st-n-brampton/H18.jpg",
+"assets/images/96-centre-st-n-brampton/H19.jpg",
+"assets/images/96-centre-st-n-brampton/H20.jpg",
+"assets/images/96-centre-st-n-brampton/H21.jpg",
+"assets/images/96-centre-st-n-brampton/H22.jpg"
+],
+"quickFacts": {
+"style": "1 Storey/Apt",
+"beds": "3",
+"baths": "1",
+"rooms": "6",
+"parking": "5",
+"sqft": "1100-1500 Sqft",
+"doms": "74"
+},
+"links": {
+"directions": "https://www.google.com/maps/search/?api=1&query=96+Centre+St+N,+Brampton,+ON",
+"neighbourhoodGuides": "",
+"addressGuides": ""
+},
+"listingInformation": {
+"Portion For Lease": "Main",
+"Status": "Available",
+"Seller Property Info Statement": "N"
+},
+"propertyInformation": {
+"Approx Age": "16-30",
+"Fronting On": "East",
+"Square Feet": "1100-1500",
+"View": "City",
+"Dir/Cross St": "Queen & Centre St N",
+"Directions": "Queen & Centre St N",
+"Drive": "Private",
+"Parking/Drive": "Private",
+"Parking Drive Spaces": "3",
+"Total Parking Spaces": "5",
+"UFFI": "Removed",
+"Pool": "None",
+"A/C": "Central Air",
+"Laundry Features": "In Basement",
+"Laundry Level": "Lower",
+"Area": "Peel",
+"Municipality": "Brampton",
+"Community": "Brampton North",
+"Rooms": "6",
+"Bedrooms": "3",
+"Washrooms": "1",
+"Kitchens": "1",
+"Exterior": "Alum Siding, Brick",
+"Roof": "Asphalt Shingle",
+"Foundation": "Block, Brick, Concrete",
+"Garage Type": "None",
+"Garage Parking Spaces": "0",
+"Survey Type": "Unknown",
+"Basement": "Apartment / Sep Entrance / Walk-Up / Finished",
+"Heating Source": "Gas",
+"Heating Type": "Forced Air",
+"Water": "Municipal",
+"Sewers": "Sewers",
+"Area Influences": "—",
+"Property Type": "Semi-Detached",
+"Style": "1 Storey/Apt",
+"Family Room": "Y",
+"Fireplace/Stv": "Y",
+"Central Vac": "N"
+},
+"features": [
+"Clear View",
+"Family Room",
+"Fenced Yard",
+"Fireplace/Stove",
+"Hospital",
+"Library",
+"Park",
+"Place Of Worship",
+"Private Entrance"
+],
+"interiorFeatures": [
+"Other"
+],
+"buildingFeatures": [
+"Deck",
+"Patio",
+"Porch"
+],
+"securityFeatures": [],
+"specialDesignations": [
+"Unknown"
+],
+"waterfront": "N",
+"roomInfo": [
+{
+"room": "Living",
+"level": "Main",
+"dimensions": "5.33 m x 3.5 m (17.49 ft x 11.48 ft)",
+"notes": "—"
+},
+{
+"room": "Dining",
+"level": "Main",
+"dimensions": "2.37 m x 1.82 m (7.78 ft x 5.97 ft)",
+"notes": "—"
+},
+{
+"room": "Kitchen",
+"level": "Main",
+"dimensions": "2.95 m x 2.84 m (9.68 ft x 9.32 ft)",
+"notes": "—"
+},
+{
+"room": "2nd Br",
+"level": "Main",
+"dimensions": "3.4 m x 3.25 m (11.15 ft x 10.66 ft)",
+"notes": "—"
+},
+{
+"room": "Br",
+"level": "Main",
+"dimensions": "3.96 m x 3.09 m (12.99 ft x 10.14 ft)",
+"notes": "—"
+},
+{
+"room": "3rd Br",
+"level": "Main",
+"dimensions": "2.69 m x 2.44 m (8.83 ft x 8.01 ft)",
+"notes": "—"
+}
+],
+"washrooms": [
+{
+"count": "1",
+"pieces": "4",
+"level": "Main"
+}
+],
+"includedInLease": [
+"Central Air Conditioning",
+"Common Elements"
+],
+"inclusions": [],
+"map": {
+"query": "96 Centre St N, Brampton, ON"
+},
+"contract": "Cheran Chhabra | 647-901-2878"
+},
+{
+"saleOrLease": "lease",  
 "id": "16-harrison-garden-blvd-uph01-toronto",
 "title": "16 Harrison Garden Blvd UPH01, Toronto",
 "neighborhood": "Toronto C14, Willowdale East, Toronto, Ontario M2N 7J6",
@@ -3282,6 +4450,146 @@
 ],
 "map": {
 "query": "16 Harrison Garden Blvd, Toronto, ON"
+},
+"contract": "Cheran Chhabra 647-901-2878"
+},
+{
+"saleOrLease": "lease", 
+"id": "2686-ambercroft-tr-basement-level-mississauga",
+"title": "2686 Ambercroft Tr Basement Level, Mississauga",
+"neighborhood": "Mississauga, Central Erin Mills, Peel, Ontario L5M 4J9",
+"price": "For Lease $2,500 | 1 Year",
+"status": "Available",
+"mlsNums": "W12652444",
+"homeStyle": "Detached 2-Storey",
+"propertyType": "Detached",
+"bedrooms": "2",
+"bathrooms": 2,
+"area": "2500-3000 Sqft",
+"description": "Never-lived-in, fully legal and newly renovated basement unit with a private entrance, located on a quiet cul-de-sac. The space features a spacious family room, 1.5 modern bathrooms, and private ensuite laundry. All appliances are brand new, making the unit completely move-in ready. Two parking spaces are included, one in the garage. Ideally located steps from Credit Valley Hospital and minutes to Hwy 403, top-ranked schools, Erin Mills Town Centre, GO Transit, MiWay, shopping, dining, and daily amenities. A rare combination of privacy, modern finishes, space, and convenience.",
+"image": "assets/images/2686-ambercroft-tr-basement-level-mississauga/H1.jpg",
+"images": [
+"assets/images/2686-ambercroft-tr-basement-level-mississauga/H1.jpg",
+"assets/images/2686-ambercroft-tr-basement-level-mississauga/H2.jpg",
+"assets/images/2686-ambercroft-tr-basement-level-mississauga/H3.jpg",
+"assets/images/2686-ambercroft-tr-basement-level-mississauga/H4.jpg",
+"assets/images/2686-ambercroft-tr-basement-level-mississauga/H5.jpg",
+"assets/images/2686-ambercroft-tr-basement-level-mississauga/H6.jpg",
+"assets/images/2686-ambercroft-tr-basement-level-mississauga/H7.jpg",
+"assets/images/2686-ambercroft-tr-basement-level-mississauga/H8.jpg",
+"assets/images/2686-ambercroft-tr-basement-level-mississauga/H9.jpg",
+"assets/images/2686-ambercroft-tr-basement-level-mississauga/H10.jpg",
+"assets/images/2686-ambercroft-tr-basement-level-mississauga/H11.jpg",
+"assets/images/2686-ambercroft-tr-basement-level-mississauga/H12.jpg",
+"assets/images/2686-ambercroft-tr-basement-level-mississauga/H13.jpg",
+"assets/images/2686-ambercroft-tr-basement-level-mississauga/H14.jpg",
+"assets/images/2686-ambercroft-tr-basement-level-mississauga/H15.jpg",
+"assets/images/2686-ambercroft-tr-basement-level-mississauga/H16.jpg"
+],
+"quickFacts": {
+"style": "Detached 2-Storey",
+"beds": "2",
+"baths": "2",
+"rooms": "3",
+"parking": "2",
+"sqft": "2500-3000",
+"doms": "14"
+},
+"links": {
+"directions": "[https://www.google.com/maps/search/?api=1&query=2686+Ambercroft+Tr,+Mississauga,+ON](https://www.google.com/maps/search/?api=1&query=2686+Ambercroft+Tr,+Mississauga,+ON)",
+"neighbourhoodGuides": "",
+"addressGuides": ""
+},
+"listingInformation": {
+"Portion For Lease": "Basement",
+"Portion Lease": "Basement",
+"Comments": "—",
+"Status": "Available",
+"Payment Frequency": "Monthly",
+"Seller Property Info Statement": "N"
+},
+"propertyInformation": {
+"Fronting On": "South",
+"Square Feet": "2500-3000",
+"Dir/Cross St": "Winston Churchill / Hwy 403",
+"Directions": "Winston Churchill / Hwy 403",
+"Drive": "Available",
+"Parking Drive Spaces": "1",
+"Total Parking Spaces": "2",
+"Pool": "None",
+"A/C": "Central Air",
+"Laundry Features": "Ensuite",
+"Area": "Peel",
+"Municipality": "Mississauga",
+"Community": "Central Erin Mills",
+"Rooms": "3",
+"Bedrooms": "2",
+"Washrooms": "2",
+"Kitchens": "1",
+"Exterior": "Brick",
+"Roof": "Other",
+"Foundation": "Other",
+"Garage Type": "Attached",
+"Garage Parking Spaces": "1",
+"Survey Type": "None",
+"Apt/Unit": "Basement Level",
+"Basement": "Finished",
+"Heating Source": "Gas",
+"Heating Type": "Forced Air",
+"Water": "Municipal",
+"Sewers": "Sewers",
+"Area Influences": "—",
+"Property Type": "Detached",
+"Link": "N",
+"Style": "2-Storey",
+"Family Room": "N",
+"Fireplace/Stv": "N",
+"Central Vac": "N"
+},
+"features": [
+"Ensuite Laundry",
+"Furnished",
+"Private Entrance"
+],
+"interiorFeatures": [
+"Other"
+],
+"buildingFeatures": [],
+"securityFeatures": [],
+"specialDesignations": [
+"Unknown"
+],
+"waterfront": {
+"WaterfrontYN": "N"
+},
+"roomInfo": [
+{
+"room": "—",
+"level": "—",
+"dimensions": "—",
+"notes": "—"
+}
+],
+"washrooms": [
+{
+"count": 1,
+"pieces": 2,
+"level": "Lower"
+},
+{
+"count": 1,
+"pieces": 3,
+"level": "Lower"
+}
+],
+"includedInLease": [
+"Parking"
+],
+"inclusions": [
+"Parking"
+],
+"map": {
+"query": "2686 Ambercroft Tr, Mississauga, ON"
 },
 "contract": "Cheran Chhabra 647-901-2878"
 },
