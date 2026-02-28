@@ -1,6 +1,311 @@
 [
   {
     "saleOrLease": "sale",
+    "id": "30-grouse-lane-brampton",
+    "title": "30 Grouse Lane, Brampton",
+    "neighborhood": "Brampton, Bram West, Peel, Ontario L6Y 5L1",
+    "price": "For sale $1,799,000",
+    "status": "Available",
+    "mlsNums": "W12688634",
+    "homeStyle": "Detached 2-Storey",
+    "propertyType": "Detached",
+    "bedrooms": "4+2",
+    "bathrooms": 6.0,
+    "area": "3500-5000 SqFt",
+    "description": "Fully renovated from top to bottom, this exceptional residence offers 5 bedrooms, 6 washrooms, a stunning high-ceiling family room, an elegant round staircase, and a state-of-the-art 4K home theatre.With over 5,000 sq ft of total living space (approx. 3,600 sq ft above grade plus a 1,800 sq ft finished basement), this home is meticulously maintained and thoughtfully designed. Each bedroom features direct access to a bathroom, while the basement includes both an ensuite and a powder room, making it ideal for extended family or guests.Luxury continues outdoors with a heated patio featuring a full outdoor kitchen, fireplace, gas BBQ, and pizza oven-perfect for year-round entertaining. Additional highlights include a durable metal roof, custom exterior stucco and concrete finishes, premium exterior upgrades, brand-new porcelain flooring, and stamped concrete throughout, seamlessly blending style and functionality.This is a rare opportunity to own a truly exceptional home designed for refined living and unforgettable gatherings.",
+    "image": "assets/images/30-Grouse-Lane-Brampton/H1.jpg",
+    "images": [
+      "assets/images/30-Grouse-Lane-Brampton/H1.jpg",
+      "assets/images/30-Grouse-Lane-Brampton/H2.jpg",
+      "assets/images/30-Grouse-Lane-Brampton/H3.jpg",
+      "assets/images/30-Grouse-Lane-Brampton/H4.jpg",
+      "assets/images/30-Grouse-Lane-Brampton/H5.jpg",
+      "assets/images/30-Grouse-Lane-Brampton/H6.jpg",
+      "assets/images/30-Grouse-Lane-Brampton/H7.jpg",
+      "assets/images/30-Grouse-Lane-Brampton/H8.jpg",
+      "assets/images/30-Grouse-Lane-Brampton/H9.jpg",
+      "assets/images/30-Grouse-Lane-Brampton/H10.jpg",
+      "assets/images/30-Grouse-Lane-Brampton/H11.jpg",
+      "assets/images/30-Grouse-Lane-Brampton/H12.jpg",
+      "assets/images/30-Grouse-Lane-Brampton/H13.jpg",
+      "assets/images/30-Grouse-Lane-Brampton/H14.jpg",
+      "assets/images/30-Grouse-Lane-Brampton/H15.jpg",
+      "assets/images/30-Grouse-Lane-Brampton/H16.jpg",
+      "assets/images/30-Grouse-Lane-Brampton/H17.jpg",
+      "assets/images/30-Grouse-Lane-Brampton/H18.jpg",
+      "assets/images/30-Grouse-Lane-Brampton/H19.jpg",
+      "assets/images/30-Grouse-Lane-Brampton/H20.jpg",
+      "assets/images/30-Grouse-Lane-Brampton/H21.jpg",
+      "assets/images/30-Grouse-Lane-Brampton/H22.jpg",
+      "assets/images/30-Grouse-Lane-Brampton/H23.jpg",
+      "assets/images/30-Grouse-Lane-Brampton/H24.jpg",
+      "assets/images/30-Grouse-Lane-Brampton/H25.jpg",
+      "assets/images/30-Grouse-Lane-Brampton/H26.jpg"
+    ],
+    "quickFacts": {
+      "style": "Detached 2-Storey",
+      "beds": 5,
+      "baths": 6.0,
+      "rooms": "4+2",
+      "parking": 6.0,
+      "sqft": "3500-5000 SqFt",
+      "doms": 43
+    },
+    "links": {
+      "directions": "https://www.google.ca/maps/place/30+Grouse+Ln,+Brampton,+ON+L6Y"
+    },
+    "listingInformation": {
+      "Status": "Available"
+    },
+    "propertyInformation": {
+      "A/C": "Central Air",
+      "Garage Parking Spaces": 2.0,
+      "Garage Type": "Attached",
+      "Heating Source": "Gas",
+      "Heating Type": "Forced Air",
+      "Kitchens": 2,
+      "Laundry Features": "Main",
+      "Laundry Level": "Main"
+    },
+    "features": [],
+    "interiorFeatures": [],
+    "specialDesignations": [],
+    "waterfront": [],
+    "roomInfo": [],
+    "washrooms": [],
+    "includedInLease": [],
+    "map": {
+      "query": "30 Grouse Ln, Brampton, ON L6Y 5L1"
+    },
+    "contract": {
+      "brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC."
+    }
+  },
+  {
+    "saleOrLease": "sale",
+    "id": "4-champion-crt-brampton",
+    "title": "4 Champion Crt, Brampton",
+    "neighborhood": "Brampton, Credit Valley, Peel, Ontario L6Y 5G9",
+    "price": "For sale $2,399,000",
+    "status": "Available",
+    "mlsNums": "W12654600",
+    "homeStyle": "Detached 2-Storey",
+    "propertyType": "Detached",
+    "bedrooms": "4+2",
+    "bathrooms": 5.0,
+    "area": "3000-3500",
+    "description": "Offering approximately 5,000 sq. ft. of total living space, this beautifully maintained 4+2 bedroom, 5-washrooms detached home sits on a premium, professionally landscaped lot with a private backyard, deck, patio, and in ground pool-perfect for entertaining and family enjoyment.The main level features a bright, open-concept layout with a spacious family room, sun-filled sunroom, and a modern kitchen complete with a center island and breakfast area. The fully finished walk-out basement includes a separate entrance and second kitchen, ideal for extended family or potential rental income. Additional highlights include parking for up to 15 vehicles, a rare detached 3-car garage, and a quiet cul-de-sac location close to top-rated schools, parks, transit, and all essential amenities. A truly exceptional home offering luxury, space, and unmatched convenience.",
+    "image": "assets/images/4-Champion-Crt-Brampton/H1.jpg",
+    "images": [
+      "assets/images/4-Champion-Crt-Brampton/H1.jpg",
+      "assets/images/4-Champion-Crt-Brampton/H2.jpg",
+      "assets/images/4-Champion-Crt-Brampton/H3.jpg",
+      "assets/images/4-Champion-Crt-Brampton/H4.jpg",
+      "assets/images/4-Champion-Crt-Brampton/H5.jpg",
+      "assets/images/4-Champion-Crt-Brampton/H6.jpg",
+      "assets/images/4-Champion-Crt-Brampton/H7.jpg",
+      "assets/images/4-Champion-Crt-Brampton/H8.jpg",
+      "assets/images/4-Champion-Crt-Brampton/H9.jpg",
+      "assets/images/4-Champion-Crt-Brampton/H10.jpg",
+      "assets/images/4-Champion-Crt-Brampton/H11.jpg",
+      "assets/images/4-Champion-Crt-Brampton/H12.jpg",
+      "assets/images/4-Champion-Crt-Brampton/H13.jpg",
+      "assets/images/4-Champion-Crt-Brampton/H14.jpg",
+      "assets/images/4-Champion-Crt-Brampton/H15.jpg",
+      "assets/images/4-Champion-Crt-Brampton/H16.jpg",
+      "assets/images/4-Champion-Crt-Brampton/H17.jpg",
+      "assets/images/4-Champion-Crt-Brampton/H18.jpg",
+      "assets/images/4-Champion-Crt-Brampton/H19.jpg",
+      "assets/images/4-Champion-Crt-Brampton/H20.jpg",
+      "assets/images/4-Champion-Crt-Brampton/H21.jpg",
+      "assets/images/4-Champion-Crt-Brampton/H22.jpg",
+      "assets/images/4-Champion-Crt-Brampton/H23.jpg",
+      "assets/images/4-Champion-Crt-Brampton/H24.jpg"
+    ],
+    "quickFacts": {
+      "style": "Detached 2-Storey",
+      "beds": "4+2",
+      "baths": 5.0,
+      "rooms": "11+5",
+      "parking": 15.0,
+      "sqft": "3000-3500 SqFt",
+      "doms": 54
+    },
+    "links": {
+      "directions": "https://www.google.ca/maps/place/4+Champion+Ct,+Brampton,+ON"
+    },
+    "listingInformation": {
+      "Status": "Available"
+    },
+    "propertyInformation": {
+      "A/C": "Central Air",
+      "Approx Age": "16-30",
+      "Area": "Brampton",
+      "Garage Parking Spaces": 3.0,
+      "Garage Type": "Attached",
+      "Heating Source": "Gas",
+      "Heating Type": "Forced Air",
+      "Kitchens": "1+1"
+    },
+    "features": [],
+    "interiorFeatures": [],
+    "specialDesignations": [],
+    "waterfront": [],
+    "roomInfo": [],
+    "washrooms": [],
+    "includedInLease": [],
+    "map": {
+      "query": "4 Champion Ct, Brampton, ON L6Y 5G9"
+    },
+    "contract": {
+      "brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC."
+    }
+  },
+  {
+    "saleOrLease": "sale",
+    "id": "919-green-st-innisfil",
+    "title": "919 Green St, Innisfil",
+    "neighborhood": "Innisfil, Lefroy, Simcoe, Ontario L0L 1W0",
+    "price": "For sale $ 1,249,000",
+    "status": "Available",
+    "mlsNums": "N12780082",
+    "homeStyle": "Detached 2-Storey",
+    "propertyType": "Detached",
+    "bedrooms": 4,
+    "bathrooms": 4.0,
+    "area": "3000-3500 SqFt",
+    "description": "Welcome to 919 Green St! A Must see Home! Located in the heart of the highly sought-after near Killarney Beach, this bright and spacious home offers over 3,100 sq ft of Freshly Painted thoughtfully designed living space on two levels. Set on a premium 50 ft x 153 ft lot backing onto tranquil green space, this home combines upscale finishes with everyday comfort. Enjoy gleaming hardwood floors, granite countertops, and large, light-filled living areas perfect forfamily living and entertaining. The chef's kitchen features a convenient butler's pantry, whilethe large Walkout basement provides endless possibilities for future customization. Each generously sized bedroom boasts its own walk-in closet and ensuite, offering both luxury andprivacy. A rare opportunity to own an executive home in one of the area's most desirable communities. Just a short drive from Highway 400 and Barrie GO station!",
+    "image": "assets/images/919-Green-St-Innisfil/H1.jpg",
+    "images": [
+      "assets/images/919-Green-St-Innisfil/H1.jpg",
+      "assets/images/919-Green-St-Innisfil/H2.jpg",
+      "assets/images/919-Green-St-Innisfil/H3.jpg",
+      "assets/images/919-Green-St-Innisfil/H4.jpg",
+      "assets/images/919-Green-St-Innisfil/H5.jpg",
+      "assets/images/919-Green-St-Innisfil/H6.jpg",
+      "assets/images/919-Green-St-Innisfil/H7.jpg",
+      "assets/images/919-Green-St-Innisfil/H8.jpg",
+      "assets/images/919-Green-St-Innisfil/H9.jpg",
+      "assets/images/919-Green-St-Innisfil/H10.jpg",
+      "assets/images/919-Green-St-Innisfil/H11.jpg",
+      "assets/images/919-Green-St-Innisfil/H12.jpg",
+      "assets/images/919-Green-St-Innisfil/H13.jpg",
+      "assets/images/919-Green-St-Innisfil/H14.jpg",
+      "assets/images/919-Green-St-Innisfil/H15.jpg",
+      "assets/images/919-Green-St-Innisfil/H16.jpg",
+      "assets/images/919-Green-St-Innisfil/H17.jpg",
+      "assets/images/919-Green-St-Innisfil/H18.jpg"
+    ],
+    "quickFacts": {
+      "style": "Detached 2-Storey",
+      "beds": 4,
+      "baths": 4.0,
+      "rooms": 8,
+      "parking": 6.0,
+      "sqft": "3000-3500 SqFt",
+      "doms": 13
+    },
+    "links": {
+      "directions": "https://www.google.ca/maps/place/919+Green+St,+Innisfil,+ON+L0L+1W0"
+    },
+    "listingInformation": {
+      "Status": "Available"
+    },
+    "propertyInformation": {
+      "A/C": "Central Air",
+      "Garage Parking Spaces": 2.0,
+      "Garage Type": "Attached",
+      "Heating Source": "Gas",
+      "Heating Type": "Forced Air",
+      "Kitchens": 1
+    },
+    "features": [],
+    "interiorFeatures": [],
+    "specialDesignations": [],
+    "waterfront": [],
+    "roomInfo": [],
+    "washrooms": [],
+    "includedInLease": [],
+    "map": {
+      "query": "919 Green St, Innisfil, ON L0L 1W0"
+    },
+    "contract": {
+      "brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC."
+    }
+  },
+  {
+    "saleOrLease": "sale",
+    "id": "3121-sheppard-ave-e-710-toronto",
+    "title": "3121 Sheppard Ave E 710, Toronto",
+    "neighborhood": "Toronto E05, Tam O'Shanter-Sullivan, Toronto, Ontario M1T 0B6",
+    "price": "For sale $649,000",
+    "status": "Available",
+    "mlsNums": "E12773940",
+    "homeStyle": "Condo Apartment",
+    "propertyType": "Condo Apt",
+    "bedrooms": 3,
+    "bathrooms": 2.0,
+    "area": "1000-1199 SqFt",
+    "description": "Welcome to this beautifully upgraded over 1,000 sq ft 3-bedroom, 2-bathroom condo at 3121 Sheppard Ave E #710, offering an exceptional blend of space, style, and convenience. This bright suite features soaring ceilings, a functional open-concept layout, and hard surface flooring throughout-no carpet. The upgraded kitchen is equipped with modern cabinetry, quality appliances, and ample counter space, flowing seamlessly into the living and dining areas-perfect for everyday living and entertaining. Step out onto your private balcony to unwind and enjoy open views, while the generously sized bedrooms provide comfort and versatility, including a primary bedroom with ensuite.The unit includes 1 underground parking space, and maintenance fees conveniently cover heat and water (hydro is extra and low-cost), offering excellent value.Situated in a highly accessible Scarborough neighbourhood, you're moments from TTC subway access and nearby GO Stations, with quick connections to Highway 401, DVP, and major routes. Surrounded by shopping, dining, schools, parks, and everyday amenities, this is urban condo living at its best. A rare opportunity-don't miss it!",
+    "image": "assets/images/3121-Sheppard-Ave-E-710-Toronto/H1.jpg",
+    "images": [
+      "assets/images/3121-Sheppard-Ave-E-710-Toronto/H1.jpg",
+      "assets/images/3121-Sheppard-Ave-E-710-Toronto/H2.jpg",
+      "assets/images/3121-Sheppard-Ave-E-710-Toronto/H3.jpg",
+      "assets/images/3121-Sheppard-Ave-E-710-Toronto/H4.jpg",
+      "assets/images/3121-Sheppard-Ave-E-710-Toronto/H5.jpg",
+      "assets/images/3121-Sheppard-Ave-E-710-Toronto/H6.jpg",
+      "assets/images/3121-Sheppard-Ave-E-710-Toronto/H7.jpg",
+      "assets/images/3121-Sheppard-Ave-E-710-Toronto/H8.jpg",
+      "assets/images/3121-Sheppard-Ave-E-710-Toronto/H9.jpg",
+      "assets/images/3121-Sheppard-Ave-E-710-Toronto/H10.jpg",
+      "assets/images/3121-Sheppard-Ave-E-710-Toronto/H11.jpg",
+      "assets/images/3121-Sheppard-Ave-E-710-Toronto/H12.jpg",
+      "assets/images/3121-Sheppard-Ave-E-710-Toronto/H13.jpg",
+      "assets/images/3121-Sheppard-Ave-E-710-Toronto/H14.jpg",
+      "assets/images/3121-Sheppard-Ave-E-710-Toronto/H15.jpg",
+      "assets/images/3121-Sheppard-Ave-E-710-Toronto/H16.jpg"
+    ],
+    "quickFacts": {
+      "style": "Apartment",
+      "beds": 3,
+      "baths": 2.0,
+      "rooms": 6,
+      "parking": 1.0,
+      "sqft": "1000-1199 SqFt",
+      "doms": 15
+    },
+    "links": {
+      "directions": "https://www.google.ca/maps/place/3121+Sheppard+Ave+E+%23710,+Scarborough,+ON+M1T+0B6"
+    },
+    "listingInformation": {
+      "Status": "Available"
+    },
+    "propertyInformation": {
+      "A/C": "Central Air",
+      "Garage Parking Spaces": 1.0,
+      "Garage Type": "Underground",
+      "Heating Source": "Gas",
+      "Heating Type": "Forced Air",
+      "Kitchens": 1,
+      "Laundry Features": "In-suite"
+    },
+    "features": [],
+    "interiorFeatures": [],
+    "specialDesignations": [],
+    "waterfront": [],
+    "roomInfo": [],
+    "washrooms": [],
+    "includedInLease": [],
+    "map": {
+      "query": "3121 Sheppard Ave E #710, Scarborough, ON M1T 0B6"
+    },
+    "contract": {
+      "brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC."
+    }
+  },
+  {
+    "saleOrLease": "sale",
     "id": "60-murray-st-toronto",
     "title": "60 Murray St, Toronto",
     "neighborhood": "Toronto C01, Kensington-Chinatown, Toronto, Ontario M5T 3L9",
@@ -109,77 +414,6 @@
   },
   {
     "saleOrLease": "sale",
-    "id": "3121-sheppard-ave-e-710-toronto",
-    "title": "3121 Sheppard Ave E 710, Toronto",
-    "neighborhood": "Toronto E05, Tam O'Shanter-Sullivan, Toronto, Ontario M1T 0B6",
-    "price": "For sale $649,000",
-    "status": "Available",
-    "mlsNums": "E12773940",
-    "homeStyle": "Condo Apartment",
-    "propertyType": "Condo Apt",
-    "bedrooms": 3,
-    "bathrooms": 2.0,
-    "area": "1000-1199 SqFt",
-    "description": "Welcome to this beautifully upgraded over 1,000 sq ft 3-bedroom, 2-bathroom condo at 3121 Sheppard Ave E #710, offering an exceptional blend of space, style, and convenience. This bright suite features soaring ceilings, a functional open-concept layout, and hard surface flooring throughout-no carpet. The upgraded kitchen is equipped with modern cabinetry, quality appliances, and ample counter space, flowing seamlessly into the living and dining areas-perfect for everyday living and entertaining. Step out onto your private balcony to unwind and enjoy open views, while the generously sized bedrooms provide comfort and versatility, including a primary bedroom with ensuite.The unit includes 1 underground parking space, and maintenance fees conveniently cover heat and water (hydro is extra and low-cost), offering excellent value.Situated in a highly accessible Scarborough neighbourhood, you're moments from TTC subway access and nearby GO Stations, with quick connections to Highway 401, DVP, and major routes. Surrounded by shopping, dining, schools, parks, and everyday amenities, this is urban condo living at its best. A rare opportunity-don't miss it!",
-    "image": "assets/images/3121-Sheppard-Ave-E-710-Toronto/H1.jpg",
-    "images": [
-      "assets/images/3121-Sheppard-Ave-E-710-Toronto/H1.jpg",
-      "assets/images/3121-Sheppard-Ave-E-710-Toronto/H2.jpg",
-      "assets/images/3121-Sheppard-Ave-E-710-Toronto/H3.jpg",
-      "assets/images/3121-Sheppard-Ave-E-710-Toronto/H4.jpg",
-      "assets/images/3121-Sheppard-Ave-E-710-Toronto/H5.jpg",
-      "assets/images/3121-Sheppard-Ave-E-710-Toronto/H6.jpg",
-      "assets/images/3121-Sheppard-Ave-E-710-Toronto/H7.jpg",
-      "assets/images/3121-Sheppard-Ave-E-710-Toronto/H8.jpg",
-      "assets/images/3121-Sheppard-Ave-E-710-Toronto/H9.jpg",
-      "assets/images/3121-Sheppard-Ave-E-710-Toronto/H10.jpg",
-      "assets/images/3121-Sheppard-Ave-E-710-Toronto/H11.jpg",
-      "assets/images/3121-Sheppard-Ave-E-710-Toronto/H12.jpg",
-      "assets/images/3121-Sheppard-Ave-E-710-Toronto/H13.jpg",
-      "assets/images/3121-Sheppard-Ave-E-710-Toronto/H14.jpg",
-      "assets/images/3121-Sheppard-Ave-E-710-Toronto/H15.jpg",
-      "assets/images/3121-Sheppard-Ave-E-710-Toronto/H16.jpg"
-    ],
-    "quickFacts": {
-      "style": "Apartment",
-      "beds": 3,
-      "baths": 2.0,
-      "rooms": 6,
-      "parking": 1.0,
-      "sqft": "1000-1199 SqFt",
-      "doms": 15
-    },
-    "links": {
-      "directions": "https://www.google.ca/maps/place/3121+Sheppard+Ave+E+%23710,+Scarborough,+ON+M1T+0B6"
-    },
-    "listingInformation": {
-      "Status": "Available"
-    },
-    "propertyInformation": {
-      "A/C": "Central Air",
-      "Garage Parking Spaces": 1.0,
-      "Garage Type": "Underground",
-      "Heating Source": "Gas",
-      "Heating Type": "Forced Air",
-      "Kitchens": 1,
-      "Laundry Features": "In-suite"
-    },
-    "features": [],
-    "interiorFeatures": [],
-    "specialDesignations": [],
-    "waterfront": [],
-    "roomInfo": [],
-    "washrooms": [],
-    "includedInLease": [],
-    "map": {
-      "query": "3121 Sheppard Ave E #710, Scarborough, ON M1T 0B6"
-    },
-    "contract": {
-      "brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC."
-    }
-  },
-  {
-    "saleOrLease": "sale",
     "id": "72-nelson-st-e-brampton",
     "title": "72 Nelson St E, Brampton",
     "neighborhood": "Brampton, Queen Street Corridor, Peel, Ontario L6V 1E2",
@@ -245,78 +479,6 @@
     "includedInLease": [],
     "map": {
       "query": "72 Nelson St E, Brampton, ON L6V 1E2"
-    },
-    "contract": {
-      "brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC."
-    }
-  },
-  {
-    "saleOrLease": "sale",
-    "id": "919-green-st-innisfil",
-    "title": "919 Green St, Innisfil",
-    "neighborhood": "Innisfil, Lefroy, Simcoe, Ontario L0L 1W0",
-    "price": "For sale $ 1,249,000",
-    "status": "Available",
-    "mlsNums": "N12780082",
-    "homeStyle": "Detached 2-Storey",
-    "propertyType": "Detached",
-    "bedrooms": 4,
-    "bathrooms": 4.0,
-    "area": "3000-3500 SqFt",
-    "description": "Welcome to 919 Green St! A Must see Home! Located in the heart of the highly sought-after near Killarney Beach, this bright and spacious home offers over 3,100 sq ft of Freshly Painted thoughtfully designed living space on two levels. Set on a premium 50 ft x 153 ft lot backing onto tranquil green space, this home combines upscale finishes with everyday comfort. Enjoy gleaming hardwood floors, granite countertops, and large, light-filled living areas perfect forfamily living and entertaining. The chef's kitchen features a convenient butler's pantry, whilethe large Walkout basement provides endless possibilities for future customization. Each generously sized bedroom boasts its own walk-in closet and ensuite, offering both luxury andprivacy. A rare opportunity to own an executive home in one of the area's most desirable communities. Just a short drive from Highway 400 and Barrie GO station!",
-    "image": "assets/images/919-Green-St-Innisfil/H1.jpg",
-    "images": [
-      "assets/images/919-Green-St-Innisfil/H1.jpg",
-      "assets/images/919-Green-St-Innisfil/H2.jpg",
-      "assets/images/919-Green-St-Innisfil/H3.jpg",
-      "assets/images/919-Green-St-Innisfil/H4.jpg",
-      "assets/images/919-Green-St-Innisfil/H5.jpg",
-      "assets/images/919-Green-St-Innisfil/H6.jpg",
-      "assets/images/919-Green-St-Innisfil/H7.jpg",
-      "assets/images/919-Green-St-Innisfil/H8.jpg",
-      "assets/images/919-Green-St-Innisfil/H9.jpg",
-      "assets/images/919-Green-St-Innisfil/H10.jpg",
-      "assets/images/919-Green-St-Innisfil/H11.jpg",
-      "assets/images/919-Green-St-Innisfil/H12.jpg",
-      "assets/images/919-Green-St-Innisfil/H13.jpg",
-      "assets/images/919-Green-St-Innisfil/H14.jpg",
-      "assets/images/919-Green-St-Innisfil/H15.jpg",
-      "assets/images/919-Green-St-Innisfil/H16.jpg",
-      "assets/images/919-Green-St-Innisfil/H17.jpg",
-      "assets/images/919-Green-St-Innisfil/H18.jpg"
-    ],
-    "quickFacts": {
-      "style": "Detached 2-Storey",
-      "beds": 4,
-      "baths": 4.0,
-      "rooms": 8,
-      "parking": 6.0,
-      "sqft": "3000-3500 SqFt",
-      "doms": 13
-    },
-    "links": {
-      "directions": "https://www.google.ca/maps/place/919+Green+St,+Innisfil,+ON+L0L+1W0"
-    },
-    "listingInformation": {
-      "Status": "Available"
-    },
-    "propertyInformation": {
-      "A/C": "Central Air",
-      "Garage Parking Spaces": 2.0,
-      "Garage Type": "Attached",
-      "Heating Source": "Gas",
-      "Heating Type": "Forced Air",
-      "Kitchens": 1
-    },
-    "features": [],
-    "interiorFeatures": [],
-    "specialDesignations": [],
-    "waterfront": [],
-    "roomInfo": [],
-    "washrooms": [],
-    "includedInLease": [],
-    "map": {
-      "query": "919 Green St, Innisfil, ON L0L 1W0"
     },
     "contract": {
       "brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC."
@@ -476,168 +638,6 @@
     "includedInLease": [],
     "map": {
       "query": "48 Gibbs Rd, Brampton, ON L7A 0G2"
-    },
-    "contract": {
-      "brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC."
-    }
-  },
-  {
-    "saleOrLease": "sale",
-    "id": "30-grouse-lane-brampton",
-    "title": "30 Grouse Lane, Brampton",
-    "neighborhood": "Brampton, Bram West, Peel, Ontario L6Y 5L1",
-    "price": "For sale $1,799,000",
-    "status": "Available",
-    "mlsNums": "W12688634",
-    "homeStyle": "Detached 2-Storey",
-    "propertyType": "Detached",
-    "bedrooms": "4+2",
-    "bathrooms": 6.0,
-    "area": "3500-5000 SqFt",
-    "description": "Fully renovated from top to bottom, this exceptional residence offers 5 bedrooms, 6 washrooms, a stunning high-ceiling family room, an elegant round staircase, and a state-of-the-art 4K home theatre.With over 5,000 sq ft of total living space (approx. 3,600 sq ft above grade plus a 1,800 sq ft finished basement), this home is meticulously maintained and thoughtfully designed. Each bedroom features direct access to a bathroom, while the basement includes both an ensuite and a powder room, making it ideal for extended family or guests.Luxury continues outdoors with a heated patio featuring a full outdoor kitchen, fireplace, gas BBQ, and pizza oven-perfect for year-round entertaining. Additional highlights include a durable metal roof, custom exterior stucco and concrete finishes, premium exterior upgrades, brand-new porcelain flooring, and stamped concrete throughout, seamlessly blending style and functionality.This is a rare opportunity to own a truly exceptional home designed for refined living and unforgettable gatherings.",
-    "image": "assets/images/30-Grouse-Lane-Brampton/H1.jpg",
-    "images": [
-      "assets/images/30-Grouse-Lane-Brampton/H1.jpg",
-      "assets/images/30-Grouse-Lane-Brampton/H2.jpg",
-      "assets/images/30-Grouse-Lane-Brampton/H3.jpg",
-      "assets/images/30-Grouse-Lane-Brampton/H4.jpg",
-      "assets/images/30-Grouse-Lane-Brampton/H5.jpg",
-      "assets/images/30-Grouse-Lane-Brampton/H6.jpg",
-      "assets/images/30-Grouse-Lane-Brampton/H7.jpg",
-      "assets/images/30-Grouse-Lane-Brampton/H8.jpg",
-      "assets/images/30-Grouse-Lane-Brampton/H9.jpg",
-      "assets/images/30-Grouse-Lane-Brampton/H10.jpg",
-      "assets/images/30-Grouse-Lane-Brampton/H11.jpg",
-      "assets/images/30-Grouse-Lane-Brampton/H12.jpg",
-      "assets/images/30-Grouse-Lane-Brampton/H13.jpg",
-      "assets/images/30-Grouse-Lane-Brampton/H14.jpg",
-      "assets/images/30-Grouse-Lane-Brampton/H15.jpg",
-      "assets/images/30-Grouse-Lane-Brampton/H16.jpg",
-      "assets/images/30-Grouse-Lane-Brampton/H17.jpg",
-      "assets/images/30-Grouse-Lane-Brampton/H18.jpg",
-      "assets/images/30-Grouse-Lane-Brampton/H19.jpg",
-      "assets/images/30-Grouse-Lane-Brampton/H20.jpg",
-      "assets/images/30-Grouse-Lane-Brampton/H21.jpg",
-      "assets/images/30-Grouse-Lane-Brampton/H22.jpg",
-      "assets/images/30-Grouse-Lane-Brampton/H23.jpg",
-      "assets/images/30-Grouse-Lane-Brampton/H24.jpg",
-      "assets/images/30-Grouse-Lane-Brampton/H25.jpg",
-      "assets/images/30-Grouse-Lane-Brampton/H26.jpg"
-    ],
-    "quickFacts": {
-      "style": "Detached 2-Storey",
-      "beds": 5,
-      "baths": 6.0,
-      "rooms": "4+2",
-      "parking": 6.0,
-      "sqft": "3500-5000 SqFt",
-      "doms": 43
-    },
-    "links": {
-      "directions": "https://www.google.ca/maps/place/30+Grouse+Ln,+Brampton,+ON+L6Y"
-    },
-    "listingInformation": {
-      "Status": "Available"
-    },
-    "propertyInformation": {
-      "A/C": "Central Air",
-      "Garage Parking Spaces": 2.0,
-      "Garage Type": "Attached",
-      "Heating Source": "Gas",
-      "Heating Type": "Forced Air",
-      "Kitchens": 2,
-      "Laundry Features": "Main",
-      "Laundry Level": "Main"
-    },
-    "features": [],
-    "interiorFeatures": [],
-    "specialDesignations": [],
-    "waterfront": [],
-    "roomInfo": [],
-    "washrooms": [],
-    "includedInLease": [],
-    "map": {
-      "query": "30 Grouse Ln, Brampton, ON L6Y 5L1"
-    },
-    "contract": {
-      "brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC."
-    }
-  },
-  {
-    "saleOrLease": "sale",
-    "id": "4-champion-crt-brampton",
-    "title": "4 Champion Crt, Brampton",
-    "neighborhood": "Brampton, Credit Valley, Peel, Ontario L6Y 5G9",
-    "price": "For sale $2,399,000",
-    "status": "Available",
-    "mlsNums": "W12654600",
-    "homeStyle": "Detached 2-Storey",
-    "propertyType": "Detached",
-    "bedrooms": "4+2",
-    "bathrooms": 5.0,
-    "area": "3000-3500",
-    "description": "Offering approximately 5,000 sq. ft. of total living space, this beautifully maintained 4+2 bedroom, 5-washrooms detached home sits on a premium, professionally landscaped lot with a private backyard, deck, patio, and in ground pool-perfect for entertaining and family enjoyment.The main level features a bright, open-concept layout with a spacious family room, sun-filled sunroom, and a modern kitchen complete with a center island and breakfast area. The fully finished walk-out basement includes a separate entrance and second kitchen, ideal for extended family or potential rental income. Additional highlights include parking for up to 15 vehicles, a rare detached 3-car garage, and a quiet cul-de-sac location close to top-rated schools, parks, transit, and all essential amenities. A truly exceptional home offering luxury, space, and unmatched convenience.",
-    "image": "assets/images/4-Champion-Crt-Brampton/H1.jpg",
-    "images": [
-      "assets/images/4-Champion-Crt-Brampton/H1.jpg",
-      "assets/images/4-Champion-Crt-Brampton/H2.jpg",
-      "assets/images/4-Champion-Crt-Brampton/H3.jpg",
-      "assets/images/4-Champion-Crt-Brampton/H4.jpg",
-      "assets/images/4-Champion-Crt-Brampton/H5.jpg",
-      "assets/images/4-Champion-Crt-Brampton/H6.jpg",
-      "assets/images/4-Champion-Crt-Brampton/H7.jpg",
-      "assets/images/4-Champion-Crt-Brampton/H8.jpg",
-      "assets/images/4-Champion-Crt-Brampton/H9.jpg",
-      "assets/images/4-Champion-Crt-Brampton/H10.jpg",
-      "assets/images/4-Champion-Crt-Brampton/H11.jpg",
-      "assets/images/4-Champion-Crt-Brampton/H12.jpg",
-      "assets/images/4-Champion-Crt-Brampton/H13.jpg",
-      "assets/images/4-Champion-Crt-Brampton/H14.jpg",
-      "assets/images/4-Champion-Crt-Brampton/H15.jpg",
-      "assets/images/4-Champion-Crt-Brampton/H16.jpg",
-      "assets/images/4-Champion-Crt-Brampton/H17.jpg",
-      "assets/images/4-Champion-Crt-Brampton/H18.jpg",
-      "assets/images/4-Champion-Crt-Brampton/H19.jpg",
-      "assets/images/4-Champion-Crt-Brampton/H20.jpg",
-      "assets/images/4-Champion-Crt-Brampton/H21.jpg",
-      "assets/images/4-Champion-Crt-Brampton/H22.jpg",
-      "assets/images/4-Champion-Crt-Brampton/H23.jpg",
-      "assets/images/4-Champion-Crt-Brampton/H24.jpg"
-    ],
-    "quickFacts": {
-      "style": "Detached 2-Storey",
-      "beds": "4+2",
-      "baths": 5.0,
-      "rooms": "11+5",
-      "parking": 15.0,
-      "sqft": "3000-3500 SqFt",
-      "doms": 54
-    },
-    "links": {
-      "directions": "https://www.google.ca/maps/place/4+Champion+Ct,+Brampton,+ON"
-    },
-    "listingInformation": {
-      "Status": "Available"
-    },
-    "propertyInformation": {
-      "A/C": "Central Air",
-      "Approx Age": "16-30",
-      "Area": "Brampton",
-      "Garage Parking Spaces": 3.0,
-      "Garage Type": "Attached",
-      "Heating Source": "Gas",
-      "Heating Type": "Forced Air",
-      "Kitchens": "1+1"
-    },
-    "features": [],
-    "interiorFeatures": [],
-    "specialDesignations": [],
-    "waterfront": [],
-    "roomInfo": [],
-    "washrooms": [],
-    "includedInLease": [],
-    "map": {
-      "query": "4 Champion Ct, Brampton, ON L6Y 5G9"
     },
     "contract": {
       "brokerage": "CENTURY 21 PROPERTY ZONE REALTY INC."
